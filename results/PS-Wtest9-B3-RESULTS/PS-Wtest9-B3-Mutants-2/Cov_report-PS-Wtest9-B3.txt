@@ -1,0 +1,17 @@
+Function 'main'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'calculate_output'
+Lines executed:61.92% of 738
+No branches
+No calls
+
+File 'PS-Wtest9-B3.c'
+Lines executed:62.38% of 747
+Branches executed:65.15% of 2152
+Taken at least once:49.16% of 2152
+Calls executed:56.99% of 386
+Creating 'PS-Wtest9-B3.c.gcov'
+

@@ -1,0 +1,3 @@
+***Total no. of Killed Mutants =  500
+***Total no. of Mutants =  1413
+***Mutation Score =  35

@@ -1,0 +1,51 @@
+        -:    0:Source:mcdc_program.c
+        -:    0:Graph:mcdc_program.gcno
+        -:    0:Data:mcdc_program.gcda
+        -:    0:Runs:7
+        -:    0:Programs:1
+        -:    1:#include<stdio.h>
+function main called 7 returned 100% blocks executed 83%
+        7:    2:int main()
+        7:    2-block  0
+        -:    3:{
+        -:    4:int X, Y, Z;
+        7:    5:scanf("%d",&X); 
+        7:    5-block  0
+call    0 returned 7
+        7:    6:scanf("%d",&Y); 
+call    0 returned 7
+        7:    7:scanf("%d",&Z); 
+call    0 returned 7
+        7:    8:if (((X > 50) && (Y == 100)) || (Z < 90)) {
+branch  0 taken 4 (fallthrough)
+branch  1 taken 3
+        4:    8-block  0
+branch  2 taken 2 (fallthrough)
+branch  3 taken 2
+        5:    8-block  1
+branch  4 taken 3 (fallthrough)
+branch  5 taken 2
+        5:    9:printf("This is sample program\n");
+        5:    9-block  0
+call    0 returned 5
+unconditional  1 taken 5
+        -:   10:}
+        7:   11:X=50;
+        7:   12:if(X != 50) {
+        7:   12-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 7
+    #####:   13:if(Y==100){
+    $$$$$:   13-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   14:printf("This is not reachable");
+    $$$$$:   14-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:   15:}
+        -:   16:}
+        7:   17:return 0;
+        7:   17-block  0
+unconditional  0 taken 7
+        -:   18:}

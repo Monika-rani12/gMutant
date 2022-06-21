@@ -1,0 +1,18 @@
+***Total AFL Test case generation time in seconds 901.556673021
+Total AFL Test case generation time: 0:00:15:1.5567
+****************AFL Test case generation time Report - End**************************
+***Total CBMC TC generation time in seconds 31.154010306
+Total CBMC TC generation time: 0:00:00:31.1540
+****************CBMC TC generation time Report - End**************************
+***Total Mutant Meta Program generation time in seconds 5.794014049
+Total Mutant Meta Program generation time: 0:00:00:5.7940
+****************Mutant Meta Program generation time Report - End**************************
+***Total AFL gMutant runtime in seconds 3.750612763
+Total AFL gMutant runtime: 0:00:00:3.7506
+****************AFL gMutant time Report - End**************************
+***Total Mutant Meta Program generation time in seconds 5.656193786
+Total Mutant Meta Program generation time: 0:00:00:5.6562
+****************Mutant Meta Program generation time Report - End**************************
+***Total CBMC gMutant  runtime in seconds 3.822012139
+Total CBMC gMutant  runtime: 0:00:00:3.8220
+****************CBMC gMutant  time Report - End**************************

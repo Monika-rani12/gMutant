@@ -1,0 +1,5 @@
+Logical Operator Faults: 87
+Arithmetic Operator Faults: 0
+Relational Operator Faults: 445
+Literal Negation Faults: 135
+Predicate Negation Faults: 50

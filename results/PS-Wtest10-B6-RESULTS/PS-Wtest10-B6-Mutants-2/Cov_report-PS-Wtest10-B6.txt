@@ -1,0 +1,17 @@
+Function 'main'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'calculate_output'
+Lines executed:60.38% of 780
+No branches
+No calls
+
+File 'PS-Wtest10-B6.c'
+Lines executed:60.84% of 789
+Branches executed:81.75% of 1984
+Taken at least once:66.08% of 1984
+Calls executed:57.74% of 433
+Creating 'PS-Wtest10-B6.c.gcov'
+

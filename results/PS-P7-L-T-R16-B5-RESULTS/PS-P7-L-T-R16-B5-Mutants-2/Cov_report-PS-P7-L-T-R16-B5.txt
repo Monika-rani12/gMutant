@@ -1,0 +1,167 @@
+Function 'main'
+Lines executed:100.00% of 13
+No branches
+No calls
+
+Function 'calculate_output'
+Lines executed:92.86% of 56
+No branches
+No calls
+
+Function 'calculate_outputm10'
+Lines executed:100.00% of 10
+No branches
+No calls
+
+Function 'calculate_outputm29'
+Lines executed:100.00% of 21
+No branches
+No calls
+
+Function 'calculate_outputm28'
+Lines executed:100.00% of 22
+No branches
+No calls
+
+Function 'calculate_outputm9'
+Lines executed:0.00% of 6
+No branches
+No calls
+
+Function 'calculate_outputm27'
+Lines executed:0.00% of 28
+No branches
+No calls
+
+Function 'calculate_outputm8'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+Function 'calculate_outputm26'
+Lines executed:100.00% of 15
+No branches
+No calls
+
+Function 'calculate_outputm7'
+Lines executed:100.00% of 10
+No branches
+No calls
+
+Function 'calculate_outputm25'
+Lines executed:100.00% of 15
+No branches
+No calls
+
+Function 'calculate_outputm24'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'calculate_outputm6'
+Lines executed:71.43% of 14
+No branches
+No calls
+
+Function 'calculate_outputm23'
+Lines executed:0.00% of 48
+No branches
+No calls
+
+Function 'calculate_outputm22'
+Lines executed:0.00% of 9
+No branches
+No calls
+
+Function 'calculate_outputm21'
+Lines executed:100.00% of 15
+No branches
+No calls
+
+Function 'calculate_outputm5'
+Lines executed:100.00% of 14
+No branches
+No calls
+
+Function 'calculate_outputm20'
+Lines executed:100.00% of 28
+No branches
+No calls
+
+Function 'calculate_outputm19'
+Lines executed:100.00% of 9
+No branches
+No calls
+
+Function 'calculate_outputm18'
+Lines executed:100.00% of 15
+No branches
+No calls
+
+Function 'calculate_outputm4'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+Function 'calculate_outputm17'
+Lines executed:86.36% of 22
+No branches
+No calls
+
+Function 'calculate_outputm3'
+Lines executed:0.00% of 14
+No branches
+No calls
+
+Function 'calculate_outputm16'
+Lines executed:0.00% of 20
+No branches
+No calls
+
+Function 'calculate_outputm15'
+Lines executed:0.00% of 16
+No branches
+No calls
+
+Function 'calculate_outputm14'
+Lines executed:0.00% of 16
+No branches
+No calls
+
+Function 'calculate_outputm2'
+Lines executed:80.00% of 10
+No branches
+No calls
+
+Function 'calculate_outputm13'
+Lines executed:100.00% of 15
+No branches
+No calls
+
+Function 'calculate_outputm12'
+Lines executed:0.00% of 72
+No branches
+No calls
+
+Function 'calculate_outputm1'
+Lines executed:100.00% of 6
+No branches
+No calls
+
+Function 'calculate_outputm11'
+Lines executed:100.00% of 41
+No branches
+No calls
+
+Function 'errorCheck'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+File 'PS-P7-L-T-R16-B5.c'
+Lines executed:59.87% of 603
+Branches executed:62.05% of 1199
+Taken at least once:42.79% of 1199
+Calls executed:62.11% of 227
+Creating 'PS-P7-L-T-R16-B5.c.gcov'
+

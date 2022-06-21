@@ -1,0 +1,4147 @@
+        -:    0:Source:PS-Wtest31-B6.c
+        -:    0:Graph:PS-Wtest31-B6.gcno
+        -:    0:Data:PS-Wtest31-B6.gcda
+        -:    0:Runs:24
+        -:    0:Programs:1
+        -:    1://This Program is Problem3-LTL-TRAINING-RERS18.c
+        -:    2:#include<stdio.h>
+        -:    3:#ifdef LLBMC
+        -:    4:#include <llbmc.h>
+        -:    5:#else
+        -:    6://removed
+        -:    7:#endif
+        -:    8:
+        -:    9:#define BOUND 6
+        -:   10:int kappa;
+        -:   11:
+        -:   12:int input,output;
+        -:   13:#include <assert.h>
+        -:   14:#include <math.h>
+        -:   15:#include <stdlib.h>
+        -:   16:
+        -:   17:	// inputs
+        -:   18:	int inputs[] = {7,10,8,3,6,1,9,4,5,2};
+        -:   19:
+        -:   20:	int calculate_output(int);
+        -:   21:	int calculate_outputm1(int);
+        -:   22:	int calculate_outputm2(int);
+        -:   23:	int calculate_outputm3(int);
+        -:   24:	int calculate_outputm4(int);
+        -:   25:	int calculate_outputm5(int);
+        -:   26:	int calculate_outputm6(int);
+        -:   27:	int calculate_outputm7(int);
+        -:   28:	int calculate_outputm8(int);
+        -:   29:	int calculate_outputm9(int);
+        -:   30:	int calculate_outputm10(int);
+        -:   31:	int calculate_outputm11(int);
+        -:   32:	int calculate_outputm12(int);
+        -:   33:	int calculate_outputm13(int);
+        -:   34:	int calculate_outputm14(int);
+        -:   35:	int calculate_outputm15(int);
+        -:   36:	int calculate_outputm16(int);
+        -:   37:	int calculate_outputm17(int);
+        -:   38:	int calculate_outputm18(int);
+        -:   39:	int calculate_outputm19(int);
+        -:   40:	int calculate_outputm20(int);
+        -:   41:	int calculate_outputm21(int);
+        -:   42:	int calculate_outputm22(int);
+        -:   43:	int calculate_outputm23(int);
+        -:   44:	int calculate_outputm24(int);
+        -:   45:	int calculate_outputm25(int);
+        -:   46:	int calculate_outputm26(int);
+        -:   47:	int calculate_outputm27(int);
+        -:   48:	int calculate_outputm28(int);
+        -:   49:	int calculate_outputm29(int);
+        -:   50:	int calculate_outputm30(int);
+        -:   51:	int calculate_outputm31(int);
+        -:   52:	int calculate_outputm32(int);
+        -:   53:	int calculate_outputm33(int);
+        -:   54:	int calculate_outputm34(int);
+        -:   55:	int calculate_outputm35(int);
+        -:   56:	int calculate_outputm36(int);
+        -:   57:
+        -:   58:	 int a1056944550  = 32;
+        -:   59:	 int a2027611119[] = {2,3,4,5,6,7,8,9};
+        -:   60:	 int a778335169 = 2;
+        -:   61:	 int a753453731[] = {5,6,7,8,9,10};
+        -:   62:	 int a149495938[] = {11,12,13,14,15,16};
+        -:   63:	 int a378180103[] = {17,18,19,20,21,22};
+        -:   64:	 int *a1979864000 = a753453731;
+        -:   65:	 int a162289881 = 12;
+        -:   66:	 int a1663271343  = 33;
+        -:   67:	 int a1518986556 = 2;
+        -:   68:	 int a190474899 = 88;
+        -:   69:	 int a1487144088[] = {15,16,17,18,19,20};
+        -:   70:	 int a1071644789[] = {21,22,23,24,25,26};
+        -:   71:	 int a550880306[] = {27,28,29,30,31,32};
+        -:   72:	 int *a1675980795 = a550880306;
+        -:   73:	 int cf = 1;
+        -:   74:
+function calculate_outputm1 called 0 returned 0% blocks executed 0%
+    #####:   75: int calculate_outputm1(int input) {
+    $$$$$:   75-block  0
+    #####:   76:printf("POINT: 1\n");
+    $$$$$:   76-block  0
+call    0 never executed
+        -:   77:
+    #####:   78:    if((input == inputs[9] && (a778335169 == a2027611119[0] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   78-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   78-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:   79:printf("POINT: 2\n");
+    $$$$$:   79-block  0
+call    0 never executed
+    #####:   80:    	cf = 0;
+    #####:   81:printf("POINT: 3\n");
+call    0 never executed
+        -:   82:
+    #####:   83:    	if((a1663271343 == 35 && ( cf==1  && (( cf==1  && (26 == a1675980795[5])) && a778335169 == a2027611119[7])))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   83-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   83-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   83-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:   83-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:   84:printf("POINT: 4\n");
+    $$$$$:   84-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:   85:    	 
+        -:   86:    	}else {
+    #####:   87:printf("POINT: 6\n");
+    $$$$$:   87-block  0
+call    0 never executed
+    #####:   88:    	a1056944550 = 36 ;
+    #####:   89:    	a778335169 = a2027611119[6];
+unconditional  0 never executed
+    #####:   90:    	}printf("%d\n", 24);  
+    $$$$$:   90-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:   91:    } 
+    #####:   92:printf("POINT: 7\n");
+    $$$$$:   92-block  0
+call    0 never executed
+        -:   93:
+    #####:   94:    if((a778335169 == a2027611119[0] && ( cf==1  && input == inputs[8]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   94-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   94-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:   95:printf("POINT: 8\n");
+    $$$$$:   95-block  0
+call    0 never executed
+    #####:   96:    	cf = 0;
+    #####:   97:    	a1663271343 = 32 ;
+    #####:   98:    	a778335169 = a2027611119[4]; 
+    #####:   99:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  100:    } 
+    #####:  101:printf("POINT: 9\n");
+    $$$$$:  101-block  0
+call    0 never executed
+        -:  102:
+    #####:  103:    if((a778335169 == a2027611119[0] && ((18 == a1675980795[3]) &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  103-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  103-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  104:printf("POINT: 10\n");
+    $$$$$:  104-block  0
+call    0 never executed
+    #####:  105:    	cf = 0;
+    #####:  106:    	a778335169 = a2027611119[1];
+    #####:  107:    	a1518986556 = 6; 
+    #####:  108:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  109:    } 
+    #####:  110:}
+function calculate_outputm2 called 0 returned 0% blocks executed 0%
+    #####:  111: int calculate_outputm2(int input) {
+    $$$$$:  111-block  0
+    #####:  112:printf("POINT: 11\n");
+    $$$$$:  112-block  0
+call    0 never executed
+        -:  113:
+    #####:  114:    if((a778335169 == a2027611119[0] && ( cf==1  && input == inputs[4]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  114-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  114-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  115:printf("POINT: 12\n");
+    $$$$$:  115-block  0
+call    0 never executed
+    #####:  116:    	cf = 0;
+    #####:  117:    	a778335169 = a2027611119[1];
+    #####:  118:    	a1518986556 = 3; 
+    #####:  119:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -:  120:    } 
+    #####:  121:}
+function calculate_outputm3 called 24 returned 100% blocks executed 100%
+       24:  122: int calculate_outputm3(int input) {
+       24:  122-block  0
+       24:  123:printf("POINT: 13\n");
+       24:  123-block  0
+call    0 returned 24
+        -:  124:
+       24:  125:    if((( cf==1  && (28 == a1675980795[1])) && a778335169 == a2027611119[0])) {
+branch  0 taken 24 (fallthrough)
+branch  1 taken 0
+       24:  125-block  0
+branch  2 taken 24 (fallthrough)
+branch  3 taken 0
+       24:  125-block  1
+branch  4 taken 24 (fallthrough)
+branch  5 taken 0
+       24:  126:printf("POINT: 14\n");
+       24:  126-block  0
+call    0 returned 24
+       24:  127:    	cf = 0;
+       24:  128:    	a778335169 = a2027611119[7];
+       24:  129:    	a190474899 = (((98 * 5) * 5) + -7254); 
+       24:  130:    	 printf("%d\n", 19);  
+call    0 returned 24
+unconditional  1 taken 24
+        -:  131:    } 
+       24:  132:}
+function calculate_outputm4 called 0 returned 0% blocks executed 0%
+    #####:  133: int calculate_outputm4(int input) {
+    $$$$$:  133-block  0
+    #####:  134:printf("POINT: 15\n");
+    $$$$$:  134-block  0
+call    0 never executed
+        -:  135:
+    #####:  136:    if((a778335169 == a2027611119[1] && (a1518986556 == 1 &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  136-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  136-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  137:printf("POINT: 16\n");
+    $$$$$:  137-block  0
+call    0 never executed
+    #####:  138:    	cf = 0;
+    #####:  139:printf("POINT: 17\n");
+call    0 never executed
+        -:  140:
+    #####:  141:    	if((((20 < a190474899) && (101 >= a190474899)) && ((101 < a190474899 || !(a162289881 == 13)) && !(a162289881 == 8)))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  141-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  141-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  141-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  141-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  142:printf("POINT: 18\n");
+    $$$$$:  142-block  0
+call    0 never executed
+    #####:  143:    	a1663271343 = 34 ;
+    #####:  144:    	a778335169 = a2027611119[(a1518986556 + 3)]; 
+unconditional  0 never executed
+        -:  145:    	}else {
+    #####:  146:printf("POINT: 20\n");
+    $$$$$:  146-block  0
+call    0 never executed
+    #####:  147:    	a1056944550 = 36 ;
+    #####:  148:    	a778335169 = a2027611119[(a1518986556 + 5)];
+unconditional  0 never executed
+    #####:  149:    	}printf("%d\n", 15);  
+    $$$$$:  149-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  150:    } 
+    #####:  151:printf("POINT: 21\n");
+    $$$$$:  151-block  0
+call    0 never executed
+        -:  152:
+    #####:  153:    if(((input == inputs[4] &&  cf==1 ) && a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  153-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  153-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  154:printf("POINT: 22\n");
+    $$$$$:  154-block  0
+call    0 never executed
+    #####:  155:    	cf = 0;
+    #####:  156:    	a778335169 = a2027611119[(a1518986556 + a1518986556)];
+    #####:  157:    	a162289881 = ((a1518986556 * a1518986556) + 9); 
+    #####:  158:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  159:    } 
+    #####:  160:printf("POINT: 23\n");
+    $$$$$:  160-block  0
+call    0 never executed
+        -:  161:
+    #####:  162:    if((a778335169 == a2027611119[1] && (input == inputs[7] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  162-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  162-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  163:printf("POINT: 24\n");
+    $$$$$:  163-block  0
+call    0 never executed
+    #####:  164:    	cf = 0;
+    #####:  165:    	a778335169 = a2027611119[(a1518986556 - -4)];
+    #####:  166:    	a1979864000 = a378180103; 
+    #####:  167:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -:  168:    } 
+    #####:  169:printf("POINT: 25\n");
+    $$$$$:  169-block  0
+call    0 never executed
+        -:  170:
+    #####:  171:    if(((input == inputs[6] &&  cf==1 ) && a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  171-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  171-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  172:printf("POINT: 26\n");
+    $$$$$:  172-block  0
+call    0 never executed
+    #####:  173:    	cf = 0;
+    #####:  174:    	a1056944550 = 32 ;
+    #####:  175:    	a778335169 = a2027611119[(a1518986556 - -2)]; 
+    #####:  176:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  177:    } 
+    #####:  178:printf("POINT: 27\n");
+    $$$$$:  178-block  0
+call    0 never executed
+        -:  179:
+    #####:  180:    if((( cf==1  && input == inputs[9]) && a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  180-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  180-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  181:printf("POINT: 28\n");
+    $$$$$:  181-block  0
+call    0 never executed
+    #####:  182:    	cf = 0;
+    #####:  183:printf("POINT: 29\n");
+call    0 never executed
+        -:  184:
+    #####:  185:    	if((a162289881 == 13 || a778335169 == 9)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  185-block  0
+branch  2 never executed
+branch  3 never executed
+    #####:  186:printf("POINT: 30\n");
+    $$$$$:  186-block  0
+call    0 never executed
+    #####:  187:    	a778335169 = a2027611119[(a1518986556 - -4)];
+    #####:  188:    	a1979864000 = a149495938; 
+unconditional  0 never executed
+        -:  189:    	}else {
+    #####:  190:printf("POINT: 32\n");
+    $$$$$:  190-block  0
+call    0 never executed
+    #####:  191:    	a1663271343 = 36 ;
+    #####:  192:    	a778335169 = a2027611119[((a1518986556 / a1518986556) - -3)];
+unconditional  0 never executed
+    #####:  193:    	}printf("%d\n", 24);  
+    $$$$$:  193-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  194:    } 
+    #####:  195:printf("POINT: 33\n");
+    $$$$$:  195-block  0
+call    0 never executed
+        -:  196:
+    #####:  197:    if(((a778335169 == a2027611119[1] &&  cf==1 ) && a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  197-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  197-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  198:printf("POINT: 34\n");
+    $$$$$:  198-block  0
+call    0 never executed
+    #####:  199:    	cf = 0;
+    #####:  200:    	a1663271343 = 35 ;
+    #####:  201:    	a778335169 = a2027611119[((a1518986556 * a1518986556) + 3)]; 
+    #####:  202:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  203:    } 
+    #####:  204:printf("POINT: 35\n");
+    $$$$$:  204-block  0
+call    0 never executed
+        -:  205:
+    #####:  206:    if((( cf==1  && a1518986556 == 1) && input == inputs[8])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  206-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  206-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  207:printf("POINT: 36\n");
+    $$$$$:  207-block  0
+call    0 never executed
+    #####:  208:    	cf = 0;
+    #####:  209:printf("POINT: 37\n");
+call    0 never executed
+        -:  210:
+    #####:  211:    	if(( cf==1  && ( cf==1  && !(a778335169 == 5)))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  211-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  211-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  212:printf("POINT: 38\n");
+    $$$$$:  212-block  0
+call    0 never executed
+    #####:  213:    	a778335169 = a2027611119[(a1518986556 + 1)];
+    #####:  214:    	a162289881 = (a1518986556 - -10); 
+unconditional  0 never executed
+        -:  215:    	}else {
+    #####:  216:printf("POINT: 40\n");
+    $$$$$:  216-block  0
+call    0 never executed
+    #####:  217:    	a162289881 = (a1518986556 - -6);
+    #####:  218:    	a778335169 = a2027611119[(a162289881 - 5)];
+unconditional  0 never executed
+    #####:  219:    	}printf("%d\n", 15);  
+    $$$$$:  219-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  220:    } 
+    #####:  221:printf("POINT: 41\n");
+    $$$$$:  221-block  0
+call    0 never executed
+        -:  222:
+    #####:  223:    if((( cf==1  && input == inputs[1]) && a778335169 == a2027611119[1])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  223-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  223-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  224:printf("POINT: 42\n");
+    $$$$$:  224-block  0
+call    0 never executed
+    #####:  225:    	cf = 0;
+    #####:  226:    	a1056944550 = 36 ;
+    #####:  227:    	a778335169 = a2027611119[((a1518986556 / a1518986556) - -5)]; 
+    #####:  228:    	 printf("%d\n", 23);  
+call    0 never executed
+unconditional  1 never executed
+        -:  229:    } 
+    #####:  230:printf("POINT: 43\n");
+    $$$$$:  230-block  0
+call    0 never executed
+        -:  231:
+    #####:  232:    if((a778335169 == a2027611119[1] && (a1518986556 == 1 &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  232-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  232-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  233:printf("POINT: 44\n");
+    $$$$$:  233-block  0
+call    0 never executed
+    #####:  234:    	cf = 0;
+    #####:  235:    	a1056944550 = 35 ;
+    #####:  236:    	a778335169 = a2027611119[(a1518986556 - -2)]; 
+    #####:  237:    	 printf("%d\n", 19);  
+call    0 never executed
+unconditional  1 never executed
+        -:  238:    } 
+    #####:  239:printf("POINT: 45\n");
+    $$$$$:  239-block  0
+call    0 never executed
+        -:  240:
+    #####:  241:    if((a1518986556 == 1 && ( cf==1  && input == inputs[3]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  241-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  241-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  242:printf("POINT: 46\n");
+    $$$$$:  242-block  0
+call    0 never executed
+    #####:  243:    	cf = 0;
+    #####:  244:    	a1056944550 = 33 ;
+    #####:  245:    	a778335169 = a2027611119[(a1518986556 - -2)]; 
+    #####:  246:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  247:    } 
+    #####:  248:}
+function calculate_outputm5 called 3 returned 100% blocks executed 85%
+        3:  249: int calculate_outputm5(int input) {
+        3:  249-block  0
+        3:  250:printf("POINT: 47\n");
+        3:  250-block  0
+call    0 returned 3
+        -:  251:
+        3:  252:    if((input == inputs[9] && (a1518986556 == 2 &&  cf==1 ))) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 2
+        1:  252-block  0
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0
+        1:  252-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0
+        1:  253:printf("POINT: 48\n");
+        1:  253-block  0
+call    0 returned 1
+        1:  254:    	cf = 0;
+        1:  255:printf("POINT: 49\n");
+call    0 returned 1
+        -:  256:
+        1:  257:    	if((16 == a1979864000[5])) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    #####:  258:printf("POINT: 50\n");
+    $$$$$:  258-block  0
+call    0 never executed
+    #####:  259:    	a778335169 = a2027611119[a1518986556];
+    #####:  260:    	a162289881 = (a1518986556 - -11); 
+unconditional  0 never executed
+        -:  261:    	}else {
+        1:  262:printf("POINT: 52\n");
+        1:  262-block  0
+call    0 returned 1
+        1:  263:    	a778335169 = a2027611119[a1518986556];
+        1:  264:    	a162289881 = (a1518986556 - -8);
+unconditional  0 taken 1
+        1:  265:    	}printf("%d\n", 20);  
+        1:  265-block  0
+call    0 returned 1
+unconditional  1 taken 1
+        -:  266:    } 
+        3:  267:printf("POINT: 53\n");
+        3:  267-block  0
+call    0 returned 3
+        -:  268:
+        3:  269:    if((input == inputs[8] && ( cf==1  && a778335169 == a2027611119[1]))) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 2
+        1:  269-block  0
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0
+        1:  269-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0
+        1:  270:printf("POINT: 54\n");
+        1:  270-block  0
+call    0 returned 1
+        1:  271:    	cf = 0;
+        1:  272:printf("POINT: 55\n");
+call    0 returned 1
+        -:  273:
+        1:  274:    	if((!(19 == a1979864000[2]) && (a1518986556 == 3 || !(a778335169 == 7)))) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:  274-block  0
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0
+        1:  274-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0
+        1:  275:printf("POINT: 56\n");
+        1:  275-block  0
+call    0 returned 1
+        1:  276:    	a778335169 = a2027611119[a1518986556];
+        1:  277:    	a162289881 = (a1518986556 + 10); 
+unconditional  0 taken 1
+        -:  278:    	}else {
+    #####:  279:printf("POINT: 58\n");
+    $$$$$:  279-block  0
+call    0 never executed
+    #####:  280:    	a778335169 = a2027611119[(a1518986556 + 3)];
+    #####:  281:    	a1979864000 = a753453731;
+unconditional  0 never executed
+        1:  282:    	}printf("%d\n", 21);  
+        1:  282-block  0
+call    0 returned 1
+unconditional  1 taken 1
+        -:  283:    } 
+        3:  284:}
+function calculate_outputm6 called 0 returned 0% blocks executed 0%
+    #####:  285: int calculate_outputm6(int input) {
+    $$$$$:  285-block  0
+    #####:  286:printf("POINT: 59\n");
+    $$$$$:  286-block  0
+call    0 never executed
+        -:  287:
+    #####:  288:    if((a1518986556 == 3 && ( cf==1  && a778335169 == a2027611119[1]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  288-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  288-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  289:printf("POINT: 60\n");
+    $$$$$:  289-block  0
+call    0 never executed
+    #####:  290:    	cf = 0;
+        -:  291:    	 
+    #####:  292:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -:  293:    } 
+    #####:  294:printf("POINT: 61\n");
+    $$$$$:  294-block  0
+call    0 never executed
+        -:  295:
+    #####:  296:    if((( cf==1  && input == inputs[8]) && a1518986556 == 3)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  296-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  296-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  297:printf("POINT: 62\n");
+    $$$$$:  297-block  0
+call    0 never executed
+    #####:  298:    	cf = 0;
+    #####:  299:printf("POINT: 63\n");
+call    0 never executed
+        -:  300:
+    #####:  301:    	if((a162289881 == 7 && ((((20 < a190474899) && (101 >= a190474899)) || a778335169 == a2027611119[4]) || !(a162289881 == 13)))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  301-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  301-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  301-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  301-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  302:printf("POINT: 64\n");
+    $$$$$:  302-block  0
+call    0 never executed
+    #####:  303:    	a778335169 = a2027611119[(a1518986556 + 4)];
+    #####:  304:    	a190474899 = (((((14 * 73) / 10) - -18623) * 10) / 9); 
+unconditional  0 never executed
+        -:  305:    	}else {
+    #####:  306:printf("POINT: 66\n");
+    $$$$$:  306-block  0
+call    0 never executed
+    #####:  307:    	a778335169 = a2027611119[(a1518986556 - 3)];
+    #####:  308:    	a1675980795 = a1071644789;
+unconditional  0 never executed
+    #####:  309:    	}printf("%d\n", 20);  
+    $$$$$:  309-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  310:    } 
+    #####:  311:printf("POINT: 67\n");
+    $$$$$:  311-block  0
+call    0 never executed
+        -:  312:
+    #####:  313:    if((( cf==1  && input == inputs[6]) && a778335169 == a2027611119[1])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  313-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  313-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  314:printf("POINT: 68\n");
+    $$$$$:  314-block  0
+call    0 never executed
+    #####:  315:    	cf = 0;
+    #####:  316:    	a1518986556 = 4; 
+    #####:  317:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -:  318:    } 
+    #####:  319:}
+function calculate_outputm7 called 0 returned 0% blocks executed 0%
+    #####:  320: int calculate_outputm7(int input) {
+    $$$$$:  320-block  0
+    #####:  321:printf("POINT: 69\n");
+    $$$$$:  321-block  0
+call    0 never executed
+        -:  322:
+    #####:  323:    if((( cf==1  && a1518986556 == 4) && input == inputs[0])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  323-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  323-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  324:printf("POINT: 70\n");
+    $$$$$:  324-block  0
+call    0 never executed
+    #####:  325:    	cf = 0;
+    #####:  326:    	a778335169 = a2027611119[(a1518986556 + 1)];
+    #####:  327:    	a1979864000 = a149495938; 
+    #####:  328:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -:  329:    } 
+    #####:  330:}
+function calculate_outputm8 called 0 returned 0% blocks executed 0%
+    #####:  331: int calculate_outputm8(int input) {
+    $$$$$:  331-block  0
+    #####:  332:printf("POINT: 71\n");
+    $$$$$:  332-block  0
+call    0 never executed
+        -:  333:
+    #####:  334:    if((( cf==1  && a1518986556 == 6) && a778335169 == a2027611119[1])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  334-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  334-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  335:printf("POINT: 72\n");
+    $$$$$:  335-block  0
+call    0 never executed
+    #####:  336:    	cf = 0;
+    #####:  337:    	a1663271343 = 35 ;
+    #####:  338:    	a778335169 = a2027611119[(a1518986556 - 2)]; 
+    #####:  339:    	 printf("%d\n", 17);  
+call    0 never executed
+unconditional  1 never executed
+        -:  340:    } 
+    #####:  341:}
+function calculate_outputm9 called 6 returned 100% blocks executed 55%
+        6:  342: int calculate_outputm9(int input) {
+        6:  342-block  0
+        6:  343:printf("POINT: 73\n");
+        6:  343-block  0
+call    0 returned 6
+        -:  344:
+        6:  345:    if((( cf==1  && input == inputs[0]) && a778335169 == a2027611119[1])) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 0
+        6:  345-block  0
+branch  2 taken 1 (fallthrough)
+branch  3 taken 5
+        1:  345-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0
+        1:  346:printf("POINT: 74\n");
+        1:  346-block  0
+call    0 returned 1
+        1:  347:    	cf = 0;
+        1:  348:    	a1663271343 = 34 ;
+        1:  349:    	a778335169 = a2027611119[(a1518986556 - 3)]; 
+        1:  350:    	 printf("%d\n", 26);  
+call    0 returned 1
+unconditional  1 taken 1
+        -:  351:    } 
+        6:  352:printf("POINT: 75\n");
+        6:  352-block  0
+call    0 returned 6
+        -:  353:
+        6:  354:    if((( cf==1  && a1518986556 == 7) && a778335169 == a2027611119[1])) {
+branch  0 taken 5 (fallthrough)
+branch  1 taken 1
+        5:  354-block  0
+branch  2 taken 5 (fallthrough)
+branch  3 taken 0
+        5:  354-block  1
+branch  4 taken 5 (fallthrough)
+branch  5 taken 0
+        5:  355:printf("POINT: 76\n");
+        5:  355-block  0
+call    0 returned 5
+        5:  356:    	cf = 0;
+        5:  357:    	a1518986556 = 8; 
+        5:  358:    	 printf("%d\n", 24);  
+call    0 returned 5
+unconditional  1 taken 5
+        -:  359:    } 
+        6:  360:printf("POINT: 77\n");
+        6:  360-block  0
+call    0 returned 6
+        -:  361:
+        6:  362:    if((a1518986556 == 7 && ( cf==1  && input == inputs[8]))) {
+branch  0 taken 1 (fallthrough)
+branch  1 taken 5
+        1:  362-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 1
+    $$$$$:  362-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  363:printf("POINT: 78\n");
+    $$$$$:  363-block  0
+call    0 never executed
+    #####:  364:    	cf = 0;
+    #####:  365:printf("POINT: 79\n");
+call    0 never executed
+        -:  366:
+    #####:  367:    	if((((20 < a190474899) && (101 >= a190474899)) || ( cf==1  && (a162289881 == 11 && (16 == a1979864000[5]))))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  367-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  367-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  367-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  367-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  368:printf("POINT: 80\n");
+    $$$$$:  368-block  0
+call    0 never executed
+    #####:  369:    	a778335169 = a2027611119[(a1518986556 - 2)];
+    #####:  370:    	a1979864000 = a378180103; 
+unconditional  0 never executed
+        -:  371:    	}else {
+    #####:  372:printf("POINT: 82\n");
+    $$$$$:  372-block  0
+call    0 never executed
+    #####:  373:    	a778335169 = a2027611119[a1518986556];
+    #####:  374:    	a190474899 = ((((53 - -29575) / 5) + 12342) - 27669);
+unconditional  0 never executed
+    #####:  375:    	}printf("%d\n", 21);  
+    $$$$$:  375-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  376:    } 
+        6:  377:}
+function calculate_outputm10 called 4 returned 100% blocks executed 100%
+        4:  378: int calculate_outputm10(int input) {
+        4:  378-block  0
+        4:  379:printf("POINT: 83\n");
+        4:  379-block  0
+call    0 returned 4
+        -:  380:
+        4:  381:    if((( cf==1  && a778335169 == a2027611119[1]) && a1518986556 == 8)) {
+branch  0 taken 4 (fallthrough)
+branch  1 taken 0
+        4:  381-block  0
+branch  2 taken 4 (fallthrough)
+branch  3 taken 0
+        4:  381-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 0
+        4:  382:printf("POINT: 84\n");
+        4:  382-block  0
+call    0 returned 4
+        4:  383:    	cf = 0;
+        4:  384:    	a1663271343 = 34 ;
+        4:  385:    	a778335169 = a2027611119[((a1518986556 + a1518986556) + -12)]; 
+        4:  386:    	 printf("%d\n", 26);  
+call    0 returned 4
+unconditional  1 taken 4
+        -:  387:    } 
+        4:  388:}
+function calculate_outputm11 called 0 returned 0% blocks executed 0%
+    #####:  389: int calculate_outputm11(int input) {
+    $$$$$:  389-block  0
+    #####:  390:printf("POINT: 85\n");
+    $$$$$:  390-block  0
+call    0 never executed
+        -:  391:
+    #####:  392:    if((input == inputs[6] && (a778335169 == a2027611119[2] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  392-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  392-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  393:printf("POINT: 86\n");
+    $$$$$:  393-block  0
+call    0 never executed
+    #####:  394:    	cf = 0;
+    #####:  395:printf("POINT: 87\n");
+call    0 never executed
+        -:  396:
+    #####:  397:    	if((a1056944550 == 36 || (a1663271343 == 33 && ((16 == a1979864000[5]) && !(9 == a1979864000[4]))))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  397-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  397-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  397-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:  398:printf("POINT: 88\n");
+    $$$$$:  398-block  0
+call    0 never executed
+    #####:  399:    	a778335169 = a2027611119[((a162289881 / a162289881) + 4)];
+    #####:  400:    	a1979864000 = a378180103; 
+unconditional  0 never executed
+        -:  401:    	}else {
+    #####:  402:printf("POINT: 90\n");
+    $$$$$:  402-block  0
+call    0 never executed
+    #####:  403:    	a162289881 = 12;
+unconditional  0 never executed
+    #####:  404:    	}printf("%d\n", 19);  
+    $$$$$:  404-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  405:    } 
+    #####:  406:printf("POINT: 91\n");
+    $$$$$:  406-block  0
+call    0 never executed
+        -:  407:
+    #####:  408:    if((( cf==1  && a162289881 == 7) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  408-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  408-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  409:printf("POINT: 92\n");
+    $$$$$:  409-block  0
+call    0 never executed
+    #####:  410:    	cf = 0;
+    #####:  411:    	a1056944550 = 34 ;
+    #####:  412:    	a778335169 = a2027611119[(a162289881 + -1)]; 
+    #####:  413:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  414:    } 
+    #####:  415:printf("POINT: 93\n");
+    $$$$$:  415-block  0
+call    0 never executed
+        -:  416:
+    #####:  417:    if(((a162289881 == 7 &&  cf==1 ) && input == inputs[8])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  417-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  417-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  418:printf("POINT: 94\n");
+    $$$$$:  418-block  0
+call    0 never executed
+    #####:  419:    	cf = 0;
+    #####:  420:    	a1056944550 = 32 ;
+    #####:  421:    	a778335169 = a2027611119[((a162289881 * a162289881) - 46)]; 
+    #####:  422:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -:  423:    } 
+    #####:  424:}
+function calculate_outputm12 called 0 returned 0% blocks executed 0%
+    #####:  425: int calculate_outputm12(int input) {
+    $$$$$:  425-block  0
+    #####:  426:printf("POINT: 95\n");
+    $$$$$:  426-block  0
+call    0 never executed
+        -:  427:
+    #####:  428:    if((input == inputs[6] && ( cf==1  && a162289881 == 10))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  428-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  428-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  429:printf("POINT: 96\n");
+    $$$$$:  429-block  0
+call    0 never executed
+    #####:  430:    	cf = 0;
+    #####:  431:printf("POINT: 97\n");
+call    0 never executed
+        -:  432:
+    #####:  433:    	if(a1663271343 == 33) {
+branch  0 never executed
+branch  1 never executed
+    #####:  434:printf("POINT: 98\n");
+    $$$$$:  434-block  0
+call    0 never executed
+    #####:  435:    	a778335169 = a2027611119[(a162289881 - 10)];
+    #####:  436:    	a1675980795 = a1487144088; 
+unconditional  0 never executed
+        -:  437:    	}else {
+    #####:  438:printf("POINT: 100\n");
+    $$$$$:  438-block  0
+call    0 never executed
+    #####:  439:    	a1056944550 = 36 ;
+    #####:  440:    	a778335169 = a2027611119[(a162289881 + -4)];
+unconditional  0 never executed
+    #####:  441:    	}printf("%d\n", 24);  
+    $$$$$:  441-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  442:    } 
+    #####:  443:}
+function calculate_outputm13 called 0 returned 0% blocks executed 0%
+    #####:  444: int calculate_outputm13(int input) {
+    $$$$$:  444-block  0
+    #####:  445:printf("POINT: 101\n");
+    $$$$$:  445-block  0
+call    0 never executed
+        -:  446:
+    #####:  447:    if(((input == inputs[6] &&  cf==1 ) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  447-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  447-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  448:printf("POINT: 102\n");
+    $$$$$:  448-block  0
+call    0 never executed
+    #####:  449:    	cf = 0;
+    #####:  450:    	a1056944550 = 32 ;
+    #####:  451:    	a778335169 = a2027611119[(a162289881 - 5)]; 
+    #####:  452:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  453:    } 
+    #####:  454:printf("POINT: 103\n");
+    $$$$$:  454-block  0
+call    0 never executed
+        -:  455:
+    #####:  456:    if(((a162289881 == 11 &&  cf==1 ) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  456-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  456-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  457:printf("POINT: 104\n");
+    $$$$$:  457-block  0
+call    0 never executed
+    #####:  458:    	cf = 0;
+    #####:  459:printf("POINT: 105\n");
+call    0 never executed
+        -:  460:
+    #####:  461:    	if(((a778335169 == 5 && !(28 == a1675980795[1])) && (18 == a1675980795[3]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  461-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  461-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  462:printf("POINT: 106\n");
+    $$$$$:  462-block  0
+call    0 never executed
+    #####:  463:    	a162289881 = 7; 
+unconditional  0 never executed
+        -:  464:    	}else {
+    #####:  465:printf("POINT: 108\n");
+    $$$$$:  465-block  0
+call    0 never executed
+    #####:  466:    	a778335169 = a2027611119[(a162289881 / a162289881)];
+    #####:  467:    	a1518986556 = ((a162289881 + a162289881) - 21);
+unconditional  0 never executed
+    #####:  468:    	}printf("%d\n", 16);  
+    $$$$$:  468-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  469:    } 
+    #####:  470:printf("POINT: 109\n");
+    $$$$$:  470-block  0
+call    0 never executed
+        -:  471:
+    #####:  472:    if((( cf==1  && a162289881 == 11) && input == inputs[4])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  472-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  472-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  473:printf("POINT: 110\n");
+    $$$$$:  473-block  0
+call    0 never executed
+    #####:  474:    	cf = 0;
+    #####:  475:    	a1518986556 = (a162289881 + -5);
+    #####:  476:    	a778335169 = a2027611119[(a1518986556 + -5)]; 
+    #####:  477:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  478:    } 
+    #####:  479:printf("POINT: 111\n");
+    $$$$$:  479-block  0
+call    0 never executed
+        -:  480:
+    #####:  481:    if((( cf==1  && a162289881 == 11) && input == inputs[5])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  481-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  481-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  482:printf("POINT: 112\n");
+    $$$$$:  482-block  0
+call    0 never executed
+    #####:  483:    	cf = 0;
+    #####:  484:    	a1518986556 = ((a162289881 * a162289881) - 117);
+    #####:  485:    	a778335169 = a2027611119[(a162289881 - 10)]; 
+    #####:  486:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  487:    } 
+    #####:  488:printf("POINT: 113\n");
+    $$$$$:  488-block  0
+call    0 never executed
+        -:  489:
+    #####:  490:    if((a778335169 == a2027611119[2] && (input == inputs[2] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  490-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  490-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  491:printf("POINT: 114\n");
+    $$$$$:  491-block  0
+call    0 never executed
+    #####:  492:    	cf = 0;
+    #####:  493:    	a162289881 = 7; 
+    #####:  494:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  495:    } 
+    #####:  496:printf("POINT: 115\n");
+    $$$$$:  496-block  0
+call    0 never executed
+        -:  497:
+    #####:  498:    if((a778335169 == a2027611119[2] && ( cf==1  && input == inputs[1]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  498-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  498-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  499:printf("POINT: 116\n");
+    $$$$$:  499-block  0
+call    0 never executed
+    #####:  500:    	cf = 0;
+    #####:  501:printf("POINT: 117\n");
+call    0 never executed
+        -:  502:
+    #####:  503:    	if((a1663271343 == 33 && (101 < a190474899 || (!(a1663271343 == 32) && (16 == a1979864000[5]))))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  503-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  503-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  503-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:  504:printf("POINT: 118\n");
+    $$$$$:  504-block  0
+call    0 never executed
+    #####:  505:    	a1056944550 = 35 ;
+    #####:  506:    	a778335169 = a2027611119[(a162289881 - 8)]; 
+unconditional  0 never executed
+        -:  507:    	}else {
+    #####:  508:printf("POINT: 120\n");
+    $$$$$:  508-block  0
+call    0 never executed
+    #####:  509:    	a1056944550 = 35 ;
+    #####:  510:    	a778335169 = a2027611119[(a162289881 - 8)];
+unconditional  0 never executed
+    #####:  511:    	}printf("%d\n", 15);  
+    $$$$$:  511-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  512:    } 
+    #####:  513:printf("POINT: 121\n");
+    $$$$$:  513-block  0
+call    0 never executed
+        -:  514:
+    #####:  515:    if((input == inputs[3] && (a778335169 == a2027611119[2] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  515-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  515-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  516:printf("POINT: 122\n");
+    $$$$$:  516-block  0
+call    0 never executed
+    #####:  517:    	cf = 0;
+    #####:  518:    	a778335169 = a2027611119[(a162289881 - 10)];
+    #####:  519:    	a1518986556 = (a162289881 - 9); 
+    #####:  520:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  521:    } 
+    #####:  522:printf("POINT: 123\n");
+    $$$$$:  522-block  0
+call    0 never executed
+        -:  523:
+    #####:  524:    if((( cf==1  && a162289881 == 11) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  524-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  524-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  525:printf("POINT: 124\n");
+    $$$$$:  525-block  0
+call    0 never executed
+    #####:  526:    	cf = 0;
+    #####:  527:printf("POINT: 125\n");
+call    0 never executed
+        -:  528:
+    #####:  529:    	if((28 == a1675980795[1])) {
+branch  0 never executed
+branch  1 never executed
+    #####:  530:printf("POINT: 126\n");
+    $$$$$:  530-block  0
+call    0 never executed
+    #####:  531:    	a778335169 = a2027611119[(a162289881 + -4)];
+    #####:  532:    	a190474899 = ((((4 * 5) * 9) / 10) / 5); 
+unconditional  0 never executed
+        -:  533:    	}else {
+    #####:  534:printf("POINT: 128\n");
+    $$$$$:  534-block  0
+call    0 never executed
+    #####:  535:    	a1056944550 = 33 ;
+    #####:  536:    	a778335169 = a2027611119[(a162289881 - 8)];
+unconditional  0 never executed
+    #####:  537:    	}printf("%d\n", 15);  
+    $$$$$:  537-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  538:    } 
+    #####:  539:printf("POINT: 129\n");
+    $$$$$:  539-block  0
+call    0 never executed
+        -:  540:
+    #####:  541:    if((input == inputs[7] && (a778335169 == a2027611119[2] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  541-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  541-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  542:printf("POINT: 130\n");
+    $$$$$:  542-block  0
+call    0 never executed
+    #####:  543:    	cf = 0;
+    #####:  544:    	a1056944550 = 33 ;
+    #####:  545:    	a778335169 = a2027611119[(a162289881 - 5)]; 
+    #####:  546:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  547:    } 
+    #####:  548:printf("POINT: 131\n");
+    $$$$$:  548-block  0
+call    0 never executed
+        -:  549:
+    #####:  550:    if(((a778335169 == a2027611119[2] &&  cf==1 ) && input == inputs[0])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  550-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  550-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  551:printf("POINT: 132\n");
+    $$$$$:  551-block  0
+call    0 never executed
+    #####:  552:    	cf = 0;
+    #####:  553:    	a778335169 = a2027611119[(a162289881 - 11)];
+    #####:  554:    	a1675980795 = a1071644789; 
+    #####:  555:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -:  556:    } 
+    #####:  557:}
+function calculate_outputm14 called 0 returned 0% blocks executed 0%
+    #####:  558: int calculate_outputm14(int input) {
+    $$$$$:  558-block  0
+    #####:  559:printf("POINT: 133\n");
+    $$$$$:  559-block  0
+call    0 never executed
+        -:  560:
+    #####:  561:    if(((a162289881 == 12 &&  cf==1 ) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  561-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  561-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  562:printf("POINT: 134\n");
+    $$$$$:  562-block  0
+call    0 never executed
+    #####:  563:    	cf = 0;
+    #####:  564:    	a1056944550 = 34 ;
+    #####:  565:    	a778335169 = a2027611119[(a162289881 - 6)]; 
+    #####:  566:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  567:    } 
+    #####:  568:}
+function calculate_outputm15 called 0 returned 0% blocks executed 0%
+    #####:  569: int calculate_outputm15(int input) {
+    $$$$$:  569-block  0
+    #####:  570:printf("POINT: 135\n");
+    $$$$$:  570-block  0
+call    0 never executed
+        -:  571:
+    #####:  572:    if(((input == inputs[6] &&  cf==1 ) && a778335169 == a2027611119[2])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  572-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  572-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  573:printf("POINT: 136\n");
+    $$$$$:  573-block  0
+call    0 never executed
+    #####:  574:    	cf = 0;
+    #####:  575:printf("POINT: 137\n");
+call    0 never executed
+        -:  576:
+    #####:  577:    	if(((a162289881 == 13 || ((101 < a190474899 || (28 == a1675980795[1])) || (18 == a1675980795[3]))) && a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  577-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  577-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  577-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  577-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  578:printf("POINT: 138\n");
+    $$$$$:  578-block  0
+call    0 never executed
+    #####:  579:    	a778335169 = a2027611119[(a162289881 - 13)];
+    #####:  580:    	a1675980795 = a1487144088; 
+unconditional  0 never executed
+        -:  581:    	}else {
+    #####:  582:printf("POINT: 140\n");
+    $$$$$:  582-block  0
+call    0 never executed
+    #####:  583:    	a1056944550 = 36 ;
+    #####:  584:    	a778335169 = a2027611119[((a162289881 - a162289881) - -6)];
+unconditional  0 never executed
+    #####:  585:    	}printf("%d\n", 24);  
+    $$$$$:  585-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  586:    } 
+    #####:  587:}
+function calculate_outputm16 called 0 returned 0% blocks executed 0%
+    #####:  588: int calculate_outputm16(int input) {
+    $$$$$:  588-block  0
+    #####:  589:printf("POINT: 141\n");
+    $$$$$:  589-block  0
+call    0 never executed
+        -:  590:
+    #####:  591:    if((a778335169 == a2027611119[2] && ( cf==1  && a162289881 == 14))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  591-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  591-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  592:printf("POINT: 142\n");
+    $$$$$:  592-block  0
+call    0 never executed
+    #####:  593:    	cf = 0;
+    #####:  594:    	a1056944550 = 33 ;
+    #####:  595:    	a778335169 = a2027611119[(a162289881 - 8)]; 
+    #####:  596:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  597:    } 
+    #####:  598:}
+function calculate_outputm17 called 0 returned 0% blocks executed 0%
+    #####:  599: int calculate_outputm17(int input) {
+    $$$$$:  599-block  0
+    #####:  600:printf("POINT: 143\n");
+    $$$$$:  600-block  0
+call    0 never executed
+        -:  601:
+    #####:  602:    if((a778335169 == a2027611119[3] && ( cf==1  && a1056944550 == 33))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  602-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  602-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  603:printf("POINT: 144\n");
+    $$$$$:  603-block  0
+call    0 never executed
+    #####:  604:    	cf = 0;
+    #####:  605:    	a1663271343 = 32 ;
+    #####:  606:    	a778335169 = a2027611119[4]; 
+    #####:  607:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -:  608:    } 
+    #####:  609:printf("POINT: 145\n");
+    $$$$$:  609-block  0
+call    0 never executed
+        -:  610:
+    #####:  611:    if((( cf==1  && a1056944550 == 33) && a778335169 == a2027611119[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  611-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  611-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  612:printf("POINT: 146\n");
+    $$$$$:  612-block  0
+call    0 never executed
+    #####:  613:    	cf = 0;
+        -:  614:    	 
+    #####:  615:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -:  616:    } 
+    #####:  617:printf("POINT: 147\n");
+    $$$$$:  617-block  0
+call    0 never executed
+        -:  618:
+    #####:  619:    if((( cf==1  && input == inputs[2]) && a778335169 == a2027611119[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  619-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  619-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  620:printf("POINT: 148\n");
+    $$$$$:  620-block  0
+call    0 never executed
+    #####:  621:    	cf = 0;
+    #####:  622:    	a1056944550 = 32 ;
+    #####:  623:    	a778335169 = a2027611119[6]; 
+    #####:  624:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  625:    } 
+    #####:  626:printf("POINT: 149\n");
+    $$$$$:  626-block  0
+call    0 never executed
+        -:  627:
+    #####:  628:    if((( cf==1  && a1056944550 == 33) && input == inputs[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  628-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  628-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  629:printf("POINT: 150\n");
+    $$$$$:  629-block  0
+call    0 never executed
+    #####:  630:    	cf = 0;
+    #####:  631:printf("POINT: 151\n");
+call    0 never executed
+        -:  632:
+    #####:  633:    	if(((a1056944550 == 35 && (a1518986556 == 2 || (16 == a1979864000[5]))) && !(a162289881 == 13))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  633-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  633-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  633-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:  634:printf("POINT: 152\n");
+    $$$$$:  634-block  0
+call    0 never executed
+    #####:  635:    	a1056944550 = 36 ;
+    #####:  636:    	a778335169 = a2027611119[6]; 
+unconditional  0 never executed
+        -:  637:    	}else {
+    #####:  638:printf("POINT: 154\n");
+    $$$$$:  638-block  0
+call    0 never executed
+    #####:  639:    	a1056944550 = 36 ;
+    #####:  640:    	a778335169 = a2027611119[6];
+unconditional  0 never executed
+    #####:  641:    	}printf("%d\n", 26);  
+    $$$$$:  641-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  642:    } 
+    #####:  643:printf("POINT: 155\n");
+    $$$$$:  643-block  0
+call    0 never executed
+        -:  644:
+    #####:  645:    if((a778335169 == a2027611119[3] && ( cf==1  && input == inputs[7]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  645-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  645-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  646:printf("POINT: 156\n");
+    $$$$$:  646-block  0
+call    0 never executed
+    #####:  647:    	cf = 0;
+    #####:  648:printf("POINT: 157\n");
+call    0 never executed
+        -:  649:
+    #####:  650:    	if((((a1663271343 == 32 || !(a778335169 == 3)) && a162289881 == 8) && a190474899 <=  -129)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  650-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  650-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  650-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:  651:printf("POINT: 158\n");
+    $$$$$:  651-block  0
+call    0 never executed
+    #####:  652:    	a778335169 = a2027611119[5];
+    #####:  653:    	a1979864000 = a753453731; 
+unconditional  0 never executed
+        -:  654:    	}else {
+    #####:  655:printf("POINT: 160\n");
+    $$$$$:  655-block  0
+call    0 never executed
+    #####:  656:    	a778335169 = a2027611119[7];
+    #####:  657:    	a190474899 = ((((84 * 10) / -6) * 5) - 27665);
+unconditional  0 never executed
+    #####:  658:    	}printf("%d\n", 24);  
+    $$$$$:  658-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  659:    } 
+    #####:  660:printf("POINT: 161\n");
+    $$$$$:  660-block  0
+call    0 never executed
+        -:  661:
+    #####:  662:    if((a778335169 == a2027611119[3] && ( cf==1  && a1056944550 == 33))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  662-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  662-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  663:printf("POINT: 162\n");
+    $$$$$:  663-block  0
+call    0 never executed
+    #####:  664:    	cf = 0;
+    #####:  665:    	a778335169 = a2027611119[1];
+    #####:  666:    	a1518986556 = 7; 
+    #####:  667:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -:  668:    } 
+    #####:  669:printf("POINT: 163\n");
+    $$$$$:  669-block  0
+call    0 never executed
+        -:  670:
+    #####:  671:    if((input == inputs[5] && (a778335169 == a2027611119[3] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  671-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  671-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  672:printf("POINT: 164\n");
+    $$$$$:  672-block  0
+call    0 never executed
+    #####:  673:    	cf = 0;
+    #####:  674:    	a1663271343 = 32 ;
+    #####:  675:    	a778335169 = a2027611119[4]; 
+    #####:  676:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  677:    } 
+    #####:  678:printf("POINT: 165\n");
+    $$$$$:  678-block  0
+call    0 never executed
+        -:  679:
+    #####:  680:    if((( cf==1  && input == inputs[8]) && a778335169 == a2027611119[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  680-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  680-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  681:printf("POINT: 166\n");
+    $$$$$:  681-block  0
+call    0 never executed
+    #####:  682:    	cf = 0;
+    #####:  683:printf("POINT: 167\n");
+call    0 never executed
+        -:  684:
+    #####:  685:    	if((a1056944550 == 32 ||  cf!=1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  685-block  0
+branch  2 never executed
+branch  3 never executed
+    #####:  686:printf("POINT: 168\n");
+    $$$$$:  686-block  0
+call    0 never executed
+    #####:  687:    	a1663271343 = 34 ;
+    #####:  688:    	a778335169 = a2027611119[4]; 
+unconditional  0 never executed
+        -:  689:    	}else {
+    #####:  690:printf("POINT: 170\n");
+    $$$$$:  690-block  0
+call    0 never executed
+    #####:  691:    	a778335169 = a2027611119[7];
+    #####:  692:    	a190474899 = ((((98 + -8134) - -8110) * 10) / 9);
+unconditional  0 never executed
+    #####:  693:    	}printf("%d\n", 23);  
+    $$$$$:  693-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  694:    } 
+    #####:  695:printf("POINT: 171\n");
+    $$$$$:  695-block  0
+call    0 never executed
+        -:  696:
+    #####:  697:    if((a1056944550 == 33 && ( cf==1  && input == inputs[0]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  697-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  697-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  698:printf("POINT: 172\n");
+    $$$$$:  698-block  0
+call    0 never executed
+    #####:  699:    	cf = 0;
+    #####:  700:    	a778335169 = a2027611119[2];
+    #####:  701:    	a162289881 = 7; 
+    #####:  702:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  703:    } 
+    #####:  704:printf("POINT: 173\n");
+    $$$$$:  704-block  0
+call    0 never executed
+        -:  705:
+    #####:  706:    if((( cf==1  && a778335169 == a2027611119[3]) && a1056944550 == 33)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  706-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  706-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  707:printf("POINT: 174\n");
+    $$$$$:  707-block  0
+call    0 never executed
+    #####:  708:    	cf = 0;
+    #####:  709:    	a778335169 = a2027611119[1];
+    #####:  710:    	a1518986556 = 8; 
+    #####:  711:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -:  712:    } 
+    #####:  713:}
+function calculate_outputm18 called 0 returned 0% blocks executed 0%
+    #####:  714: int calculate_outputm18(int input) {
+    $$$$$:  714-block  0
+    #####:  715:printf("POINT: 175\n");
+    $$$$$:  715-block  0
+call    0 never executed
+        -:  716:
+    #####:  717:    if((a1056944550 == 32 && ( cf==1  && a778335169 == a2027611119[3]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  717-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  717-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  718:printf("POINT: 176\n");
+    $$$$$:  718-block  0
+call    0 never executed
+    #####:  719:    	cf = 0;
+    #####:  720:    	a1056944550 = 34 ;
+    #####:  721:    	a778335169 = a2027611119[6]; 
+    #####:  722:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  723:    } 
+    #####:  724:printf("POINT: 177\n");
+    $$$$$:  724-block  0
+call    0 never executed
+        -:  725:
+    #####:  726:    if(((a778335169 == a2027611119[3] &&  cf==1 ) && a1056944550 == 32)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  726-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  726-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  727:printf("POINT: 178\n");
+    $$$$$:  727-block  0
+call    0 never executed
+    #####:  728:    	cf = 0;
+    #####:  729:    	a778335169 = a2027611119[1];
+    #####:  730:    	a1518986556 = 8; 
+    #####:  731:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  732:    } 
+    #####:  733:printf("POINT: 179\n");
+    $$$$$:  733-block  0
+call    0 never executed
+        -:  734:
+    #####:  735:    if((input == inputs[5] && (a778335169 == a2027611119[3] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  735-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  735-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  736:printf("POINT: 180\n");
+    $$$$$:  736-block  0
+call    0 never executed
+    #####:  737:    	cf = 0;
+    #####:  738:    	a1663271343 = 32 ;
+    #####:  739:    	a778335169 = a2027611119[4]; 
+    #####:  740:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  741:    } 
+    #####:  742:}
+function calculate_outputm19 called 0 returned 0% blocks executed 0%
+    #####:  743: int calculate_outputm19(int input) {
+    $$$$$:  743-block  0
+    #####:  744:printf("POINT: 181\n");
+    $$$$$:  744-block  0
+call    0 never executed
+        -:  745:
+    #####:  746:    if((( cf==1  && a1056944550 == 34) && a778335169 == a2027611119[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  746-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  746-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  747:printf("POINT: 182\n");
+    $$$$$:  747-block  0
+call    0 never executed
+    #####:  748:    	cf = 0;
+    #####:  749:    	a778335169 = a2027611119[2];
+    #####:  750:    	a162289881 = 7; 
+    #####:  751:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  752:    } 
+    #####:  753:printf("POINT: 183\n");
+    $$$$$:  753-block  0
+call    0 never executed
+        -:  754:
+    #####:  755:    if((( cf==1  && a1056944550 == 34) && a778335169 == a2027611119[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  755-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  755-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  756:printf("POINT: 184\n");
+    $$$$$:  756-block  0
+call    0 never executed
+    #####:  757:    	cf = 0;
+    #####:  758:    	a778335169 = a2027611119[0];
+    #####:  759:    	a1675980795 = a1071644789; 
+    #####:  760:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  761:    } 
+    #####:  762:}
+function calculate_outputm20 called 0 returned 0% blocks executed 0%
+    #####:  763: int calculate_outputm20(int input) {
+    $$$$$:  763-block  0
+    #####:  764:printf("POINT: 185\n");
+    $$$$$:  764-block  0
+call    0 never executed
+        -:  765:
+    #####:  766:    if(((a778335169 == a2027611119[3] &&  cf==1 ) && input == inputs[1])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  766-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  766-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  767:printf("POINT: 186\n");
+    $$$$$:  767-block  0
+call    0 never executed
+    #####:  768:    	cf = 0;
+    #####:  769:    	a778335169 = a2027611119[2];
+    #####:  770:    	a162289881 = 14; 
+    #####:  771:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -:  772:    } 
+    #####:  773:printf("POINT: 187\n");
+    $$$$$:  773-block  0
+call    0 never executed
+        -:  774:
+    #####:  775:    if((( cf==1  && a778335169 == a2027611119[3]) && input == inputs[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  775-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  775-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  776:printf("POINT: 188\n");
+    $$$$$:  776-block  0
+call    0 never executed
+    #####:  777:    	cf = 0;
+    #####:  778:    	a778335169 = a2027611119[1];
+    #####:  779:    	a1518986556 = 8; 
+    #####:  780:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  781:    } 
+    #####:  782:}
+function calculate_outputm21 called 0 returned 0% blocks executed 0%
+    #####:  783: int calculate_outputm21(int input) {
+    $$$$$:  783-block  0
+    #####:  784:printf("POINT: 189\n");
+    $$$$$:  784-block  0
+call    0 never executed
+        -:  785:
+    #####:  786:    if((a1663271343 == 32 && ( cf==1  && input == inputs[4]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  786-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  786-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  787:printf("POINT: 190\n");
+    $$$$$:  787-block  0
+call    0 never executed
+    #####:  788:    	cf = 0;
+        -:  789:    	 
+    #####:  790:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  791:    } 
+    #####:  792:printf("POINT: 191\n");
+    $$$$$:  792-block  0
+call    0 never executed
+        -:  793:
+    #####:  794:    if((( cf==1  && input == inputs[5]) && a1663271343 == 32)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  794-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  794-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  795:printf("POINT: 192\n");
+    $$$$$:  795-block  0
+call    0 never executed
+    #####:  796:    	cf = 0;
+        -:  797:    	 
+    #####:  798:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  799:    } 
+    #####:  800:printf("POINT: 193\n");
+    $$$$$:  800-block  0
+call    0 never executed
+        -:  801:
+    #####:  802:    if((( cf==1  && input == inputs[6]) && a778335169 == a2027611119[4])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  802-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  802-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  803:printf("POINT: 194\n");
+    $$$$$:  803-block  0
+call    0 never executed
+    #####:  804:    	cf = 0;
+    #####:  805:printf("POINT: 195\n");
+call    0 never executed
+        -:  806:
+    #####:  807:    	if((a162289881 == 7 || !(a778335169 == a2027611119[6]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  807-block  0
+branch  2 never executed
+branch  3 never executed
+    #####:  808:printf("POINT: 196\n");
+    $$$$$:  808-block  0
+call    0 never executed
+    #####:  809:    	a778335169 = a2027611119[5];
+    #####:  810:    	a1979864000 = a378180103; 
+unconditional  0 never executed
+        -:  811:    	}else {
+    #####:  812:printf("POINT: 198\n");
+    $$$$$:  812-block  0
+call    0 never executed
+    #####:  813:    	a778335169 = a2027611119[2];
+    #####:  814:    	a162289881 = 12;
+unconditional  0 never executed
+    #####:  815:    	}printf("%d\n", 18);  
+    $$$$$:  815-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  816:    } 
+    #####:  817:}
+function calculate_outputm22 called 8 returned 100% blocks executed 58%
+        8:  818: int calculate_outputm22(int input) {
+        8:  818-block  0
+        8:  819:printf("POINT: 199\n");
+        8:  819-block  0
+call    0 returned 8
+        -:  820:
+        8:  821:    if((( cf==1  && a1663271343 == 34) && a778335169 == a2027611119[4])) {
+branch  0 taken 8 (fallthrough)
+branch  1 taken 0
+        8:  821-block  0
+branch  2 taken 8 (fallthrough)
+branch  3 taken 0
+        8:  821-block  1
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0
+        8:  822:printf("POINT: 200\n");
+        8:  822-block  0
+call    0 returned 8
+        8:  823:    	cf = 0;
+        8:  824:    	a778335169 = a2027611119[1];
+        8:  825:    	a1518986556 = 7; 
+        8:  826:    	 printf("%d\n", 23);  
+call    0 returned 8
+unconditional  1 taken 8
+        -:  827:    } 
+        8:  828:printf("POINT: 201\n");
+        8:  828-block  0
+call    0 returned 8
+        -:  829:
+        8:  830:    if(((a778335169 == a2027611119[4] &&  cf==1 ) && input == inputs[8])) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 8
+    $$$$$:  830-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  830-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  831:printf("POINT: 202\n");
+    $$$$$:  831-block  0
+call    0 never executed
+    #####:  832:    	cf = 0;
+    #####:  833:    	a778335169 = a2027611119[7];
+    #####:  834:    	a190474899 = ((((65 / 5) + -27119) / 5) - -5410); 
+    #####:  835:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -:  836:    } 
+        8:  837:printf("POINT: 203\n");
+        8:  837-block  0
+call    0 returned 8
+        -:  838:
+        8:  839:    if((a778335169 == a2027611119[4] && ( cf==1  && a1663271343 == 34))) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 8
+    $$$$$:  839-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  839-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  840:printf("POINT: 204\n");
+    $$$$$:  840-block  0
+call    0 never executed
+    #####:  841:    	cf = 0;
+    #####:  842:    	a1056944550 = 34 ;
+    #####:  843:    	a778335169 = a2027611119[3]; 
+    #####:  844:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  845:    } 
+        8:  846:}
+function calculate_outputm23 called 0 returned 0% blocks executed 0%
+    #####:  847: int calculate_outputm23(int input) {
+    $$$$$:  847-block  0
+    #####:  848:printf("POINT: 205\n");
+    $$$$$:  848-block  0
+call    0 never executed
+        -:  849:
+    #####:  850:    if((a1663271343 == 35 && (input == inputs[0] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  850-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  850-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  851:printf("POINT: 206\n");
+    $$$$$:  851-block  0
+call    0 never executed
+    #####:  852:    	cf = 0;
+    #####:  853:    	a1056944550 = 35 ;
+    #####:  854:    	a778335169 = a2027611119[3]; 
+    #####:  855:    	 printf("%d\n", 17);  
+call    0 never executed
+unconditional  1 never executed
+        -:  856:    } 
+    #####:  857:}
+function calculate_outputm24 called 0 returned 0% blocks executed 0%
+    #####:  858: int calculate_outputm24(int input) {
+    $$$$$:  858-block  0
+    #####:  859:printf("POINT: 207\n");
+    $$$$$:  859-block  0
+call    0 never executed
+        -:  860:
+    #####:  861:    if((a1663271343 == 36 && ( cf==1  && a778335169 == a2027611119[4]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  861-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  861-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  862:printf("POINT: 208\n");
+    $$$$$:  862-block  0
+call    0 never executed
+    #####:  863:    	cf = 0;
+    #####:  864:    	a778335169 = a2027611119[0];
+    #####:  865:    	a1675980795 = a550880306; 
+    #####:  866:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -:  867:    } 
+    #####:  868:printf("POINT: 209\n");
+    $$$$$:  868-block  0
+call    0 never executed
+        -:  869:
+    #####:  870:    if((input == inputs[2] && ( cf==1  && a1663271343 == 36))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  870-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  870-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  871:printf("POINT: 210\n");
+    $$$$$:  871-block  0
+call    0 never executed
+    #####:  872:    	cf = 0;
+    #####:  873:    	a778335169 = a2027611119[7];
+    #####:  874:    	a190474899 = ((((69 - -12035) - 12008) + 10732) + -10778); 
+    #####:  875:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  876:    } 
+    #####:  877:printf("POINT: 211\n");
+    $$$$$:  877-block  0
+call    0 never executed
+        -:  878:
+    #####:  879:    if((( cf==1  && a1663271343 == 36) && a778335169 == a2027611119[4])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  879-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  879-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  880:printf("POINT: 212\n");
+    $$$$$:  880-block  0
+call    0 never executed
+    #####:  881:    	cf = 0;
+    #####:  882:    	a1056944550 = 35 ;
+    #####:  883:    	a778335169 = a2027611119[3]; 
+    #####:  884:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  885:    } 
+    #####:  886:printf("POINT: 213\n");
+    $$$$$:  886-block  0
+call    0 never executed
+        -:  887:
+    #####:  888:    if((input == inputs[4] && ( cf==1  && a1663271343 == 36))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  888-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  888-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  889:printf("POINT: 214\n");
+    $$$$$:  889-block  0
+call    0 never executed
+    #####:  890:    	cf = 0;
+    #####:  891:printf("POINT: 215\n");
+call    0 never executed
+        -:  892:
+    #####:  893:    	if((a190474899 <=  -129 || !(a1056944550 == 35))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  893-block  0
+branch  2 never executed
+branch  3 never executed
+    #####:  894:printf("POINT: 216\n");
+    $$$$$:  894-block  0
+call    0 never executed
+    #####:  895:    	a778335169 = a2027611119[1];
+    #####:  896:    	a1518986556 = 3; 
+unconditional  0 never executed
+        -:  897:    	}else {
+    #####:  898:printf("POINT: 218\n");
+    $$$$$:  898-block  0
+call    0 never executed
+    #####:  899:    	a778335169 = a2027611119[2];
+    #####:  900:    	a162289881 = 10;
+unconditional  0 never executed
+    #####:  901:    	}printf("%d\n", 26);  
+    $$$$$:  901-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  902:    } 
+    #####:  903:printf("POINT: 219\n");
+    $$$$$:  903-block  0
+call    0 never executed
+        -:  904:
+    #####:  905:    if(((a778335169 == a2027611119[4] &&  cf==1 ) && input == inputs[3])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  905-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  905-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  906:printf("POINT: 220\n");
+    $$$$$:  906-block  0
+call    0 never executed
+    #####:  907:    	cf = 0;
+    #####:  908:printf("POINT: 221\n");
+call    0 never executed
+        -:  909:
+    #####:  910:    	if(((a1056944550 == 32 && !(a1663271343 == 33)) && !(26 == a1675980795[5]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  910-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  910-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  911:printf("POINT: 222\n");
+    $$$$$:  911-block  0
+call    0 never executed
+    #####:  912:    	a778335169 = a2027611119[2];
+    #####:  913:    	a162289881 = 12; 
+unconditional  0 never executed
+        -:  914:    	}else {
+    #####:  915:printf("POINT: 224\n");
+    $$$$$:  915-block  0
+call    0 never executed
+    #####:  916:    	a778335169 = a2027611119[5];
+    #####:  917:    	a1979864000 = a378180103;
+unconditional  0 never executed
+    #####:  918:    	}printf("%d\n", 24);  
+    $$$$$:  918-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  919:    } 
+    #####:  920:printf("POINT: 225\n");
+    $$$$$:  920-block  0
+call    0 never executed
+        -:  921:
+    #####:  922:    if((a778335169 == a2027611119[4] && ( cf==1  && input == inputs[6]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  922-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  922-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  923:printf("POINT: 226\n");
+    $$$$$:  923-block  0
+call    0 never executed
+    #####:  924:    	cf = 0;
+    #####:  925:printf("POINT: 227\n");
+call    0 never executed
+        -:  926:
+    #####:  927:    	if((a1056944550 == 36 && ( cf!=1  && ((!(a1663271343 == 34) ||  cf==1 ) && !(a1663271343 == 36))))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  927-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  927-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  927-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  927-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  928:printf("POINT: 228\n");
+    $$$$$:  928-block  0
+call    0 never executed
+    #####:  929:    	a1056944550 = 35 ;
+    #####:  930:    	a778335169 = a2027611119[3]; 
+unconditional  0 never executed
+        -:  931:    	}else {
+    #####:  932:printf("POINT: 230\n");
+    $$$$$:  932-block  0
+call    0 never executed
+    #####:  933:    	a1056944550 = 32 ;
+    #####:  934:    	a778335169 = a2027611119[3];
+unconditional  0 never executed
+    #####:  935:    	}printf("%d\n", 26);  
+    $$$$$:  935-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  936:    } 
+    #####:  937:printf("POINT: 231\n");
+    $$$$$:  937-block  0
+call    0 never executed
+        -:  938:
+    #####:  939:    if((a778335169 == a2027611119[4] && (a1663271343 == 36 &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  939-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  939-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  940:printf("POINT: 232\n");
+    $$$$$:  940-block  0
+call    0 never executed
+    #####:  941:    	cf = 0;
+    #####:  942:    	a1056944550 = 35 ;
+    #####:  943:    	a778335169 = a2027611119[3]; 
+    #####:  944:    	 printf("%d\n", 26);  
+call    0 never executed
+unconditional  1 never executed
+        -:  945:    } 
+    #####:  946:printf("POINT: 233\n");
+    $$$$$:  946-block  0
+call    0 never executed
+        -:  947:
+    #####:  948:    if(((a1663271343 == 36 &&  cf==1 ) && a778335169 == a2027611119[4])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  948-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  948-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  949:printf("POINT: 234\n");
+    $$$$$:  949-block  0
+call    0 never executed
+    #####:  950:    	cf = 0;
+    #####:  951:printf("POINT: 235\n");
+call    0 never executed
+        -:  952:
+    #####:  953:    	if(((a1056944550 == 35 || (a778335169 == 4 && ((-129 < a190474899) && (20 >= a190474899)))) && !(26 == a1675980795[5]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  953-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  953-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  953-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  953-block  3
+branch  8 never executed
+branch  9 never executed
+    #####:  954:printf("POINT: 236\n");
+    $$$$$:  954-block  0
+call    0 never executed
+    #####:  955:    	a778335169 = a2027611119[1];
+    #####:  956:    	a1518986556 = 3; 
+unconditional  0 never executed
+        -:  957:    	}else {
+    #####:  958:printf("POINT: 238\n");
+    $$$$$:  958-block  0
+call    0 never executed
+    #####:  959:    	a778335169 = a2027611119[1];
+    #####:  960:    	a1518986556 = 3;
+unconditional  0 never executed
+    #####:  961:    	}printf("%d\n", 15);  
+    $$$$$:  961-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  962:    } 
+    #####:  963:printf("POINT: 239\n");
+    $$$$$:  963-block  0
+call    0 never executed
+        -:  964:
+    #####:  965:    if(((a778335169 == a2027611119[4] &&  cf==1 ) && a1663271343 == 36)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  965-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  965-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  966:printf("POINT: 240\n");
+    $$$$$:  966-block  0
+call    0 never executed
+    #####:  967:    	cf = 0;
+    #####:  968:printf("POINT: 241\n");
+call    0 never executed
+        -:  969:
+    #####:  970:    	if(((!(a1663271343 == 36) || (a1663271343 == 36 || (19 == a1979864000[2]))) && a1056944550 == 35)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  970-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  970-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  970-block  2
+branch  6 never executed
+branch  7 never executed
+    #####:  971:printf("POINT: 242\n");
+    $$$$$:  971-block  0
+call    0 never executed
+    #####:  972:    	a778335169 = a2027611119[7];
+    #####:  973:    	a190474899 = ((((94 / 5) * 10) / 1) - -29478); 
+unconditional  0 never executed
+        -:  974:    	}else {
+    #####:  975:printf("POINT: 244\n");
+    $$$$$:  975-block  0
+call    0 never executed
+    #####:  976:    	a778335169 = a2027611119[1];
+    #####:  977:    	a1518986556 = 8;
+unconditional  0 never executed
+    #####:  978:    	}printf("%d\n", 24);  
+    $$$$$:  978-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  979:    } 
+    #####:  980:printf("POINT: 245\n");
+    $$$$$:  980-block  0
+call    0 never executed
+        -:  981:
+    #####:  982:    if((( cf==1  && a778335169 == a2027611119[4]) && input == inputs[8])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  982-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  982-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  983:printf("POINT: 246\n");
+    $$$$$:  983-block  0
+call    0 never executed
+    #####:  984:    	cf = 0;
+    #####:  985:    	a1663271343 = 35 ; 
+    #####:  986:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -:  987:    } 
+    #####:  988:}
+function calculate_outputm25 called 0 returned 0% blocks executed 0%
+    #####:  989: int calculate_outputm25(int input) {
+    $$$$$:  989-block  0
+    #####:  990:printf("POINT: 247\n");
+    $$$$$:  990-block  0
+call    0 never executed
+        -:  991:
+    #####:  992:    if((( cf==1  && a778335169 == a2027611119[5]) && input == inputs[5])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  992-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  992-block  1
+branch  4 never executed
+branch  5 never executed
+    #####:  993:printf("POINT: 248\n");
+    $$$$$:  993-block  0
+call    0 never executed
+    #####:  994:    	cf = 0;
+    #####:  995:    	a1056944550 = 34 ;
+    #####:  996:    	a778335169 = a2027611119[6]; 
+    #####:  997:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -:  998:    } 
+    #####:  999:}
+function calculate_outputm26 called 0 returned 0% blocks executed 0%
+    #####: 1000: int calculate_outputm26(int input) {
+    $$$$$: 1000-block  0
+    #####: 1001:printf("POINT: 249\n");
+    $$$$$: 1001-block  0
+call    0 never executed
+        -: 1002:
+    #####: 1003:    if((( cf==1  && input == inputs[8]) && a778335169 == a2027611119[5])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1003-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1003-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1004:printf("POINT: 250\n");
+    $$$$$: 1004-block  0
+call    0 never executed
+    #####: 1005:    	cf = 0;
+    #####: 1006:    	a1056944550 = 32 ;
+    #####: 1007:    	a778335169 = a2027611119[6]; 
+    #####: 1008:    	 printf("%d\n", 23);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1009:    } 
+    #####: 1010:printf("POINT: 251\n");
+    $$$$$: 1010-block  0
+call    0 never executed
+        -: 1011:
+    #####: 1012:    if((a778335169 == a2027611119[5] && ( cf==1  && input == inputs[6]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1012-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1012-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1013:printf("POINT: 252\n");
+    $$$$$: 1013-block  0
+call    0 never executed
+    #####: 1014:    	cf = 0;
+    #####: 1015:    	a778335169 = a2027611119[7];
+    #####: 1016:    	a190474899 = (((4 - -696) + -9086) + 8478); 
+    #####: 1017:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1018:    } 
+    #####: 1019:}
+function calculate_outputm27 called 0 returned 0% blocks executed 0%
+    #####: 1020: int calculate_outputm27(int input) {
+    $$$$$: 1020-block  0
+    #####: 1021:printf("POINT: 253\n");
+    $$$$$: 1021-block  0
+call    0 never executed
+        -: 1022:
+    #####: 1023:    if((a778335169 == a2027611119[5] && ((19 == a1979864000[2]) &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1023-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1023-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1024:printf("POINT: 254\n");
+    $$$$$: 1024-block  0
+call    0 never executed
+    #####: 1025:    	cf = 0;
+    #####: 1026:    	a1056944550 = 34 ;
+    #####: 1027:    	a778335169 = a2027611119[6]; 
+    #####: 1028:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1029:    } 
+    #####: 1030:}
+function calculate_outputm28 called 6 returned 100% blocks executed 100%
+        6: 1031: int calculate_outputm28(int input) {
+        6: 1031-block  0
+        6: 1032:printf("POINT: 255\n");
+        6: 1032-block  0
+call    0 returned 6
+        -: 1033:
+        6: 1034:    if((a778335169 == a2027611119[6] && (input == inputs[6] &&  cf==1 ))) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 0
+        6: 1034-block  0
+branch  2 taken 3 (fallthrough)
+branch  3 taken 3
+        3: 1034-block  1
+branch  4 taken 3 (fallthrough)
+branch  5 taken 0
+        3: 1035:printf("POINT: 256\n");
+        3: 1035-block  0
+call    0 returned 3
+        3: 1036:    	cf = 0;
+        3: 1037:    	a778335169 = a2027611119[1];
+        3: 1038:    	a1518986556 = 2; 
+        3: 1039:    	 printf("%d\n", 23);  
+call    0 returned 3
+unconditional  1 taken 3
+        -: 1040:    } 
+        6: 1041:}
+function calculate_outputm29 called 6 returned 100% blocks executed 63%
+        6: 1042: int calculate_outputm29(int input) {
+        6: 1042-block  0
+        6: 1043:printf("POINT: 257\n");
+        6: 1043-block  0
+call    0 returned 6
+        -: 1044:
+        6: 1045:    if((a778335169 == a2027611119[6] && (a1056944550 == 32 &&  cf==1 ))) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 0
+        6: 1045-block  0
+branch  2 taken 6 (fallthrough)
+branch  3 taken 0
+        6: 1045-block  1
+branch  4 taken 6 (fallthrough)
+branch  5 taken 0
+        6: 1046:printf("POINT: 258\n");
+        6: 1046-block  0
+call    0 returned 6
+        6: 1047:    	cf = 0;
+        6: 1048:    	a1056944550 = 33 ; 
+        6: 1049:    	 printf("%d\n", 24);  
+call    0 returned 6
+unconditional  1 taken 6
+        -: 1050:    } 
+        6: 1051:printf("POINT: 259\n");
+        6: 1051-block  0
+call    0 returned 6
+        -: 1052:
+        6: 1053:    if(((a778335169 == a2027611119[6] &&  cf==1 ) && a1056944550 == 32)) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 0
+        6: 1053-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 6
+    $$$$$: 1053-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1054:printf("POINT: 260\n");
+    $$$$$: 1054-block  0
+call    0 never executed
+    #####: 1055:    	cf = 0;
+    #####: 1056:    	a1663271343 = 32 ;
+    #####: 1057:    	a778335169 = a2027611119[4]; 
+    #####: 1058:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1059:    } 
+        6: 1060:printf("POINT: 261\n");
+        6: 1060-block  0
+call    0 returned 6
+        -: 1061:
+        6: 1062:    if((( cf==1  && input == inputs[4]) && a1056944550 == 32)) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 6
+    $$$$$: 1062-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1062-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1063:printf("POINT: 262\n");
+    $$$$$: 1063-block  0
+call    0 never executed
+    #####: 1064:    	cf = 0;
+    #####: 1065:    	a778335169 = a2027611119[5];
+    #####: 1066:    	a1979864000 = a149495938; 
+    #####: 1067:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1068:    } 
+        6: 1069:}
+function calculate_outputm30 called 14 returned 100% blocks executed 100%
+       14: 1070: int calculate_outputm30(int input) {
+       14: 1070-block  0
+       14: 1071:printf("POINT: 263\n");
+       14: 1071-block  0
+call    0 returned 14
+        -: 1072:
+       14: 1073:    if((a778335169 == a2027611119[6] && (input == inputs[8] &&  cf==1 ))) {
+branch  0 taken 14 (fallthrough)
+branch  1 taken 0
+       14: 1073-block  0
+branch  2 taken 6 (fallthrough)
+branch  3 taken 8
+        6: 1073-block  1
+branch  4 taken 6 (fallthrough)
+branch  5 taken 0
+        6: 1074:printf("POINT: 264\n");
+        6: 1074-block  0
+call    0 returned 6
+        6: 1075:    	cf = 0;
+        6: 1076:    	a1056944550 = 32 ; 
+        6: 1077:    	 printf("%d\n", 21);  
+call    0 returned 6
+unconditional  1 taken 6
+        -: 1078:    } 
+       14: 1079:printf("POINT: 265\n");
+       14: 1079-block  0
+call    0 returned 14
+        -: 1080:
+       14: 1081:    if((( cf==1  && a1056944550 == 34) && a778335169 == a2027611119[6])) {
+branch  0 taken 8 (fallthrough)
+branch  1 taken 6
+        8: 1081-block  0
+branch  2 taken 8 (fallthrough)
+branch  3 taken 0
+        8: 1081-block  1
+branch  4 taken 8 (fallthrough)
+branch  5 taken 0
+        8: 1082:printf("POINT: 266\n");
+        8: 1082-block  0
+call    0 returned 8
+        8: 1083:    	cf = 0;
+        8: 1084:    	a1663271343 = 34 ;
+        8: 1085:    	a778335169 = a2027611119[4]; 
+        8: 1086:    	 printf("%d\n", 21);  
+call    0 returned 8
+unconditional  1 taken 8
+        -: 1087:    } 
+       14: 1088:}
+function calculate_outputm31 called 0 returned 0% blocks executed 0%
+    #####: 1089: int calculate_outputm31(int input) {
+    $$$$$: 1089-block  0
+    #####: 1090:printf("POINT: 267\n");
+    $$$$$: 1090-block  0
+call    0 never executed
+        -: 1091:
+    #####: 1092:    if(((a778335169 == a2027611119[6] &&  cf==1 ) && a1056944550 == 35)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1092-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1092-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1093:printf("POINT: 268\n");
+    $$$$$: 1093-block  0
+call    0 never executed
+    #####: 1094:    	cf = 0;
+    #####: 1095:    	a1056944550 = 33 ;
+    #####: 1096:    	a778335169 = a2027611119[3]; 
+    #####: 1097:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1098:    } 
+    #####: 1099:printf("POINT: 269\n");
+    $$$$$: 1099-block  0
+call    0 never executed
+        -: 1100:
+    #####: 1101:    if(((a778335169 == a2027611119[6] &&  cf==1 ) && input == inputs[4])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1101-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1101-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1102:printf("POINT: 270\n");
+    $$$$$: 1102-block  0
+call    0 never executed
+    #####: 1103:    	cf = 0;
+    #####: 1104:    	a778335169 = a2027611119[2];
+    #####: 1105:    	a162289881 = 11; 
+    #####: 1106:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1107:    } 
+    #####: 1108:printf("POINT: 271\n");
+    $$$$$: 1108-block  0
+call    0 never executed
+        -: 1109:
+    #####: 1110:    if((a1056944550 == 35 && (a778335169 == a2027611119[6] &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1110-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1110-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1111:printf("POINT: 272\n");
+    $$$$$: 1111-block  0
+call    0 never executed
+    #####: 1112:    	cf = 0;
+        -: 1113:    	 
+    #####: 1114:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1115:    } 
+    #####: 1116:printf("POINT: 273\n");
+    $$$$$: 1116-block  0
+call    0 never executed
+        -: 1117:
+    #####: 1118:    if((a778335169 == a2027611119[6] && ( cf==1  && input == inputs[1]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1118-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1118-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1119:printf("POINT: 274\n");
+    $$$$$: 1119-block  0
+call    0 never executed
+    #####: 1120:    	cf = 0;
+    #####: 1121:printf("POINT: 275\n");
+call    0 never executed
+        -: 1122:
+    #####: 1123:    	if((!(a1056944550 == 33) || (( cf==1  && !(a1518986556 == 4)) ||  cf!=1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1123-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1123-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$: 1123-block  2
+branch  6 never executed
+branch  7 never executed
+    #####: 1124:printf("POINT: 276\n");
+    $$$$$: 1124-block  0
+call    0 never executed
+    #####: 1125:    	a1056944550 = 32 ; 
+unconditional  0 never executed
+        -: 1126:    	}else {
+    #####: 1127:printf("POINT: 278\n");
+    $$$$$: 1127-block  0
+call    0 never executed
+    #####: 1128:    	a778335169 = a2027611119[3];
+unconditional  0 never executed
+    #####: 1129:    	}printf("%d\n", 20);  
+    $$$$$: 1129-block  0
+call    0 never executed
+unconditional  1 never executed
+        -: 1130:    } 
+    #####: 1131:printf("POINT: 279\n");
+    $$$$$: 1131-block  0
+call    0 never executed
+        -: 1132:
+    #####: 1133:    if((( cf==1  && a778335169 == a2027611119[6]) && a1056944550 == 35)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1133-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1133-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1134:printf("POINT: 280\n");
+    $$$$$: 1134-block  0
+call    0 never executed
+    #####: 1135:    	cf = 0;
+    #####: 1136:    	a778335169 = a2027611119[1];
+    #####: 1137:    	a1518986556 = 1; 
+    #####: 1138:    	 printf("%d\n", 20);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1139:    } 
+    #####: 1140:printf("POINT: 281\n");
+    $$$$$: 1140-block  0
+call    0 never executed
+        -: 1141:
+    #####: 1142:    if((( cf==1  && input == inputs[2]) && a1056944550 == 35)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1142-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1142-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1143:printf("POINT: 282\n");
+    $$$$$: 1143-block  0
+call    0 never executed
+    #####: 1144:    	cf = 0;
+    #####: 1145:printf("POINT: 283\n");
+call    0 never executed
+        -: 1146:
+    #####: 1147:    	if(((a778335169 == a2027611119[7] || a1518986556 == 2) && !(a1663271343 == 32))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1147-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1147-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1148:printf("POINT: 284\n");
+    $$$$$: 1148-block  0
+call    0 never executed
+    #####: 1149:    	a1056944550 = 34 ;
+    #####: 1150:    	a778335169 = a2027611119[3]; 
+unconditional  0 never executed
+        -: 1151:    	}else {
+    #####: 1152:printf("POINT: 286\n");
+    $$$$$: 1152-block  0
+call    0 never executed
+    #####: 1153:    	a778335169 = a2027611119[7];
+    #####: 1154:    	a190474899 = ((((87 + 7901) / 5) * 10) / 9);
+unconditional  0 never executed
+    #####: 1155:    	}printf("%d\n", 21);  
+    $$$$$: 1155-block  0
+call    0 never executed
+unconditional  1 never executed
+        -: 1156:    } 
+    #####: 1157:printf("POINT: 287\n");
+    $$$$$: 1157-block  0
+call    0 never executed
+        -: 1158:
+    #####: 1159:    if((( cf==1  && a1056944550 == 35) && input == inputs[6])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1159-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1159-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1160:printf("POINT: 288\n");
+    $$$$$: 1160-block  0
+call    0 never executed
+    #####: 1161:    	cf = 0;
+    #####: 1162:printf("POINT: 289\n");
+call    0 never executed
+        -: 1163:
+    #####: 1164:    	if((a778335169 == a2027611119[3] || a1518986556 == 1)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1164-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1165:printf("POINT: 290\n");
+    $$$$$: 1165-block  0
+call    0 never executed
+    #####: 1166:    	a1056944550 = 32 ; 
+unconditional  0 never executed
+        -: 1167:    	}else {
+    #####: 1168:printf("POINT: 292\n");
+    $$$$$: 1168-block  0
+call    0 never executed
+    #####: 1169:    	a1056944550 = 33 ;
+unconditional  0 never executed
+    #####: 1170:    	}printf("%d\n", 20);  
+    $$$$$: 1170-block  0
+call    0 never executed
+unconditional  1 never executed
+        -: 1171:    } 
+    #####: 1172:printf("POINT: 293\n");
+    $$$$$: 1172-block  0
+call    0 never executed
+        -: 1173:
+    #####: 1174:    if((( cf==1  && a1056944550 == 35) && a778335169 == a2027611119[6])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1174-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1174-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1175:printf("POINT: 294\n");
+    $$$$$: 1175-block  0
+call    0 never executed
+    #####: 1176:    	cf = 0;
+    #####: 1177:    	a778335169 = a2027611119[1];
+    #####: 1178:    	a1518986556 = 1; 
+    #####: 1179:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1180:    } 
+    #####: 1181:printf("POINT: 295\n");
+    $$$$$: 1181-block  0
+call    0 never executed
+        -: 1182:
+    #####: 1183:    if((a1056944550 == 35 && ( cf==1  && input == inputs[9]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1183-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1183-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1184:printf("POINT: 296\n");
+    $$$$$: 1184-block  0
+call    0 never executed
+    #####: 1185:    	cf = 0;
+        -: 1186:    	 
+    #####: 1187:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1188:    } 
+    #####: 1189:printf("POINT: 297\n");
+    $$$$$: 1189-block  0
+call    0 never executed
+        -: 1190:
+    #####: 1191:    if(((a778335169 == a2027611119[6] &&  cf==1 ) && input == inputs[8])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1191-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1191-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1192:printf("POINT: 298\n");
+    $$$$$: 1192-block  0
+call    0 never executed
+    #####: 1193:    	cf = 0;
+    #####: 1194:    	a778335169 = a2027611119[0];
+    #####: 1195:    	a1675980795 = a1071644789; 
+    #####: 1196:    	 printf("%d\n", 23);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1197:    } 
+    #####: 1198:}
+function calculate_outputm32 called 0 returned 0% blocks executed 0%
+    #####: 1199: int calculate_outputm32(int input) {
+    $$$$$: 1199-block  0
+    #####: 1200:printf("POINT: 299\n");
+    $$$$$: 1200-block  0
+call    0 never executed
+        -: 1201:
+    #####: 1202:    if(((input == inputs[9] &&  cf==1 ) && a1056944550 == 36)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1202-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1202-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1203:printf("POINT: 300\n");
+    $$$$$: 1203-block  0
+call    0 never executed
+    #####: 1204:    	cf = 0;
+        -: 1205:    	 
+    #####: 1206:    	 printf("%d\n", 24);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1207:    } 
+    #####: 1208:printf("POINT: 301\n");
+    $$$$$: 1208-block  0
+call    0 never executed
+        -: 1209:
+    #####: 1210:    if(((a1056944550 == 36 &&  cf==1 ) && input == inputs[8])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1210-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1210-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1211:printf("POINT: 302\n");
+    $$$$$: 1211-block  0
+call    0 never executed
+    #####: 1212:    	cf = 0;
+    #####: 1213:    	a1663271343 = 32 ;
+    #####: 1214:    	a778335169 = a2027611119[4]; 
+    #####: 1215:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1216:    } 
+    #####: 1217:printf("POINT: 303\n");
+    $$$$$: 1217-block  0
+call    0 never executed
+        -: 1218:
+    #####: 1219:    if((input == inputs[6] && (a1056944550 == 36 &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1219-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1219-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1220:printf("POINT: 304\n");
+    $$$$$: 1220-block  0
+call    0 never executed
+    #####: 1221:    	cf = 0;
+    #####: 1222:    	a778335169 = a2027611119[1];
+    #####: 1223:    	a1518986556 = 6; 
+    #####: 1224:    	 printf("%d\n", 16);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1225:    } 
+    #####: 1226:}
+function calculate_outputm33 called 73 returned 100% blocks executed 100%
+       73: 1227: int calculate_outputm33(int input) {
+       73: 1227-block  0
+       73: 1228:printf("POINT: 305\n");
+       73: 1228-block  0
+call    0 returned 73
+        -: 1229:
+       73: 1230:    if((input == inputs[5] && ( cf==1  && a190474899 <=  -129))) {
+branch  0 taken 15 (fallthrough)
+branch  1 taken 58
+       15: 1230-block  0
+branch  2 taken 15 (fallthrough)
+branch  3 taken 0
+       15: 1230-block  1
+branch  4 taken 15 (fallthrough)
+branch  5 taken 0
+       15: 1231:printf("POINT: 306\n");
+       15: 1231-block  0
+call    0 returned 15
+       15: 1232:    	cf = 0;
+       15: 1233:    	a1056944550 = 34 ;
+       15: 1234:    	a778335169 = a2027611119[6]; 
+       15: 1235:    	 printf("%d\n", 15);  
+call    0 returned 15
+unconditional  1 taken 15
+        -: 1236:    } 
+       73: 1237:}
+function calculate_outputm34 called 0 returned 0% blocks executed 0%
+    #####: 1238: int calculate_outputm34(int input) {
+    $$$$$: 1238-block  0
+    #####: 1239:printf("POINT: 307\n");
+    $$$$$: 1239-block  0
+call    0 never executed
+        -: 1240:
+    #####: 1241:    if((( cf==1  && a778335169 == a2027611119[7]) && input == inputs[6])) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1241-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1241-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1242:printf("POINT: 308\n");
+    $$$$$: 1242-block  0
+call    0 never executed
+    #####: 1243:    	cf = 0;
+    #####: 1244:    	a1663271343 = 34 ;
+    #####: 1245:    	a778335169 = a2027611119[4]; 
+    #####: 1246:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1247:    } 
+    #####: 1248:printf("POINT: 309\n");
+    $$$$$: 1248-block  0
+call    0 never executed
+        -: 1249:
+    #####: 1250:    if((( cf==1  && input == inputs[5]) && ((-129 < a190474899) && (20 >= a190474899)))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1250-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1250-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$: 1250-block  2
+branch  6 never executed
+branch  7 never executed
+    #####: 1251:printf("POINT: 310\n");
+    $$$$$: 1251-block  0
+call    0 never executed
+    #####: 1252:    	cf = 0;
+    #####: 1253:    	a1663271343 = 34 ;
+    #####: 1254:    	a778335169 = a2027611119[4]; 
+    #####: 1255:    	 printf("%d\n", 15);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1256:    } 
+    #####: 1257:printf("POINT: 311\n");
+    $$$$$: 1257-block  0
+call    0 never executed
+        -: 1258:
+    #####: 1259:    if(((input == inputs[3] &&  cf==1 ) && ((-129 < a190474899) && (20 >= a190474899)))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1259-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1259-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$: 1259-block  2
+branch  6 never executed
+branch  7 never executed
+    #####: 1260:printf("POINT: 312\n");
+    $$$$$: 1260-block  0
+call    0 never executed
+    #####: 1261:    	cf = 0;
+    #####: 1262:    	a778335169 = a2027611119[5];
+    #####: 1263:    	a1979864000 = a753453731; 
+    #####: 1264:    	 printf("%d\n", 19);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1265:    } 
+    #####: 1266:}
+function calculate_outputm35 called 0 returned 0% blocks executed 0%
+    #####: 1267: int calculate_outputm35(int input) {
+    $$$$$: 1267-block  0
+    #####: 1268:printf("POINT: 313\n");
+    $$$$$: 1268-block  0
+call    0 never executed
+        -: 1269:
+    #####: 1270:    if((a778335169 == a2027611119[7] && ( cf==1  && input == inputs[3]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1270-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1270-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1271:printf("POINT: 314\n");
+    $$$$$: 1271-block  0
+call    0 never executed
+    #####: 1272:    	cf = 0;
+    #####: 1273:    	a778335169 = a2027611119[5];
+    #####: 1274:    	a1979864000 = a378180103; 
+    #####: 1275:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1276:    } 
+    #####: 1277:printf("POINT: 315\n");
+    $$$$$: 1277-block  0
+call    0 never executed
+        -: 1278:
+    #####: 1279:    if((((20 < a190474899) && (101 >= a190474899)) && ( cf==1  && a778335169 == a2027611119[7]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1279-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1279-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$: 1279-block  2
+branch  6 never executed
+branch  7 never executed
+    #####: 1280:printf("POINT: 316\n");
+    $$$$$: 1280-block  0
+call    0 never executed
+    #####: 1281:    	cf = 0;
+    #####: 1282:    	a778335169 = a2027611119[5];
+    #####: 1283:    	a1979864000 = a149495938; 
+    #####: 1284:    	 printf("%d\n", 18);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1285:    } 
+    #####: 1286:}
+function calculate_outputm36 called 0 returned 0% blocks executed 0%
+    #####: 1287: int calculate_outputm36(int input) {
+    $$$$$: 1287-block  0
+    #####: 1288:printf("POINT: 317\n");
+    $$$$$: 1288-block  0
+call    0 never executed
+        -: 1289:
+    #####: 1290:    if((input == inputs[4] && (101 < a190474899 &&  cf==1 ))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1290-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1290-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1291:printf("POINT: 318\n");
+    $$$$$: 1291-block  0
+call    0 never executed
+    #####: 1292:    	cf = 0;
+    #####: 1293:    	a778335169 = a2027611119[1];
+    #####: 1294:    	a1518986556 = 3; 
+    #####: 1295:    	 printf("%d\n", 21);  
+call    0 never executed
+unconditional  1 never executed
+        -: 1296:    } 
+    #####: 1297:}
+        -: 1298:
+function calculate_output called 144 returned 100% blocks executed 51%
+      144: 1299: int calculate_output(int input) {
+      144: 1299-block  0
+      144: 1300:        cf = 1;
+        -: 1301:
+      144: 1302:printf("POINT: 319\n");
+      144: 1302-block  0
+call    0 returned 144
+        -: 1303:
+      144: 1304:    if(( cf==1  && a778335169 == a2027611119[0])) {
+branch  0 taken 144 (fallthrough)
+branch  1 taken 0
+      144: 1304-block  0
+branch  2 taken 24 (fallthrough)
+branch  3 taken 120
+       24: 1305:printf("POINT: 320\n");
+       24: 1305-block  0
+call    0 returned 24
+       24: 1306:printf("POINT: 321\n");
+call    0 returned 24
+        -: 1307:
+       24: 1308:    	if(( cf==1  && (18 == a1675980795[3]))) {
+branch  0 taken 24 (fallthrough)
+branch  1 taken 0
+       24: 1308-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 24
+    #####: 1309:printf("POINT: 322\n");
+    $$$$$: 1309-block  0
+call    0 never executed
+    #####: 1310:    		calculate_outputm1(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1311:    	} 
+       24: 1312:printf("POINT: 323\n");
+       24: 1312-block  0
+call    0 returned 24
+        -: 1313:
+       24: 1314:    	if(( cf==1  && (26 == a1675980795[5]))) {
+branch  0 taken 24 (fallthrough)
+branch  1 taken 0
+       24: 1314-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 24
+    #####: 1315:printf("POINT: 324\n");
+    $$$$$: 1315-block  0
+call    0 never executed
+    #####: 1316:    		calculate_outputm2(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1317:    	} 
+       24: 1318:printf("POINT: 325\n");
+       24: 1318-block  0
+call    0 returned 24
+        -: 1319:
+       24: 1320:    	if(((28 == a1675980795[1]) &&  cf==1 )) {
+branch  0 taken 24 (fallthrough)
+branch  1 taken 0
+       24: 1320-block  0
+branch  2 taken 24 (fallthrough)
+branch  3 taken 0
+       24: 1321:printf("POINT: 326\n");
+       24: 1321-block  0
+call    0 returned 24
+       24: 1322:    		calculate_outputm3(input);
+call    0 returned 24
+unconditional  1 taken 24
+        -: 1323:    	} 
+        -: 1324:    } 
+      144: 1325:printf("POINT: 327\n");
+      144: 1325-block  0
+call    0 returned 144
+        -: 1326:
+      144: 1327:    if((a778335169 == a2027611119[1] &&  cf==1 )) {
+branch  0 taken 13 (fallthrough)
+branch  1 taken 131
+       13: 1327-block  0
+branch  2 taken 13 (fallthrough)
+branch  3 taken 0
+       13: 1328:printf("POINT: 328\n");
+       13: 1328-block  0
+call    0 returned 13
+       13: 1329:printf("POINT: 329\n");
+call    0 returned 13
+        -: 1330:
+       13: 1331:    	if(( cf==1  && a1518986556 == 1)) {
+branch  0 taken 13 (fallthrough)
+branch  1 taken 0
+       13: 1331-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 13
+    #####: 1332:printf("POINT: 330\n");
+    $$$$$: 1332-block  0
+call    0 never executed
+    #####: 1333:    		calculate_outputm4(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1334:    	} 
+       13: 1335:printf("POINT: 331\n");
+       13: 1335-block  0
+call    0 returned 13
+        -: 1336:
+       13: 1337:    	if((a1518986556 == 2 &&  cf==1 )) {
+branch  0 taken 3 (fallthrough)
+branch  1 taken 10
+        3: 1337-block  0
+branch  2 taken 3 (fallthrough)
+branch  3 taken 0
+        3: 1338:printf("POINT: 332\n");
+        3: 1338-block  0
+call    0 returned 3
+        3: 1339:    		calculate_outputm5(input);
+call    0 returned 3
+unconditional  1 taken 3
+        -: 1340:    	} 
+       13: 1341:printf("POINT: 333\n");
+       13: 1341-block  0
+call    0 returned 13
+        -: 1342:
+       13: 1343:    	if((a1518986556 == 3 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 13
+    $$$$$: 1343-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1344:printf("POINT: 334\n");
+    $$$$$: 1344-block  0
+call    0 never executed
+    #####: 1345:    		calculate_outputm6(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1346:    	} 
+       13: 1347:printf("POINT: 335\n");
+       13: 1347-block  0
+call    0 returned 13
+        -: 1348:
+       13: 1349:    	if((a1518986556 == 4 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 13
+    $$$$$: 1349-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1350:printf("POINT: 336\n");
+    $$$$$: 1350-block  0
+call    0 never executed
+    #####: 1351:    		calculate_outputm7(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1352:    	} 
+       13: 1353:printf("POINT: 337\n");
+       13: 1353-block  0
+call    0 returned 13
+        -: 1354:
+       13: 1355:    	if((a1518986556 == 6 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 13
+    $$$$$: 1355-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1356:printf("POINT: 338\n");
+    $$$$$: 1356-block  0
+call    0 never executed
+    #####: 1357:    		calculate_outputm8(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1358:    	} 
+       13: 1359:printf("POINT: 339\n");
+       13: 1359-block  0
+call    0 returned 13
+        -: 1360:
+       13: 1361:    	if((a1518986556 == 7 &&  cf==1 )) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 7
+        6: 1361-block  0
+branch  2 taken 6 (fallthrough)
+branch  3 taken 0
+        6: 1362:printf("POINT: 340\n");
+        6: 1362-block  0
+call    0 returned 6
+        6: 1363:    		calculate_outputm9(input);
+call    0 returned 6
+unconditional  1 taken 6
+        -: 1364:    	} 
+       13: 1365:printf("POINT: 341\n");
+       13: 1365-block  0
+call    0 returned 13
+        -: 1366:
+       13: 1367:    	if(( cf==1  && a1518986556 == 8)) {
+branch  0 taken 5 (fallthrough)
+branch  1 taken 8
+        5: 1367-block  0
+branch  2 taken 4 (fallthrough)
+branch  3 taken 1
+        4: 1368:printf("POINT: 342\n");
+        4: 1368-block  0
+call    0 returned 4
+        4: 1369:    		calculate_outputm10(input);
+call    0 returned 4
+unconditional  1 taken 4
+        -: 1370:    	} 
+        -: 1371:    } 
+      144: 1372:printf("POINT: 343\n");
+      144: 1372-block  0
+call    0 returned 144
+        -: 1373:
+      144: 1374:    if(( cf==1  && a778335169 == a2027611119[2])) {
+branch  0 taken 108 (fallthrough)
+branch  1 taken 36
+      108: 1374-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 108
+    #####: 1375:printf("POINT: 344\n");
+    $$$$$: 1375-block  0
+call    0 never executed
+    #####: 1376:printf("POINT: 345\n");
+call    0 never executed
+        -: 1377:
+    #####: 1378:    	if((a162289881 == 7 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1378-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1379:printf("POINT: 346\n");
+    $$$$$: 1379-block  0
+call    0 never executed
+    #####: 1380:    		calculate_outputm11(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1381:    	} 
+    #####: 1382:printf("POINT: 347\n");
+    $$$$$: 1382-block  0
+call    0 never executed
+        -: 1383:
+    #####: 1384:    	if((a162289881 == 10 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1384-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1385:printf("POINT: 348\n");
+    $$$$$: 1385-block  0
+call    0 never executed
+    #####: 1386:    		calculate_outputm12(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1387:    	} 
+    #####: 1388:printf("POINT: 349\n");
+    $$$$$: 1388-block  0
+call    0 never executed
+        -: 1389:
+    #####: 1390:    	if(( cf==1  && a162289881 == 11)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1390-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1391:printf("POINT: 350\n");
+    $$$$$: 1391-block  0
+call    0 never executed
+    #####: 1392:    		calculate_outputm13(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1393:    	} 
+    #####: 1394:printf("POINT: 351\n");
+    $$$$$: 1394-block  0
+call    0 never executed
+        -: 1395:
+    #####: 1396:    	if(( cf==1  && a162289881 == 12)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1396-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1397:printf("POINT: 352\n");
+    $$$$$: 1397-block  0
+call    0 never executed
+    #####: 1398:    		calculate_outputm14(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1399:    	} 
+    #####: 1400:printf("POINT: 353\n");
+    $$$$$: 1400-block  0
+call    0 never executed
+        -: 1401:
+    #####: 1402:    	if((a162289881 == 13 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1402-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1403:printf("POINT: 354\n");
+    $$$$$: 1403-block  0
+call    0 never executed
+    #####: 1404:    		calculate_outputm15(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1405:    	} 
+    #####: 1406:printf("POINT: 355\n");
+    $$$$$: 1406-block  0
+call    0 never executed
+        -: 1407:
+    #####: 1408:    	if(( cf==1  && a162289881 == 14)) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1408-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1409:printf("POINT: 356\n");
+    $$$$$: 1409-block  0
+call    0 never executed
+    #####: 1410:    		calculate_outputm16(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1411:    	} 
+        -: 1412:    } 
+      144: 1413:printf("POINT: 357\n");
+      144: 1413-block  0
+call    0 returned 144
+        -: 1414:
+      144: 1415:    if(( cf==1  && a778335169 == a2027611119[3])) {
+branch  0 taken 108 (fallthrough)
+branch  1 taken 36
+      108: 1415-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 108
+    #####: 1416:printf("POINT: 358\n");
+    $$$$$: 1416-block  0
+call    0 never executed
+    #####: 1417:printf("POINT: 359\n");
+call    0 never executed
+        -: 1418:
+    #####: 1419:    	if((a1056944550 == 33 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1419-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1420:printf("POINT: 360\n");
+    $$$$$: 1420-block  0
+call    0 never executed
+    #####: 1421:    		calculate_outputm17(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1422:    	} 
+    #####: 1423:printf("POINT: 361\n");
+    $$$$$: 1423-block  0
+call    0 never executed
+        -: 1424:
+    #####: 1425:    	if((a1056944550 == 32 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1425-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1426:printf("POINT: 362\n");
+    $$$$$: 1426-block  0
+call    0 never executed
+    #####: 1427:    		calculate_outputm18(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1428:    	} 
+    #####: 1429:printf("POINT: 363\n");
+    $$$$$: 1429-block  0
+call    0 never executed
+        -: 1430:
+    #####: 1431:    	if((a1056944550 == 34 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1431-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1432:printf("POINT: 364\n");
+    $$$$$: 1432-block  0
+call    0 never executed
+    #####: 1433:    		calculate_outputm19(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1434:    	} 
+    #####: 1435:printf("POINT: 365\n");
+    $$$$$: 1435-block  0
+call    0 never executed
+        -: 1436:
+    #####: 1437:    	if((a1056944550 == 35 &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1437-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1438:printf("POINT: 366\n");
+    $$$$$: 1438-block  0
+call    0 never executed
+    #####: 1439:    		calculate_outputm20(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1440:    	} 
+        -: 1441:    } 
+      144: 1442:printf("POINT: 367\n");
+      144: 1442-block  0
+call    0 returned 144
+        -: 1443:
+      144: 1444:    if((a778335169 == a2027611119[4] &&  cf==1 )) {
+branch  0 taken 13 (fallthrough)
+branch  1 taken 131
+       13: 1444-block  0
+branch  2 taken 8 (fallthrough)
+branch  3 taken 5
+        8: 1445:printf("POINT: 368\n");
+        8: 1445-block  0
+call    0 returned 8
+        8: 1446:printf("POINT: 369\n");
+call    0 returned 8
+        -: 1447:
+        8: 1448:    	if(( cf==1  && a1663271343 == 32)) {
+branch  0 taken 8 (fallthrough)
+branch  1 taken 0
+        8: 1448-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 8
+    #####: 1449:printf("POINT: 370\n");
+    $$$$$: 1449-block  0
+call    0 never executed
+    #####: 1450:    		calculate_outputm21(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1451:    	} 
+        8: 1452:printf("POINT: 371\n");
+        8: 1452-block  0
+call    0 returned 8
+        -: 1453:
+        8: 1454:    	if(( cf==1  && a1663271343 == 34)) {
+branch  0 taken 8 (fallthrough)
+branch  1 taken 0
+        8: 1454-block  0
+branch  2 taken 8 (fallthrough)
+branch  3 taken 0
+        8: 1455:printf("POINT: 372\n");
+        8: 1455-block  0
+call    0 returned 8
+        8: 1456:    		calculate_outputm22(input);
+call    0 returned 8
+unconditional  1 taken 8
+        -: 1457:    	} 
+        8: 1458:printf("POINT: 373\n");
+        8: 1458-block  0
+call    0 returned 8
+        -: 1459:
+        8: 1460:    	if(( cf==1  && a1663271343 == 35)) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 8
+    $$$$$: 1460-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1461:printf("POINT: 374\n");
+    $$$$$: 1461-block  0
+call    0 never executed
+    #####: 1462:    		calculate_outputm23(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1463:    	} 
+        8: 1464:printf("POINT: 375\n");
+        8: 1464-block  0
+call    0 returned 8
+        -: 1465:
+        8: 1466:    	if((a1663271343 == 36 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 8
+    $$$$$: 1466-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1467:printf("POINT: 376\n");
+    $$$$$: 1467-block  0
+call    0 never executed
+    #####: 1468:    		calculate_outputm24(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1469:    	} 
+        -: 1470:    } 
+      144: 1471:printf("POINT: 377\n");
+      144: 1471-block  0
+call    0 returned 144
+        -: 1472:
+      144: 1473:    if((a778335169 == a2027611119[5] &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 144
+    $$$$$: 1473-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1474:printf("POINT: 378\n");
+    $$$$$: 1474-block  0
+call    0 never executed
+    #####: 1475:printf("POINT: 379\n");
+call    0 never executed
+        -: 1476:
+    #####: 1477:    	if(( cf==1  && (9 == a1979864000[4]))) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1477-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1478:printf("POINT: 380\n");
+    $$$$$: 1478-block  0
+call    0 never executed
+    #####: 1479:    		calculate_outputm25(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1480:    	} 
+    #####: 1481:printf("POINT: 381\n");
+    $$$$$: 1481-block  0
+call    0 never executed
+        -: 1482:
+    #####: 1483:    	if(((16 == a1979864000[5]) &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1483-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1484:printf("POINT: 382\n");
+    $$$$$: 1484-block  0
+call    0 never executed
+    #####: 1485:    		calculate_outputm26(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1486:    	} 
+    #####: 1487:printf("POINT: 383\n");
+    $$$$$: 1487-block  0
+call    0 never executed
+        -: 1488:
+    #####: 1489:    	if(((19 == a1979864000[2]) &&  cf==1 )) {
+branch  0 never executed
+branch  1 never executed
+    $$$$$: 1489-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1490:printf("POINT: 384\n");
+    $$$$$: 1490-block  0
+call    0 never executed
+    #####: 1491:    		calculate_outputm27(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1492:    	} 
+        -: 1493:    } 
+      144: 1494:printf("POINT: 385\n");
+      144: 1494-block  0
+call    0 returned 144
+        -: 1495:
+      144: 1496:    if((a778335169 == a2027611119[6] &&  cf==1 )) {
+branch  0 taken 26 (fallthrough)
+branch  1 taken 118
+       26: 1496-block  0
+branch  2 taken 26 (fallthrough)
+branch  3 taken 0
+       26: 1497:printf("POINT: 386\n");
+       26: 1497-block  0
+call    0 returned 26
+       26: 1498:printf("POINT: 387\n");
+call    0 returned 26
+        -: 1499:
+       26: 1500:    	if(( cf==1  && a1056944550 == 33)) {
+branch  0 taken 26 (fallthrough)
+branch  1 taken 0
+       26: 1500-block  0
+branch  2 taken 6 (fallthrough)
+branch  3 taken 20
+        6: 1501:printf("POINT: 388\n");
+        6: 1501-block  0
+call    0 returned 6
+        6: 1502:    		calculate_outputm28(input);
+call    0 returned 6
+unconditional  1 taken 6
+        -: 1503:    	} 
+       26: 1504:printf("POINT: 389\n");
+       26: 1504-block  0
+call    0 returned 26
+        -: 1505:
+       26: 1506:    	if((a1056944550 == 32 &&  cf==1 )) {
+branch  0 taken 6 (fallthrough)
+branch  1 taken 20
+        6: 1506-block  0
+branch  2 taken 6 (fallthrough)
+branch  3 taken 0
+        6: 1507:printf("POINT: 390\n");
+        6: 1507-block  0
+call    0 returned 6
+        6: 1508:    		calculate_outputm29(input);
+call    0 returned 6
+unconditional  1 taken 6
+        -: 1509:    	} 
+       26: 1510:printf("POINT: 391\n");
+       26: 1510-block  0
+call    0 returned 26
+        -: 1511:
+       26: 1512:    	if((a1056944550 == 34 &&  cf==1 )) {
+branch  0 taken 14 (fallthrough)
+branch  1 taken 12
+       14: 1512-block  0
+branch  2 taken 14 (fallthrough)
+branch  3 taken 0
+       14: 1513:printf("POINT: 392\n");
+       14: 1513-block  0
+call    0 returned 14
+       14: 1514:    		calculate_outputm30(input);
+call    0 returned 14
+unconditional  1 taken 14
+        -: 1515:    	} 
+       26: 1516:printf("POINT: 393\n");
+       26: 1516-block  0
+call    0 returned 26
+        -: 1517:
+       26: 1518:    	if(( cf==1  && a1056944550 == 35)) {
+branch  0 taken 3 (fallthrough)
+branch  1 taken 23
+        3: 1518-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 3
+    #####: 1519:printf("POINT: 394\n");
+    $$$$$: 1519-block  0
+call    0 never executed
+    #####: 1520:    		calculate_outputm31(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1521:    	} 
+       26: 1522:printf("POINT: 395\n");
+       26: 1522-block  0
+call    0 returned 26
+        -: 1523:
+       26: 1524:    	if((a1056944550 == 36 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 26
+    $$$$$: 1524-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1525:printf("POINT: 396\n");
+    $$$$$: 1525-block  0
+call    0 never executed
+    #####: 1526:    		calculate_outputm32(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1527:    	} 
+        -: 1528:    } 
+      144: 1529:printf("POINT: 397\n");
+      144: 1529-block  0
+call    0 returned 144
+        -: 1530:
+      144: 1531:    if(( cf==1  && a778335169 == a2027611119[7])) {
+branch  0 taken 77 (fallthrough)
+branch  1 taken 67
+       77: 1531-block  0
+branch  2 taken 73 (fallthrough)
+branch  3 taken 4
+       73: 1532:printf("POINT: 398\n");
+       73: 1532-block  0
+call    0 returned 73
+       73: 1533:printf("POINT: 399\n");
+call    0 returned 73
+        -: 1534:
+       73: 1535:    	if((a190474899 <=  -129 &&  cf==1 )) {
+branch  0 taken 73 (fallthrough)
+branch  1 taken 0
+       73: 1535-block  0
+branch  2 taken 73 (fallthrough)
+branch  3 taken 0
+       73: 1536:printf("POINT: 400\n");
+       73: 1536-block  0
+call    0 returned 73
+       73: 1537:    		calculate_outputm33(input);
+call    0 returned 73
+unconditional  1 taken 73
+        -: 1538:    	} 
+       73: 1539:printf("POINT: 401\n");
+       73: 1539-block  0
+call    0 returned 73
+        -: 1540:
+       73: 1541:    	if(( cf==1  && ((-129 < a190474899) && (20 >= a190474899)))) {
+branch  0 taken 58 (fallthrough)
+branch  1 taken 15
+       58: 1541-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 58
+    $$$$$: 1541-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1542:printf("POINT: 402\n");
+    $$$$$: 1542-block  0
+call    0 never executed
+    #####: 1543:    		calculate_outputm34(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1544:    	} 
+       73: 1545:printf("POINT: 403\n");
+       73: 1545-block  0
+call    0 returned 73
+        -: 1546:
+       73: 1547:    	if((((20 < a190474899) && (101 >= a190474899)) &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 73
+    $$$$$: 1547-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$: 1547-block  1
+branch  4 never executed
+branch  5 never executed
+    #####: 1548:printf("POINT: 404\n");
+    $$$$$: 1548-block  0
+call    0 never executed
+    #####: 1549:    		calculate_outputm35(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1550:    	} 
+       73: 1551:printf("POINT: 405\n");
+       73: 1551-block  0
+call    0 returned 73
+        -: 1552:
+       73: 1553:    	if((101 < a190474899 &&  cf==1 )) {
+branch  0 taken 0 (fallthrough)
+branch  1 taken 73
+    $$$$$: 1553-block  0
+branch  2 never executed
+branch  3 never executed
+    #####: 1554:printf("POINT: 406\n");
+    $$$$$: 1554-block  0
+call    0 never executed
+    #####: 1555:    		calculate_outputm36(input);
+call    0 never executed
+unconditional  1 never executed
+        -: 1556:    	} 
+        -: 1557:    } 
+        -: 1558:
+        -: 1559:
+      144: 1560:printf("POINT: 407\n");
+      144: 1560-block  0
+call    0 returned 144
+        -: 1561:
+      144: 1562:    if( cf==1 ) 
+branch  0 taken 62 (fallthrough)
+branch  1 taken 82
+       62: 1563:printf("POINT: 408\n");
+       62: 1563-block  0
+call    0 returned 62
+unconditional  1 taken 62
+        -: 1564:	{
+        -: 1565:    	//fprintf(stderr, "Invalid input: %d\n", input); 
+        -: 1566:
+        -: 1567:	}
+      144: 1568: }
+        -: 1569:
+function main called 24 returned 100% blocks executed 100%
+       24: 1570:int main()
+       24: 1570-block  0
+        -: 1571:{
+       24: 1572:kappa = 0;
+        -: 1573:    // main i/o-loop
+        -: 1574:    
+       24: 1575:printf("POINT: 409\n");
+       24: 1575-block  0
+call    0 returned 24
+        -: 1576:
+      168: 1577:   for (int FLAG=0;FLAG<BOUND;FLAG++) {
+unconditional  0 taken 24
+unconditional  1 taken 144
+      168: 1577-block  0
+branch  2 taken 144
+branch  3 taken 24 (fallthrough)
+      144: 1578:printf("POINT: 410\n");
+      144: 1578-block  0
+call    0 returned 144
+      144: 1579:    int symb; scanf("%d",&symb);     
+call    0 returned 144
+        -: 1580:
+        -: 1581:        // read input
+        -: 1582:                
+        -: 1583:
+        -: 1584:        // operate eca engine
+      144: 1585:printf("POINT: 411\n");
+call    0 returned 144
+        -: 1586:
+      144: 1587:        if((symb != 7) && (symb != 10) && (symb != 8) && (symb != 3) && (symb != 6) && (symb != 1) && (symb != 9) && (symb != 4) && (symb!= 5) && (symb != 2))
+branch  0 taken 129 (fallthrough)
+branch  1 taken 15
+      129: 1587-block  0
+branch  2 taken 129 (fallthrough)
+branch  3 taken 0
+      129: 1587-block  1
+branch  4 taken 129 (fallthrough)
+branch  5 taken 0
+      129: 1587-block  2
+branch  6 taken 129 (fallthrough)
+branch  7 taken 0
+      129: 1587-block  3
+branch  8 taken 129 (fallthrough)
+branch  9 taken 0
+      129: 1587-block  4
+branch 10 taken 93 (fallthrough)
+branch 11 taken 36
+       93: 1587-block  5
+branch 12 taken 86 (fallthrough)
+branch 13 taken 7
+       86: 1587-block  6
+branch 14 taken 86 (fallthrough)
+branch 15 taken 0
+       86: 1587-block  7
+branch 16 taken 70 (fallthrough)
+branch 17 taken 16
+       70: 1587-block  8
+branch 18 taken 46 (fallthrough)
+branch 19 taken 24
+       46: 1588:printf("POINT: 412\n");
+       46: 1588-block  0
+call    0 returned 46
+unconditional  1 taken 46
+      144: 1589:          printf("This is return -2 \n");
+      144: 1589-block  0
+call    0 returned 144
+      144: 1590:         calculate_output(symb);
+call    0 returned 144
+      144: 1591:        printf("%d",symb);
+call    0 returned 144
+        -: 1592:    }
+       24: 1593:	return 0;
+       24: 1593-block  0
+unconditional  0 taken 24
+        -: 1594:}

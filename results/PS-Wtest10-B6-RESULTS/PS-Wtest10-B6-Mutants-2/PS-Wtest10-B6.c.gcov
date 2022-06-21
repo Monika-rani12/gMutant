@@ -1,0 +1,4950 @@
+        -:    0:Source:PS-Wtest10-B6.c
+        -:    0:Graph:PS-Wtest10-B6.gcno
+        -:    0:Data:PS-Wtest10-B6.gcda
+        -:    0:Runs:67
+        -:    0:Programs:1
+        -:    1:#include <assert.h>
+        -:    2:#include <math.h>
+        -:    3:#include<stdio.h>
+        -:    4:#ifdef LLBMC
+        -:    5:#include <llbmc.h>
+        -:    6:#else
+        -:    7://removed
+        -:    8:#endif
+        -:    9:#include <assert.h>
+        -:   10:#define BOUND 6
+        -:   11:
+        -:   12:
+        -:   13:// inputs
+        -:   14:int a= 1;
+        -:   15:int e= 5;
+        -:   16:int d= 4;
+        -:   17:int f= 6;
+        -:   18:int c= 3;
+        -:   19:
+        -:   20:// outputs
+        -:   21:int u = 21;
+        -:   22:int v = 22;
+        -:   23:int w = 23;
+        -:   24:int x = 24;
+        -:   25:int y = 25;
+        -:   26:int z = 26;
+        -:   27:
+        -:   28:
+        -:   29:int a25 = 0;
+        -:   30:int a11 = 0;
+        -:   31:int a28 = 7;
+        -:   32:int a19 = 1;
+        -:   33:int a21 = 1;
+        -:   34:int a17 = 8;
+        -:   35:int kappa;
+function calculate_output called 402 returned 100% blocks executed 74%
+      402:   36:int calculate_output(int input) {
+      402:   36-block  0
+      402:   37:printf("POINT: 1\n");
+      402:   37-block  0
+call    0 returned 402
+        -:   38:
+      402:   39:if((((!(a11==1)&&((a19==1)&&((input==4)&&((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9))))))&&(a21==1))&&(a17==8))){
+branch  0 taken 340 (fallthrough)
+branch  1 taken 62
+      340:   39-block  0
+branch  2 taken 265 (fallthrough)
+branch  3 taken 75
+      265:   39-block  1
+branch  4 taken 55 (fallthrough)
+branch  5 taken 210
+       55:   39-block  2
+branch  6 taken 37 (fallthrough)
+branch  7 taken 18
+       37:   39-block  3
+branch  8 taken 37 (fallthrough)
+branch  9 taken 0
+       55:   39-block  4
+branch 10 taken 18 (fallthrough)
+branch 11 taken 37
+       18:   39-block  5
+branch 12 taken 4 (fallthrough)
+branch 13 taken 14
+        4:   39-block  6
+branch 14 taken 4 (fallthrough)
+branch 15 taken 0
+        4:   39-block  7
+branch 16 taken 4 (fallthrough)
+branch 17 taken 0
+        4:   40:printf("POINT: 2\n");
+        4:   40-block  0
+call    0 returned 4
+        4:   41:a28 = 9;
+        4:   42:a11 = 1;
+        4:   43:a25 = 1;
+        4:   44:printf("%d",-1);//return -1;
+call    0 returned 4
+unconditional  1 taken 4
+        -:   45:} else{
+      398:   46:printf("POINT: 3\n");
+      398:   46-block  0
+call    0 returned 398
+        -:   47:
+      398:   48: if(((a17==8)&&((((!(a11==1)&&((a21==1)&&(input==6)))&&(a28==7))&&(a19==1))&&!(a25==1)))){
+branch  0 taken 375 (fallthrough)
+branch  1 taken 23
+      375:   48-block  0
+branch  2 taken 336 (fallthrough)
+branch  3 taken 39
+      336:   48-block  1
+branch  4 taken 336 (fallthrough)
+branch  5 taken 0
+      336:   48-block  2
+branch  6 taken 34 (fallthrough)
+branch  7 taken 302
+       34:   48-block  3
+branch  8 taken 17 (fallthrough)
+branch  9 taken 17
+       17:   48-block  4
+branch 10 taken 11 (fallthrough)
+branch 11 taken 6
+       11:   48-block  5
+branch 12 taken 8 (fallthrough)
+branch 13 taken 3
+        8:   49:printf("POINT: 4\n");
+        8:   49-block  0
+call    0 returned 8
+        8:   50:a28 = 10;
+        8:   51:printf("%d", 22);//return 22;
+call    0 returned 8
+unconditional  1 taken 8
+        -:   52:} else{
+      390:   53:printf("POINT: 5\n");
+      390:   53-block  0
+call    0 returned 390
+        -:   54:
+      390:   55: if(((a21==1)&&((a19==1)&&((((((a25==1)||!(a25==1))&&(input==3))&&(a17==9))&&(a11==1))&&(a28==9))))){
+branch  0 taken 390 (fallthrough)
+branch  1 taken 0
+      390:   55-block  0
+branch  2 taken 308 (fallthrough)
+branch  3 taken 82
+      308:   55-block  1
+branch  4 taken 174 (fallthrough)
+branch  5 taken 134
+      174:   55-block  2
+branch  6 taken 174 (fallthrough)
+branch  7 taken 0
+      308:   55-block  3
+branch  8 taken 61 (fallthrough)
+branch  9 taken 247
+       61:   55-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 61
+    $$$$$:   55-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:   55-block  6
+branch 14 never executed
+branch 15 never executed
+    #####:   56:printf("POINT: 6\n");
+    $$$$$:   56-block  0
+call    0 never executed
+    #####:   57:a28 = 7;
+    #####:   58:a25 = 1;
+    #####:   59:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:   60:} else{
+      390:   61:printf("POINT: 7\n");
+      390:   61-block  0
+call    0 returned 390
+        -:   62:
+      390:   63: if(((a28==9)&&(!(a19==1)&&((a21==1)&&((((input==4)&&!(a25==1))&&!(a11==1))&&(a17==8)))))){
+branch  0 taken 81 (fallthrough)
+branch  1 taken 309
+       81:   63-block  0
+branch  2 taken 4 (fallthrough)
+branch  3 taken 77
+        4:   63-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 0
+        4:   63-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 3
+        1:   63-block  3
+branch  8 taken 0 (fallthrough)
+branch  9 taken 1
+    $$$$$:   63-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   63-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:   64:printf("POINT: 8\n");
+    $$$$$:   64-block  0
+call    0 never executed
+    #####:   65:a25 = 1;
+    #####:   66:a19 = 1;
+    #####:   67:a11 = 1;
+    #####:   68:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:   69:} else{
+      390:   70:printf("POINT: 9\n");
+      390:   70-block  0
+call    0 returned 390
+        -:   71:
+      390:   72: if(((((a17==8)&&((((input==1)&&((a25==1)||!(a25==1)))&&!(a11==1))&&(a19==1)))&&(a21==1))&&(a28==10))){
+branch  0 taken 367 (fallthrough)
+branch  1 taken 23
+      367:   72-block  0
+branch  2 taken 34 (fallthrough)
+branch  3 taken 333
+       34:   72-block  1
+branch  4 taken 20 (fallthrough)
+branch  5 taken 14
+       20:   72-block  2
+branch  6 taken 20 (fallthrough)
+branch  7 taken 0
+       34:   72-block  3
+branch  8 taken 28 (fallthrough)
+branch  9 taken 6
+       28:   72-block  4
+branch 10 taken 25 (fallthrough)
+branch 11 taken 3
+       25:   72-block  5
+branch 12 taken 25 (fallthrough)
+branch 13 taken 0
+       25:   72-block  6
+branch 14 taken 9 (fallthrough)
+branch 15 taken 16
+        9:   73:printf("POINT: 10\n");
+        9:   73-block  0
+call    0 returned 9
+        9:   74:a25 = 0;
+        9:   75:printf("%d",-1);//return -1;
+call    0 returned 9
+unconditional  1 taken 9
+        -:   76:} else{
+      381:   77:printf("POINT: 11\n");
+      381:   77-block  0
+call    0 returned 381
+        -:   78:
+      381:   79: if(((a19==1)&&(!(a25==1)&&((a21==1)&&((((input==1)&&(a17==8))&&!(a11==1))&&(a28==7)))))){
+branch  0 taken 299 (fallthrough)
+branch  1 taken 82
+      299:   79-block  0
+branch  2 taken 167 (fallthrough)
+branch  3 taken 132
+      167:   79-block  1
+branch  4 taken 167 (fallthrough)
+branch  5 taken 0
+      167:   79-block  2
+branch  6 taken 11 (fallthrough)
+branch  7 taken 156
+       11:   79-block  3
+branch  8 taken 11 (fallthrough)
+branch  9 taken 0
+       11:   79-block  4
+branch 10 taken 9 (fallthrough)
+branch 11 taken 2
+        9:   79-block  5
+branch 12 taken 7 (fallthrough)
+branch 13 taken 2
+        7:   80:printf("POINT: 12\n");
+        7:   80-block  0
+call    0 returned 7
+        7:   81:a28 = 11;
+        7:   82:a25 = 1;
+        7:   83:printf("%d", 26);//return 26;
+call    0 returned 7
+unconditional  1 taken 7
+        -:   84:} else{
+      374:   85:printf("POINT: 13\n");
+      374:   85-block  0
+call    0 returned 374
+        -:   86:
+      374:   87: if(((((!(a19==1)&&((input==1)&&((((a25==1)&&(a28==7))||((a28==7)&&!(a25==1)))||((a25==1)&&(a28==8)))))&&(a21==1))&&(a17==8))&&!(a11==1))){
+branch  0 taken 82 (fallthrough)
+branch  1 taken 292
+       82:   87-block  0
+branch  2 taken 5 (fallthrough)
+branch  3 taken 77
+        5:   87-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 3
+        2:   87-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 0
+        5:   87-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 4
+        1:   87-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 1
+        4:   87-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 2
+        2:   87-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 2
+        1:   87-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:   87-block  8
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0
+        1:   87-block  9
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0
+        1:   88:printf("POINT: 14\n");
+        1:   88-block  0
+call    0 returned 1
+        1:   89:a28 = 7;
+        1:   90:a11 = 1;
+        1:   91:a25 = 0;
+        1:   92:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:   93:} else{
+      373:   94:printf("POINT: 15\n");
+      373:   94-block  0
+call    0 returned 373
+        -:   95:
+      373:   96: if(((a19==1)&&(((((input==1)&&(((a25==1)&&(a28==8))||(((a28==7)&&(a25==1))||((a28==7)&&!(a25==1)))))&&(a11==1))&&(a21==1))&&(a17==9)))){
+branch  0 taken 292 (fallthrough)
+branch  1 taken 81
+      292:   96-block  0
+branch  2 taken 19 (fallthrough)
+branch  3 taken 273
+       19:   96-block  1
+branch  4 taken 15 (fallthrough)
+branch  5 taken 4
+       15:   96-block  2
+branch  6 taken 14 (fallthrough)
+branch  7 taken 1
+       18:   96-block  3
+branch  8 taken 7 (fallthrough)
+branch  9 taken 11
+        7:   96-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 7
+       11:   96-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 11
+    $$$$$:   96-block  6
+branch 14 never executed
+branch 15 never executed
+        8:   96-block  7
+branch 16 taken 4 (fallthrough)
+branch 17 taken 4
+        4:   96-block  8
+branch 18 taken 4 (fallthrough)
+branch 19 taken 0
+        4:   96-block  9
+branch 20 taken 0 (fallthrough)
+branch 21 taken 4
+    #####:   97:printf("POINT: 16\n");
+    $$$$$:   97-block  0
+call    0 never executed
+    #####:   98:a28 = 11;
+    #####:   99:a17 = 7;
+    #####:  100:a11 = 0;
+    #####:  101:a25 = 1;
+    #####:  102:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  103:} else{
+      373:  104:printf("POINT: 17\n");
+      373:  104-block  0
+call    0 returned 373
+        -:  105:
+      373:  106: if(((a19==1)&&(((a17==8)&&(((input==6)&&((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9))))&&!(a11==1)))&&(a21==1)))){
+branch  0 taken 292 (fallthrough)
+branch  1 taken 81
+      292:  106-block  0
+branch  2 taken 276 (fallthrough)
+branch  3 taken 16
+      276:  106-block  1
+branch  4 taken 24 (fallthrough)
+branch  5 taken 252
+       24:  106-block  2
+branch  6 taken 7 (fallthrough)
+branch  7 taken 17
+        7:  106-block  3
+branch  8 taken 7 (fallthrough)
+branch  9 taken 0
+       24:  106-block  4
+branch 10 taken 17 (fallthrough)
+branch 11 taken 7
+       17:  106-block  5
+branch 12 taken 5 (fallthrough)
+branch 13 taken 12
+        5:  106-block  6
+branch 14 taken 1 (fallthrough)
+branch 15 taken 4
+        1:  106-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:  107:printf("POINT: 18\n");
+        1:  107-block  0
+call    0 returned 1
+        1:  108:a28 = 10;
+        1:  109:a25 = 0;
+        1:  110:printf("%d", 22);//return 22;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  111:} else{
+      372:  112:printf("POINT: 19\n");
+      372:  112-block  0
+call    0 returned 372
+        -:  113:
+      372:  114: if((!(a11==1)&&((((a21==1)&&((input==1)&&(((a28==8)&&!(a25==1))||((a25==1)&&(a28==9)))))&&!(a19==1))&&(a17==8)))){
+branch  0 taken 310 (fallthrough)
+branch  1 taken 62
+      310:  114-block  0
+branch  2 taken 310 (fallthrough)
+branch  3 taken 0
+      310:  114-block  1
+branch  4 taken 11 (fallthrough)
+branch  5 taken 299
+       11:  114-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 9
+        2:  114-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 1
+       10:  114-block  4
+branch 10 taken 8 (fallthrough)
+branch 11 taken 2
+        8:  114-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 6
+        3:  114-block  6
+branch 14 taken 1 (fallthrough)
+branch 15 taken 2
+        1:  114-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:  115:printf("POINT: 20\n");
+        1:  115-block  0
+call    0 returned 1
+        1:  116:a28 = 7;
+        1:  117:a25 = 0;
+        1:  118:a11 = 1;
+        1:  119:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  120:} else{
+      371:  121:printf("POINT: 21\n");
+      371:  121-block  0
+call    0 returned 371
+        -:  122:
+      371:  123: if((!(a19==1)&&(((((a17==8)&&((a25==1)&&(input==3)))&&(a28==10))&&!(a11==1))&&(a21==1)))){
+branch  0 taken 80 (fallthrough)
+branch  1 taken 291
+       80:  123-block  0
+branch  2 taken 73 (fallthrough)
+branch  3 taken 7
+       73:  123-block  1
+branch  4 taken 21 (fallthrough)
+branch  5 taken 52
+       21:  123-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 20
+        1:  123-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0
+        1:  123-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  123-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  124:printf("POINT: 22\n");
+        1:  124-block  0
+call    0 returned 1
+        1:  125:printf("POINT: 23\n");
+call    0 returned 1
+        -:  126:
+        1:  127:if((a19==1)){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+    #####:  128:printf("POINT: 24\n");
+    $$$$$:  128-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  129:
+        -:  130:}else{
+        1:  131:a19 = 1;
+        1:  132:a28 = 8;
+        1:  132-block  0
+unconditional  0 taken 1
+        -:  133:}
+        1:  134:printf("%d", 26);//return 26;
+        1:  134-block  0
+call    0 returned 1
+unconditional  1 taken 1
+        -:  135:} else{
+      370:  136:printf("POINT: 25\n");
+      370:  136-block  0
+call    0 returned 370
+        -:  137:
+      370:  138: if((((!(a19==1)&&((a21==1)&&((((a25==1)&&(a28==8))||(((a28==7)&&(a25==1))||((a28==7)&&!(a25==1))))&&(input==4))))&&!(a11==1))&&(a17==8))){
+branch  0 taken 79 (fallthrough)
+branch  1 taken 291
+       79:  138-block  0
+branch  2 taken 79 (fallthrough)
+branch  3 taken 0
+       79:  138-block  1
+branch  4 taken 24 (fallthrough)
+branch  5 taken 55
+       24:  138-block  2
+branch  6 taken 24 (fallthrough)
+branch  7 taken 0
+       79:  138-block  3
+branch  8 taken 45 (fallthrough)
+branch  9 taken 34
+       45:  138-block  4
+branch 10 taken 45 (fallthrough)
+branch 11 taken 0
+       79:  138-block  5
+branch 12 taken 45 (fallthrough)
+branch 13 taken 34
+       45:  138-block  6
+branch 14 taken 45 (fallthrough)
+branch 15 taken 0
+       45:  138-block  7
+branch 16 taken 6 (fallthrough)
+branch 17 taken 39
+        6:  138-block  8
+branch 18 taken 6 (fallthrough)
+branch 19 taken 0
+        6:  138-block  9
+branch 20 taken 6 (fallthrough)
+branch 21 taken 0
+        6:  139:printf("POINT: 26\n");
+        6:  139-block  0
+call    0 returned 6
+        6:  140:printf("POINT: 27\n");
+call    0 returned 6
+        -:  141:
+        6:  142:if((a28==10)){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 6
+    #####:  143:printf("POINT: 28\n");
+    $$$$$:  143-block  0
+call    0 never executed
+    #####:  144:a28 = 7;
+    #####:  145:a25 = 1;
+unconditional  0 never executed
+        -:  146:}else{
+        6:  147:a28 = 8;
+        6:  148:a25 = 0;
+        6:  148-block  0
+unconditional  0 taken 6
+        -:  149:}
+        6:  150:printf("%d", 22);//return 22;
+        6:  150-block  0
+call    0 returned 6
+unconditional  1 taken 6
+        -:  151:} else{
+      364:  152:printf("POINT: 29\n");
+      364:  152-block  0
+call    0 returned 364
+        -:  153:
+      364:  154: if(((a17==8)&&((a21==1)&&((a25==1)&&((a19==1)&&(!(a11==1)&&((a28==11)&&(input==3)))))))){
+branch  0 taken 341 (fallthrough)
+branch  1 taken 23
+      341:  154-block  0
+branch  2 taken 341 (fallthrough)
+branch  3 taken 0
+      341:  154-block  1
+branch  4 taken 135 (fallthrough)
+branch  5 taken 206
+      135:  154-block  2
+branch  6 taken 115 (fallthrough)
+branch  7 taken 20
+      115:  154-block  3
+branch  8 taken 91 (fallthrough)
+branch  9 taken 24
+       91:  154-block  4
+branch 10 taken 31 (fallthrough)
+branch 11 taken 60
+       31:  154-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 30
+        1:  155:printf("POINT: 30\n");
+        1:  155-block  0
+call    0 returned 1
+        1:  156:a28 = 10;
+        1:  157:a25 = 0;
+        1:  158:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  159:} else{
+      363:  160:printf("POINT: 31\n");
+      363:  160-block  0
+call    0 returned 363
+        -:  161:
+      363:  162: if(((a28==9)&&(((!(a19==1)&&(((input==3)&&!(a11==1))&&(a17==8)))&&!(a25==1))&&(a21==1)))){
+branch  0 taken 80 (fallthrough)
+branch  1 taken 283
+       80:  162-block  0
+branch  2 taken 4 (fallthrough)
+branch  3 taken 76
+        4:  162-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 3
+        1:  162-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 1
+    $$$$$:  162-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  162-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  162-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  163:printf("POINT: 32\n");
+    $$$$$:  163-block  0
+call    0 never executed
+    #####:  164:a28 = 10;
+    #####:  165:a19 = 1;
+    #####:  166:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  167:} else{
+      363:  168:printf("POINT: 33\n");
+      363:  168-block  0
+call    0 returned 363
+        -:  169:
+      363:  170: if(((!(a11==1)&&(((a28==11)&&((a25==1)&&((input==1)&&(a19==1))))&&(a17==8)))&&(a21==1))){
+branch  0 taken 301 (fallthrough)
+branch  1 taken 62
+      301:  170-block  0
+branch  2 taken 30 (fallthrough)
+branch  3 taken 271
+       30:  170-block  1
+branch  4 taken 30 (fallthrough)
+branch  5 taken 0
+       30:  170-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 29
+        1:  170-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0
+        1:  170-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  170-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  171:printf("POINT: 34\n");
+        1:  171-block  0
+call    0 returned 1
+        1:  172:a17 = 7;
+        1:  173:a25 = 0;
+        1:  174:a11 = 1;
+        1:  175:a28 = 10;
+        1:  176:a19 = 0;
+        1:  177:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  178:} else{
+      362:  179:printf("POINT: 35\n");
+      362:  179-block  0
+call    0 returned 362
+        -:  180:
+      362:  181: if((((a11==1)&&((((((a25==1)&&(a28==8))||(((a25==1)&&(a28==7))||(!(a25==1)&&(a28==7))))&&(input==6))&&(a19==1))&&(a17==9)))&&(a21==1))){
+branch  0 taken 62 (fallthrough)
+branch  1 taken 300
+       62:  181-block  0
+branch  2 taken 44 (fallthrough)
+branch  3 taken 18
+       44:  181-block  1
+branch  4 taken 44 (fallthrough)
+branch  5 taken 0
+       62:  181-block  2
+branch  6 taken 44 (fallthrough)
+branch  7 taken 18
+       44:  181-block  3
+branch  8 taken 28 (fallthrough)
+branch  9 taken 16
+       46:  181-block  4
+branch 10 taken 18 (fallthrough)
+branch 11 taken 28
+       18:  181-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 18
+       16:  181-block  6
+branch 14 taken 1 (fallthrough)
+branch 15 taken 15
+        1:  181-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:  181-block  8
+branch 18 taken 0 (fallthrough)
+branch 19 taken 1
+    $$$$$:  181-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  182:printf("POINT: 36\n");
+    $$$$$:  182-block  0
+call    0 never executed
+    #####:  183:a17 = 8;
+    #####:  184:a25 = 0;
+    #####:  185:a19 = 0;
+    #####:  186:a28 = 11;
+    #####:  187:a11 = 0;
+    #####:  188:printf("%d", 23);//return 23;
+call    0 never executed
+unconditional  1 never executed
+        -:  189:} else{
+      362:  190:printf("POINT: 37\n");
+      362:  190-block  0
+call    0 returned 362
+        -:  191:
+      362:  192: if(((a17==8)&&((a21==1)&&(!(a11==1)&&(!(a19==1)&&(((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9)))&&(input==3))))))){
+branch  0 taken 339 (fallthrough)
+branch  1 taken 23
+      339:  192-block  0
+branch  2 taken 339 (fallthrough)
+branch  3 taken 0
+      339:  192-block  1
+branch  4 taken 300 (fallthrough)
+branch  5 taken 39
+      300:  192-block  2
+branch  6 taken 66 (fallthrough)
+branch  7 taken 234
+       66:  192-block  3
+branch  8 taken 46 (fallthrough)
+branch  9 taken 20
+       46:  192-block  4
+branch 10 taken 39 (fallthrough)
+branch 11 taken 7
+       59:  192-block  5
+branch 12 taken 20 (fallthrough)
+branch 13 taken 39
+       20:  192-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 20
+        7:  192-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 6
+        1:  193:printf("POINT: 38\n");
+        1:  193-block  0
+call    0 returned 1
+        1:  194:a28 = 10;
+        1:  195:a19 = 1;
+        1:  196:a11 = 1;
+        1:  197:a25 = 1;
+        1:  198:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  199:} else{
+      361:  200:printf("POINT: 39\n");
+      361:  200-block  0
+call    0 returned 361
+        -:  201:
+      361:  202: if((((((a21==1)&&((a28==10)&&((input==1)&&(a25==1))))&&!(a11==1))&&(a17==8))&&!(a19==1))){
+branch  0 taken 361 (fallthrough)
+branch  1 taken 0
+      361:  202-block  0
+branch  2 taken 70 (fallthrough)
+branch  3 taken 291
+       70:  202-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 66
+        4:  202-block  2
+branch  6 taken 3 (fallthrough)
+branch  7 taken 1
+        3:  202-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 2
+        1:  202-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  202-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  203:printf("POINT: 40\n");
+        1:  203-block  0
+call    0 returned 1
+        1:  204:a25 = 0;
+        1:  205:a19 = 1;
+        1:  206:printf("%d", 26);//return 26;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  207:} else{
+      360:  208:printf("POINT: 41\n");
+      360:  208-block  0
+call    0 returned 360
+        -:  209:
+      360:  210: if((!(a11==1)&&(!(a19==1)&&(((a17==8)&&((input==6)&&((((a25==1)&&(a28==7))||((a28==7)&&!(a25==1)))||((a28==8)&&(a25==1)))))&&(a21==1))))){
+branch  0 taken 298 (fallthrough)
+branch  1 taken 62
+      298:  210-block  0
+branch  2 taken 64 (fallthrough)
+branch  3 taken 234
+       64:  210-block  1
+branch  4 taken 64 (fallthrough)
+branch  5 taken 0
+       64:  210-block  2
+branch  6 taken 9 (fallthrough)
+branch  7 taken 55
+        9:  210-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 7
+        2:  210-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 0
+        9:  210-block  5
+branch 12 taken 6 (fallthrough)
+branch 13 taken 3
+        6:  210-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 6
+        3:  210-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 2
+        1:  210-block  8
+branch 18 taken 0 (fallthrough)
+branch 19 taken 1
+        6:  210-block  9
+branch 20 taken 6 (fallthrough)
+branch 21 taken 0
+        6:  211:printf("POINT: 42\n");
+        6:  211-block  0
+call    0 returned 6
+        6:  212:a17 = 7;
+        6:  213:a25 = 1;
+        6:  214:a11 = 1;
+        6:  215:a28 = 7;
+        6:  216:a19 = 1;
+        6:  217:printf("%d",-1);//return -1;
+call    0 returned 6
+unconditional  1 taken 6
+        -:  218:} else{
+      354:  219:printf("POINT: 43\n");
+      354:  219-block  0
+call    0 returned 354
+        -:  220:
+      354:  221: if(((((a17==8)&&(!(a19==1)&&(((input==6)&&(a21==1))&&!(a25==1))))&&!(a11==1))&&(a28==9))){
+branch  0 taken 331 (fallthrough)
+branch  1 taken 23
+      331:  221-block  0
+branch  2 taken 58 (fallthrough)
+branch  3 taken 273
+       58:  221-block  1
+branch  4 taken 3 (fallthrough)
+branch  5 taken 55
+        3:  221-block  2
+branch  6 taken 3 (fallthrough)
+branch  7 taken 0
+        3:  221-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 2
+        1:  221-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  221-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 1
+    #####:  222:printf("POINT: 44\n");
+    $$$$$:  222-block  0
+call    0 never executed
+    #####:  223:a28 = 10;
+    #####:  224:a19 = 1;
+    #####:  225:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  226:} else{
+      354:  227:printf("POINT: 45\n");
+      354:  227-block  0
+call    0 returned 354
+        -:  228:
+      354:  229: if((!(a11==1)&&((!(a25==1)&&(((a21==1)&&((input==1)&&(a19==1)))&&(a17==8)))&&(a28==11)))){
+branch  0 taken 292 (fallthrough)
+branch  1 taken 62
+      292:  229-block  0
+branch  2 taken 184 (fallthrough)
+branch  3 taken 108
+      184:  229-block  1
+branch  4 taken 184 (fallthrough)
+branch  5 taken 0
+      184:  229-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 182
+        2:  229-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 0
+        2:  229-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 0
+        2:  229-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 2
+    #####:  230:printf("POINT: 46\n");
+    $$$$$:  230-block  0
+call    0 never executed
+    #####:  231:a28 = 7;
+    #####:  232:a19 = 0;
+    #####:  233:a11 = 1;
+    #####:  234:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  235:} else{
+      354:  236:printf("POINT: 47\n");
+      354:  236-block  0
+call    0 returned 354
+        -:  237:
+      354:  238: if((((a11==1)&&(((a19==1)&&((a21==1)&&(((a25==1)||!(a25==1))&&(input==4))))&&(a17==9)))&&(a28==9))){
+branch  0 taken 62 (fallthrough)
+branch  1 taken 292
+       62:  238-block  0
+branch  2 taken 55 (fallthrough)
+branch  3 taken 7
+       55:  238-block  1
+branch  4 taken 55 (fallthrough)
+branch  5 taken 0
+       55:  238-block  2
+branch  6 taken 15 (fallthrough)
+branch  7 taken 40
+       15:  238-block  3
+branch  8 taken 15 (fallthrough)
+branch  9 taken 0
+       55:  238-block  4
+branch 10 taken 9 (fallthrough)
+branch 11 taken 46
+        9:  238-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 9
+    $$$$$:  238-block  6
+branch 14 never executed
+branch 15 never executed
+    #####:  239:printf("POINT: 48\n");
+    $$$$$:  239-block  0
+call    0 never executed
+    #####:  240:a25 = 0;
+    #####:  241:a17 = 8;
+    #####:  242:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  243:} else{
+      354:  244:printf("POINT: 49\n");
+      354:  244-block  0
+call    0 returned 354
+        -:  245:
+      354:  246: if(((!(a11==1)&&((a28==9)&&(((!(a19==1)&&(input==5))&&!(a25==1))&&(a21==1))))&&(a17==8))){
+branch  0 taken 292 (fallthrough)
+branch  1 taken 62
+      292:  246-block  0
+branch  2 taken 49 (fallthrough)
+branch  3 taken 243
+       49:  246-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 49
+    $$$$$:  246-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  246-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  246-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  246-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  247:printf("POINT: 50\n");
+    $$$$$:  247-block  0
+call    0 never executed
+    #####:  248:a17 = 7;
+    #####:  249:a11 = 1;
+    #####:  250:a25 = 1;
+    #####:  251:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  252:} else{
+      354:  253:printf("POINT: 51\n");
+      354:  253-block  0
+call    0 returned 354
+        -:  254:
+      354:  255: if(((!(a11==1)&&(((a17==8)&&(((((a28==7)&&(a25==1))||(!(a25==1)&&(a28==7)))||((a28==8)&&(a25==1)))&&(input==3)))&&!(a19==1)))&&(a21==1))){
+branch  0 taken 292 (fallthrough)
+branch  1 taken 62
+      292:  255-block  0
+branch  2 taken 292 (fallthrough)
+branch  3 taken 0
+      292:  255-block  1
+branch  4 taken 129 (fallthrough)
+branch  5 taken 163
+      129:  255-block  2
+branch  6 taken 111 (fallthrough)
+branch  7 taken 18
+      274:  255-block  3
+branch  8 taken 184 (fallthrough)
+branch  9 taken 90
+      184:  255-block  4
+branch 10 taken 73 (fallthrough)
+branch 11 taken 111
+      163:  255-block  5
+branch 12 taken 31 (fallthrough)
+branch 13 taken 132
+       31:  255-block  6
+branch 14 taken 25 (fallthrough)
+branch 15 taken 6
+      154:  255-block  7
+branch 16 taken 21 (fallthrough)
+branch 17 taken 133
+       21:  255-block  8
+branch 18 taken 6 (fallthrough)
+branch 19 taken 15
+        6:  255-block  9
+branch 20 taken 6 (fallthrough)
+branch 21 taken 0
+        6:  256:printf("POINT: 52\n");
+        6:  256-block  0
+call    0 returned 6
+        6:  257:a11 = 1;
+        6:  258:a19 = 1;
+        6:  259:a28 = 10;
+        6:  260:a25 = 1;
+        6:  261:printf("%d",-1);//return -1;
+call    0 returned 6
+unconditional  1 taken 6
+        -:  262:} else{
+      348:  263:printf("POINT: 53\n");
+      348:  263-block  0
+call    0 returned 348
+        -:  264:
+      348:  265: if(((a21==1)&&(!(a19==1)&&((((input==5)&&(((a28==8)&&(a25==1))||(((a25==1)&&(a28==7))||(!(a25==1)&&(a28==7)))))&&!(a11==1))&&(a17==8))))){
+branch  0 taken 348 (fallthrough)
+branch  1 taken 0
+      348:  265-block  0
+branch  2 taken 59 (fallthrough)
+branch  3 taken 289
+       59:  265-block  1
+branch  4 taken 12 (fallthrough)
+branch  5 taken 47
+       12:  265-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 11
+        1:  265-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0
+       12:  265-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 10
+        2:  265-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+       12:  265-block  6
+branch 14 taken 10 (fallthrough)
+branch 15 taken 2
+       10:  265-block  7
+branch 16 taken 9 (fallthrough)
+branch 17 taken 1
+        9:  265-block  8
+branch 18 taken 9 (fallthrough)
+branch 19 taken 0
+        9:  265-block  9
+branch 20 taken 9 (fallthrough)
+branch 21 taken 0
+        9:  266:printf("POINT: 54\n");
+        9:  266-block  0
+call    0 returned 9
+        9:  267:a25 = 1;
+        9:  268:a19 = 1;
+        9:  269:a28 = 7;
+        9:  270:printf("%d",-1);//return -1;
+call    0 returned 9
+unconditional  1 taken 9
+        -:  271:} else{
+      339:  272:printf("POINT: 55\n");
+      339:  272-block  0
+call    0 returned 339
+        -:  273:
+      339:  274: if((((a17==9)&&(((a28==8)&&(((input==1)&&(a19==1))&&!(a25==1)))&&(a11==1)))&&(a21==1))){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 339
+    $$$$$:  274-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  274-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  274-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  274-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  274-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  274-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  275:printf("POINT: 56\n");
+    $$$$$:  275-block  0
+call    0 never executed
+    #####:  276:a17 = 8;
+    #####:  277:a19 = 0;
+    #####:  278:a28 = 9;
+    #####:  279:a25 = 1;
+    #####:  280:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  281:} else{
+      339:  282:printf("POINT: 57\n");
+      339:  282-block  0
+call    0 returned 339
+        -:  283:
+      339:  284: if((((a21==1)&&((a19==1)&&((a28==7)&&((a17==8)&&(!(a25==1)&&(input==3))))))&&!(a11==1))){
+branch  0 taken 339 (fallthrough)
+branch  1 taken 0
+      339:  284-block  0
+branch  2 taken 289 (fallthrough)
+branch  3 taken 50
+      289:  284-block  1
+branch  4 taken 112 (fallthrough)
+branch  5 taken 177
+      112:  284-block  2
+branch  6 taken 96 (fallthrough)
+branch  7 taken 16
+       96:  284-block  3
+branch  8 taken 78 (fallthrough)
+branch  9 taken 18
+       78:  284-block  4
+branch 10 taken 8 (fallthrough)
+branch 11 taken 70
+        8:  284-block  5
+branch 12 taken 8 (fallthrough)
+branch 13 taken 0
+        8:  285:printf("POINT: 58\n");
+        8:  285-block  0
+call    0 returned 8
+        8:  286:a25 = 1;
+        8:  287:a28 = 9;
+        8:  288:printf("%d", 26);//return 26;
+call    0 returned 8
+unconditional  1 taken 8
+        -:  289:} else{
+      331:  290:printf("POINT: 59\n");
+      331:  290-block  0
+call    0 returned 331
+        -:  291:
+      331:  292: if(((a28==11)&&(((a17==8)&&((((input==6)&&(a21==1))&&(a19==1))&&!(a25==1)))&&!(a11==1)))){
+branch  0 taken 29 (fallthrough)
+branch  1 taken 302
+       29:  292-block  0
+branch  2 taken 29 (fallthrough)
+branch  3 taken 0
+       29:  292-block  1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 28
+        1:  292-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0
+        1:  292-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0
+        1:  292-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 1
+    $$$$$:  292-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  293:printf("POINT: 60\n");
+    $$$$$:  293-block  0
+call    0 never executed
+    #####:  294:a17 = 7;
+    #####:  295:a11 = 1;
+    #####:  296:a28 = 7;
+    #####:  297:a25 = 1;
+    #####:  298:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  299:} else{
+      331:  300:printf("POINT: 61\n");
+      331:  300-block  0
+call    0 returned 331
+        -:  301:
+      331:  302: if(((!(a11==1)&&(((a17==8)&&((a21==1)&&((input==3)&&(a28==8))))&&(a19==1)))&&(a25==1))){
+branch  0 taken 269 (fallthrough)
+branch  1 taken 62
+      269:  302-block  0
+branch  2 taken 269 (fallthrough)
+branch  3 taken 0
+      269:  302-block  1
+branch  4 taken 269 (fallthrough)
+branch  5 taken 0
+      269:  302-block  2
+branch  6 taken 42 (fallthrough)
+branch  7 taken 227
+       42:  302-block  3
+branch  8 taken 6 (fallthrough)
+branch  9 taken 36
+        6:  302-block  4
+branch 10 taken 6 (fallthrough)
+branch 11 taken 0
+        6:  302-block  5
+branch 12 taken 6 (fallthrough)
+branch 13 taken 0
+        6:  303:printf("POINT: 62\n");
+        6:  303-block  0
+call    0 returned 6
+        6:  304:a28 = 10;
+        6:  305:a19 = 0;
+        6:  306:printf("%d", 26);//return 26;
+call    0 returned 6
+unconditional  1 taken 6
+        -:  307:} else{
+      325:  308:printf("POINT: 63\n");
+      325:  308-block  0
+call    0 returned 325
+        -:  309:
+      325:  310: if((((a21==1)&&(((a19==1)&&(((((a25==1)&&(a28==7))||((a28==7)&&!(a25==1)))||((a25==1)&&(a28==8)))&&(input==4)))&&(a11==1)))&&(a17==9))){
+branch  0 taken 325 (fallthrough)
+branch  1 taken 0
+      325:  310-block  0
+branch  2 taken 275 (fallthrough)
+branch  3 taken 50
+      275:  310-block  1
+branch  4 taken 123 (fallthrough)
+branch  5 taken 152
+      123:  310-block  2
+branch  6 taken 89 (fallthrough)
+branch  7 taken 34
+      241:  310-block  3
+branch  8 taken 70 (fallthrough)
+branch  9 taken 171
+       70:  310-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 70
+      171:  310-block  5
+branch 12 taken 89 (fallthrough)
+branch 13 taken 82
+       89:  310-block  6
+branch 14 taken 19 (fallthrough)
+branch 15 taken 70
+      123:  310-block  7
+branch 16 taken 36 (fallthrough)
+branch 17 taken 87
+       36:  310-block  8
+branch 18 taken 1 (fallthrough)
+branch 19 taken 35
+        1:  310-block  9
+branch 20 taken 0 (fallthrough)
+branch 21 taken 1
+    #####:  311:printf("POINT: 64\n");
+    $$$$$:  311-block  0
+call    0 never executed
+    #####:  312:a17 = 8;
+    #####:  313:a25 = 1;
+    #####:  314:a11 = 0;
+    #####:  315:a28 = 8;
+    #####:  316:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  317:} else{
+      325:  318:printf("POINT: 65\n");
+      325:  318-block  0
+call    0 returned 325
+        -:  319:
+      325:  320: if((((!(a11==1)&&((a17==8)&&(((input==4)&&(a19==1))&&(a28==8))))&&(a21==1))&&(a25==1))){
+branch  0 taken 263 (fallthrough)
+branch  1 taken 62
+      263:  320-block  0
+branch  2 taken 263 (fallthrough)
+branch  3 taken 0
+      263:  320-block  1
+branch  4 taken 63 (fallthrough)
+branch  5 taken 200
+       63:  320-block  2
+branch  6 taken 51 (fallthrough)
+branch  7 taken 12
+       51:  320-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 50
+        1:  320-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  320-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  321:printf("POINT: 66\n");
+        1:  321-block  0
+call    0 returned 1
+        1:  322:printf("%d", 22);//return 22;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  323:} else{
+      324:  324:printf("POINT: 67\n");
+      324:  324-block  0
+call    0 returned 324
+        -:  325:
+      324:  326: if(((a19==1)&&((((((input==4)&&(a21==1))&&(a28==9))&&!(a25==1))&&!(a11==1))&&(a17==8)))){
+branch  0 taken 274 (fallthrough)
+branch  1 taken 50
+      274:  326-block  0
+branch  2 taken 59 (fallthrough)
+branch  3 taken 215
+       59:  326-block  1
+branch  4 taken 59 (fallthrough)
+branch  5 taken 0
+       59:  326-block  2
+branch  6 taken 4 (fallthrough)
+branch  7 taken 55
+        4:  326-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 2
+        2:  326-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 1
+        1:  326-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  327:printf("POINT: 68\n");
+        1:  327-block  0
+call    0 returned 1
+        1:  328:printf("%d", 22);//return 22;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  329:} else{
+      323:  330:printf("POINT: 69\n");
+      323:  330-block  0
+call    0 returned 323
+        -:  331:
+      323:  332: if(((a17==8)&&((((((input==1)&&(a21==1))&&!(a11==1))&&(a19==1))&&!(a25==1))&&(a28==9)))){
+branch  0 taken 300 (fallthrough)
+branch  1 taken 23
+      300:  332-block  0
+branch  2 taken 14 (fallthrough)
+branch  3 taken 286
+       14:  332-block  1
+branch  4 taken 14 (fallthrough)
+branch  5 taken 0
+       14:  332-block  2
+branch  6 taken 8 (fallthrough)
+branch  7 taken 6
+        8:  332-block  3
+branch  8 taken 8 (fallthrough)
+branch  9 taken 0
+        8:  332-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 6
+        2:  332-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+        2:  333:printf("POINT: 70\n");
+        2:  333-block  0
+call    0 returned 2
+        2:  334:printf("%d", 23);//return 23;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  335:} else{
+      321:  336:printf("POINT: 71\n");
+      321:  336-block  0
+call    0 returned 321
+        -:  337:
+      321:  338: if((((((((input==4)&&((a25==1)||!(a25==1)))&&!(a11==1))&&(a21==1))&&(a17==8))&&(a28==10))&&(a19==1))){
+branch  0 taken 71 (fallthrough)
+branch  1 taken 250
+       71:  338-block  0
+branch  2 taken 39 (fallthrough)
+branch  3 taken 32
+       39:  338-block  1
+branch  4 taken 39 (fallthrough)
+branch  5 taken 0
+       71:  338-block  2
+branch  6 taken 61 (fallthrough)
+branch  7 taken 10
+       61:  338-block  3
+branch  8 taken 61 (fallthrough)
+branch  9 taken 0
+       61:  338-block  4
+branch 10 taken 61 (fallthrough)
+branch 11 taken 0
+       61:  338-block  5
+branch 12 taken 18 (fallthrough)
+branch 13 taken 43
+       18:  338-block  6
+branch 14 taken 8 (fallthrough)
+branch 15 taken 10
+        8:  339:printf("POINT: 72\n");
+        8:  339-block  0
+call    0 returned 8
+        8:  340:a25 = 1;
+        8:  341:printf("%d", 22);//return 22;
+call    0 returned 8
+unconditional  1 taken 8
+        -:  342:} else{
+      313:  343:printf("POINT: 73\n");
+      313:  343-block  0
+call    0 returned 313
+        -:  344:
+      313:  345: if(((!(a25==1)&&((a11==1)&&((a28==8)&&(((a17==9)&&(input==4))&&(a19==1)))))&&(a21==1))){
+branch  0 taken 169 (fallthrough)
+branch  1 taken 144
+      169:  345-block  0
+branch  2 taken 18 (fallthrough)
+branch  3 taken 151
+       18:  345-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 18
+    $$$$$:  345-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  345-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  345-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  345-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  346:printf("POINT: 74\n");
+    $$$$$:  346-block  0
+call    0 never executed
+    #####:  347:a17 = 7;
+    #####:  348:a11 = 0;
+    #####:  349:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  350:} else{
+      313:  351:printf("POINT: 75\n");
+      313:  351-block  0
+call    0 returned 313
+        -:  352:
+      313:  353: if((!(a19==1)&&((a17==8)&&((a28==10)&&(((a25==1)&&(!(a11==1)&&(input==5)))&&(a21==1)))))){
+branch  0 taken 50 (fallthrough)
+branch  1 taken 263
+       50:  353-block  0
+branch  2 taken 43 (fallthrough)
+branch  3 taken 7
+       43:  353-block  1
+branch  4 taken 19 (fallthrough)
+branch  5 taken 24
+       19:  353-block  2
+branch  6 taken 19 (fallthrough)
+branch  7 taken 0
+       19:  353-block  3
+branch  8 taken 19 (fallthrough)
+branch  9 taken 0
+       19:  353-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 17
+        2:  353-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+        2:  354:printf("POINT: 76\n");
+        2:  354-block  0
+call    0 returned 2
+        2:  355:a19 = 1;
+        2:  356:a28 = 11;
+        2:  357:printf("%d", 23);//return 23;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  358:} else{
+      311:  359:printf("POINT: 77\n");
+      311:  359-block  0
+call    0 returned 311
+        -:  360:
+      311:  361: if((((((a21==1)&&((input==1)&&((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9)))))&&(a17==8))&&!(a11==1))&&(a19==1))){
+branch  0 taken 311 (fallthrough)
+branch  1 taken 0
+      311:  361-block  0
+branch  2 taken 18 (fallthrough)
+branch  3 taken 293
+       18:  361-block  1
+branch  4 taken 3 (fallthrough)
+branch  5 taken 15
+        3:  361-block  2
+branch  6 taken 3 (fallthrough)
+branch  7 taken 0
+       18:  361-block  3
+branch  8 taken 15 (fallthrough)
+branch  9 taken 3
+       15:  361-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 10
+        5:  361-block  5
+branch 12 taken 4 (fallthrough)
+branch 13 taken 1
+        4:  361-block  6
+branch 14 taken 2 (fallthrough)
+branch 15 taken 2
+        2:  361-block  7
+branch 16 taken 2 (fallthrough)
+branch 17 taken 0
+        2:  362:printf("POINT: 78\n");
+        2:  362-block  0
+call    0 returned 2
+        2:  363:printf("POINT: 79\n");
+call    0 returned 2
+        -:  364:
+        2:  365:if((a11==1)){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 2
+    #####:  366:printf("POINT: 80\n");
+    $$$$$:  366-block  0
+call    0 never executed
+    #####:  367:a19 = 0;
+    #####:  368:a25 = 0;
+    #####:  369:a28 = 9;
+unconditional  0 never executed
+        -:  370:}else{
+        2:  371:a25 = 1;
+        2:  372:a28 = 9;
+        2:  372-block  0
+unconditional  0 taken 2
+        -:  373:}
+        2:  374:printf("%d", 23);//return 23;
+        2:  374-block  0
+call    0 returned 2
+unconditional  1 taken 2
+        -:  375:} else{
+      309:  376:printf("POINT: 81\n");
+      309:  376-block  0
+call    0 returned 309
+        -:  377:
+      309:  378: if(((a21==1)&&((((a19==1)&&((a25==1)&&((a28==11)&&(input==6))))&&!(a11==1))&&(a17==8)))){
+branch  0 taken 309 (fallthrough)
+branch  1 taken 0
+      309:  378-block  0
+branch  2 taken 261 (fallthrough)
+branch  3 taken 48
+      261:  378-block  1
+branch  4 taken 119 (fallthrough)
+branch  5 taken 142
+      119:  378-block  2
+branch  6 taken 29 (fallthrough)
+branch  7 taken 90
+       29:  378-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 28
+        1:  378-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  378-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  379:printf("POINT: 82\n");
+        1:  379-block  0
+call    0 returned 1
+        1:  380:a28 = 10;
+        1:  381:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  382:} else{
+      308:  383:printf("POINT: 83\n");
+      308:  383-block  0
+call    0 returned 308
+        -:  384:
+      308:  385: if((!(a11==1)&&((a19==1)&&((a28==10)&&(((((a25==1)||!(a25==1))&&(input==5))&&(a17==8))&&(a21==1)))))){
+branch  0 taken 246 (fallthrough)
+branch  1 taken 62
+      246:  385-block  0
+branch  2 taken 205 (fallthrough)
+branch  3 taken 41
+      205:  385-block  1
+branch  4 taken 27 (fallthrough)
+branch  5 taken 178
+       27:  385-block  2
+branch  6 taken 19 (fallthrough)
+branch  7 taken 8
+       19:  385-block  3
+branch  8 taken 19 (fallthrough)
+branch  9 taken 0
+       27:  385-block  4
+branch 10 taken 4 (fallthrough)
+branch 11 taken 23
+        4:  385-block  5
+branch 12 taken 4 (fallthrough)
+branch 13 taken 0
+        4:  385-block  6
+branch 14 taken 4 (fallthrough)
+branch 15 taken 0
+        4:  386:printf("POINT: 84\n");
+        4:  386-block  0
+call    0 returned 4
+        4:  387:a25 = 1;
+        4:  388:printf("%d",-1);//return -1;
+call    0 returned 4
+unconditional  1 taken 4
+        -:  389:} else{
+      304:  390:printf("POINT: 85\n");
+      304:  390-block  0
+call    0 returned 304
+        -:  391:
+      304:  392: if((((((a17==9)&&((((a25==1)||!(a25==1))&&(input==6))&&(a11==1)))&&(a19==1))&&(a21==1))&&(a28==9))){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 304
+    $$$$$:  392-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  392-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  392-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  392-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  392-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  392-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  392-block  6
+branch 14 never executed
+branch 15 never executed
+    #####:  393:printf("POINT: 86\n");
+    $$$$$:  393-block  0
+call    0 never executed
+    #####:  394:a17 = 8;
+    #####:  395:a28 = 8;
+    #####:  396:a25 = 1;
+    #####:  397:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  398:} else{
+      304:  399:printf("POINT: 87\n");
+      304:  399-block  0
+call    0 returned 304
+        -:  400:
+      304:  401: if((((a17==8)&&(((((input==6)&&(a25==1))&&!(a19==1))&&!(a11==1))&&(a28==10)))&&(a21==1))){
+branch  0 taken 281 (fallthrough)
+branch  1 taken 23
+      281:  401-block  0
+branch  2 taken 25 (fallthrough)
+branch  3 taken 256
+       25:  401-block  1
+branch  4 taken 17 (fallthrough)
+branch  5 taken 8
+       17:  401-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 15
+        2:  401-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 0
+        2:  401-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 0
+        2:  401-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+        2:  402:printf("POINT: 88\n");
+        2:  402-block  0
+call    0 returned 2
+        2:  403:printf("%d", 26);//return 26;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  404:} else{
+      302:  405:printf("POINT: 89\n");
+      302:  405-block  0
+call    0 returned 302
+        -:  406:
+      302:  407: if(((!(a19==1)&&((a17==8)&&(!(a11==1)&&((input==1)&&((((a28==10)&&!(a25==1))||((a25==1)&&(a28==11)))||(!(a25==1)&&(a28==11)))))))&&(a21==1))){
+branch  0 taken 46 (fallthrough)
+branch  1 taken 256
+       46:  407-block  0
+branch  2 taken 39 (fallthrough)
+branch  3 taken 7
+       39:  407-block  1
+branch  4 taken 39 (fallthrough)
+branch  5 taken 0
+       39:  407-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 39
+    $$$$$:  407-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  407-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  407-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  407-block  6
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  407-block  7
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  407-block  8
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  407-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  408:printf("POINT: 90\n");
+    $$$$$:  408-block  0
+call    0 never executed
+    #####:  409:a28 = 7;
+    #####:  410:a25 = 1;
+    #####:  411:a19 = 1;
+    #####:  412:a17 = 7;
+    #####:  413:a11 = 1;
+    #####:  414:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  415:} else{
+      302:  416:printf("POINT: 91\n");
+      302:  416-block  0
+call    0 returned 302
+        -:  417:
+      302:  418: if((((((((input==1)&&(a21==1))&&(a28==9))&&!(a19==1))&&!(a25==1))&&(a17==8))&&!(a11==1))){
+branch  0 taken 16 (fallthrough)
+branch  1 taken 286
+       16:  418-block  0
+branch  2 taken 16 (fallthrough)
+branch  3 taken 0
+       16:  418-block  1
+branch  4 taken 5 (fallthrough)
+branch  5 taken 11
+        5:  418-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 4
+        1:  418-block  3
+branch  8 taken 0 (fallthrough)
+branch  9 taken 1
+    $$$$$:  418-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  418-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  419:printf("POINT: 92\n");
+    $$$$$:  419-block  0
+call    0 never executed
+    #####:  420:printf("%d", 23);//return 23;
+call    0 never executed
+unconditional  1 never executed
+        -:  421:} else{
+      302:  422:printf("POINT: 93\n");
+      302:  422-block  0
+call    0 returned 302
+        -:  423:
+      302:  424: if(((a17==8)&&(((!(a11==1)&&((!(a25==1)&&(input==4))&&(a19==1)))&&(a28==7))&&(a21==1)))){
+branch  0 taken 279 (fallthrough)
+branch  1 taken 23
+      279:  424-block  0
+branch  2 taken 240 (fallthrough)
+branch  3 taken 39
+      240:  424-block  1
+branch  4 taken 149 (fallthrough)
+branch  5 taken 91
+      149:  424-block  2
+branch  6 taken 31 (fallthrough)
+branch  7 taken 118
+       31:  424-block  3
+branch  8 taken 29 (fallthrough)
+branch  9 taken 2
+       29:  424-block  4
+branch 10 taken 29 (fallthrough)
+branch 11 taken 0
+       29:  424-block  5
+branch 12 taken 29 (fallthrough)
+branch 13 taken 0
+       29:  425:printf("POINT: 94\n");
+       29:  425-block  0
+call    0 returned 29
+       29:  426:a28 = 9;
+       29:  427:printf("%d", 23);//return 23;
+call    0 returned 29
+unconditional  1 taken 29
+        -:  428:} else{
+      273:  429:printf("POINT: 95\n");
+      273:  429-block  0
+call    0 returned 273
+        -:  430:
+      273:  431: if((!(a11==1)&&(((a17==8)&&((((!(a25==1)&&(a28==11))||((!(a25==1)&&(a28==10))||((a28==11)&&(a25==1))))&&(input==3))&&(a21==1)))&&!(a19==1)))){
+branch  0 taken 211 (fallthrough)
+branch  1 taken 62
+      211:  431-block  0
+branch  2 taken 211 (fallthrough)
+branch  3 taken 0
+      211:  431-block  1
+branch  4 taken 120 (fallthrough)
+branch  5 taken 91
+      120:  431-block  2
+branch  6 taken 120 (fallthrough)
+branch  7 taken 0
+      211:  431-block  3
+branch  8 taken 120 (fallthrough)
+branch  9 taken 91
+      120:  431-block  4
+branch 10 taken 103 (fallthrough)
+branch 11 taken 17
+      194:  431-block  5
+branch 12 taken 28 (fallthrough)
+branch 13 taken 166
+       28:  431-block  6
+branch 14 taken 28 (fallthrough)
+branch 15 taken 0
+       45:  431-block  7
+branch 16 taken 3 (fallthrough)
+branch 17 taken 42
+        3:  431-block  8
+branch 18 taken 3 (fallthrough)
+branch 19 taken 0
+        3:  431-block  9
+branch 20 taken 0 (fallthrough)
+branch 21 taken 3
+    #####:  432:printf("POINT: 96\n");
+    $$$$$:  432-block  0
+call    0 never executed
+    #####:  433:printf("POINT: 97\n");
+call    0 never executed
+        -:  434:
+    #####:  435:if((a25==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  436:printf("POINT: 98\n");
+    $$$$$:  436-block  0
+call    0 never executed
+    #####:  437:a19 = 1;
+    #####:  438:a28 = 7;
+    #####:  439:a25 = 1;
+    #####:  440:a11 = 1;
+unconditional  0 never executed
+        -:  441:}else{
+    #####:  442:a28 = 7;
+    #####:  443:a25 = 1;
+    $$$$$:  443-block  0
+unconditional  0 never executed
+        -:  444:}
+    #####:  445:printf("%d",-1);//return -1;
+    $$$$$:  445-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  446:} else{
+      273:  447:printf("POINT: 99\n");
+      273:  447-block  0
+call    0 returned 273
+        -:  448:
+      273:  449: if(((((!(a11==1)&&(((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9)))&&(input==5)))&&(a21==1))&&!(a19==1))&&(a17==8))){
+branch  0 taken 211 (fallthrough)
+branch  1 taken 62
+      211:  449-block  0
+branch  2 taken 120 (fallthrough)
+branch  3 taken 91
+      120:  449-block  1
+branch  4 taken 114 (fallthrough)
+branch  5 taken 6
+      205:  449-block  2
+branch  6 taken 91 (fallthrough)
+branch  7 taken 114
+       91:  449-block  3
+branch  8 taken 6 (fallthrough)
+branch  9 taken 85
+       12:  449-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 10
+        2:  449-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+        2:  449-block  6
+branch 14 taken 1 (fallthrough)
+branch 15 taken 1
+        1:  449-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:  450:printf("POINT: 100\n");
+        1:  450-block  0
+call    0 returned 1
+        1:  451:a25 = 1;
+        1:  452:a19 = 1;
+        1:  453:a28 = 7;
+        1:  454:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  455:} else{
+      272:  456:printf("POINT: 101\n");
+      272:  456-block  0
+call    0 returned 272
+        -:  457:
+      272:  458: if((((a17==9)&&(((((input==1)&&((a25==1)||!(a25==1)))&&(a11==1))&&(a21==1))&&(a19==1)))&&(a28==9))){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 272
+    $$$$$:  458-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  458-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  458-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  458-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  458-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  458-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  458-block  6
+branch 14 never executed
+branch 15 never executed
+    #####:  459:printf("POINT: 102\n");
+    $$$$$:  459-block  0
+call    0 never executed
+    #####:  460:a28 = 7;
+    #####:  461:a17 = 8;
+    #####:  462:a25 = 0;
+    #####:  463:a11 = 0;
+    #####:  464:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  465:} else{
+      272:  466:printf("POINT: 103\n");
+      272:  466-block  0
+call    0 returned 272
+        -:  467:
+      272:  468: if((!(a11==1)&&((a19==1)&&(((((a28==9)&&(input==6))&&(a21==1))&&(a17==8))&&!(a25==1))))){
+branch  0 taken 210 (fallthrough)
+branch  1 taken 62
+      210:  468-block  0
+branch  2 taken 172 (fallthrough)
+branch  3 taken 38
+      172:  468-block  1
+branch  4 taken 44 (fallthrough)
+branch  5 taken 128
+       44:  468-block  2
+branch  6 taken 3 (fallthrough)
+branch  7 taken 41
+        3:  468-block  3
+branch  8 taken 3 (fallthrough)
+branch  9 taken 0
+        3:  468-block  4
+branch 10 taken 3 (fallthrough)
+branch 11 taken 0
+        3:  468-block  5
+branch 12 taken 3 (fallthrough)
+branch 13 taken 0
+        3:  469:printf("POINT: 104\n");
+        3:  469-block  0
+call    0 returned 3
+        3:  470:printf("%d", 23);//return 23;
+call    0 returned 3
+unconditional  1 taken 3
+        -:  471:} else{
+      269:  472:printf("POINT: 105\n");
+      269:  472-block  0
+call    0 returned 269
+        -:  473:
+      269:  474: if(((a17==9)&&((a21==1)&&((a11==1)&&(((input==3)&&(((a25==1)&&(a28==8))||(((a28==7)&&(a25==1))||(!(a25==1)&&(a28==7)))))&&(a19==1)))))){
+branch  0 taken 0 (fallthrough)
+branch  1 taken 269
+    $$$$$:  474-block  0
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  474-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  474-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  474-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  474-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  474-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  474-block  6
+branch 14 never executed
+branch 15 never executed
+    $$$$$:  474-block  7
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  474-block  8
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  474-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  475:printf("POINT: 106\n");
+    $$$$$:  475-block  0
+call    0 never executed
+    #####:  476:printf("POINT: 107\n");
+call    0 never executed
+        -:  477:
+    #####:  478:if((a19==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  479:printf("POINT: 108\n");
+    $$$$$:  479-block  0
+call    0 never executed
+    #####:  480:a25 = 0;
+    #####:  481:a19 = 0;
+    #####:  482:a17 = 7;
+    #####:  483:a28 = 9;
+    #####:  484:a11 = 0;
+unconditional  0 never executed
+        -:  485:}else{
+    #####:  486:a19 = 0;
+    #####:  487:a11 = 0;
+    #####:  488:a28 = 10;
+    #####:  489:a25 = 1;
+    #####:  490:a17 = 7;
+    $$$$$:  490-block  0
+unconditional  0 never executed
+        -:  491:}
+    #####:  492:printf("%d", 23);//return 23;
+    $$$$$:  492-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  493:} else{
+      269:  494:printf("POINT: 109\n");
+      269:  494-block  0
+call    0 returned 269
+        -:  495:
+      269:  496: if(((a28==7)&&((a17==8)&&(!(a25==1)&&((a21==1)&&((a19==1)&&((input==5)&&!(a11==1)))))))){
+branch  0 taken 93 (fallthrough)
+branch  1 taken 176
+       93:  496-block  0
+branch  2 taken 77 (fallthrough)
+branch  3 taken 16
+       77:  496-block  1
+branch  4 taken 59 (fallthrough)
+branch  5 taken 18
+       59:  496-block  2
+branch  6 taken 59 (fallthrough)
+branch  7 taken 0
+       59:  496-block  3
+branch  8 taken 41 (fallthrough)
+branch  9 taken 18
+       41:  496-block  4
+branch 10 taken 14 (fallthrough)
+branch 11 taken 27
+       14:  496-block  5
+branch 12 taken 14 (fallthrough)
+branch 13 taken 0
+       14:  497:printf("POINT: 110\n");
+       14:  497-block  0
+call    0 returned 14
+       14:  498:a25 = 1;
+       14:  499:a28 = 8;
+       14:  500:printf("%d", 21);//return 21;
+call    0 returned 14
+unconditional  1 taken 14
+        -:  501:} else{
+      255:  502:printf("POINT: 111\n");
+      255:  502-block  0
+call    0 returned 255
+        -:  503:
+      255:  504: if(((a28==8)&&((a21==1)&&((!(a11==1)&&(((input==1)&&(a17==8))&&(a19==1)))&&(a25==1))))){
+branch  0 taken 23 (fallthrough)
+branch  1 taken 232
+       23:  504-block  0
+branch  2 taken 23 (fallthrough)
+branch  3 taken 0
+       23:  504-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 0
+       23:  504-block  2
+branch  6 taken 1 (fallthrough)
+branch  7 taken 22
+        1:  504-block  3
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0
+        1:  504-block  4
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0
+        1:  504-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 0
+        1:  505:printf("POINT: 112\n");
+        1:  505-block  0
+call    0 returned 1
+        1:  506:a28 = 10;
+        1:  507:printf("%d", 26);//return 26;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  508:} else{
+      254:  509:printf("POINT: 113\n");
+      254:  509-block  0
+call    0 returned 254
+        -:  510:
+      254:  511: if((((((a17==8)&&(((input==6)&&((a25==1)||!(a25==1)))&&(a21==1)))&&(a28==10))&&!(a11==1))&&(a19==1))){
+branch  0 taken 231 (fallthrough)
+branch  1 taken 23
+      231:  511-block  0
+branch  2 taken 20 (fallthrough)
+branch  3 taken 211
+       20:  511-block  1
+branch  4 taken 5 (fallthrough)
+branch  5 taken 15
+        5:  511-block  2
+branch  6 taken 5 (fallthrough)
+branch  7 taken 0
+       20:  511-block  3
+branch  8 taken 20 (fallthrough)
+branch  9 taken 0
+       20:  511-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 15
+        5:  511-block  5
+branch 12 taken 4 (fallthrough)
+branch 13 taken 1
+        4:  511-block  6
+branch 14 taken 4 (fallthrough)
+branch 15 taken 0
+        4:  512:printf("POINT: 114\n");
+        4:  512-block  0
+call    0 returned 4
+        4:  513:a25 = 0;
+        4:  514:printf("%d", 22);//return 22;
+call    0 returned 4
+unconditional  1 taken 4
+        -:  515:} else{
+      250:  516:printf("POINT: 115\n");
+      250:  516-block  0
+call    0 returned 250
+        -:  517:
+      250:  518: if(((!(a11==1)&&((!(a19==1)&&(((!(a25==1)&&(a28==11))||(((a28==10)&&!(a25==1))||((a25==1)&&(a28==11))))&&(input==5)))&&(a17==8)))&&(a21==1))){
+branch  0 taken 188 (fallthrough)
+branch  1 taken 62
+      188:  518-block  0
+branch  2 taken 38 (fallthrough)
+branch  3 taken 150
+       38:  518-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 15
+       23:  518-block  2
+branch  6 taken 23 (fallthrough)
+branch  7 taken 0
+       38:  518-block  3
+branch  8 taken 15 (fallthrough)
+branch  9 taken 23
+       15:  518-block  4
+branch 10 taken 15 (fallthrough)
+branch 11 taken 0
+       38:  518-block  5
+branch 12 taken 15 (fallthrough)
+branch 13 taken 23
+       15:  518-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 15
+    $$$$$:  518-block  7
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  518-block  8
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  518-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  519:printf("POINT: 116\n");
+    $$$$$:  519-block  0
+call    0 never executed
+    #####:  520:a25 = 0;
+    #####:  521:a19 = 1;
+    #####:  522:a28 = 9;
+    #####:  523:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  524:} else{
+      250:  525:printf("POINT: 117\n");
+      250:  525-block  0
+call    0 returned 250
+        -:  526:
+      250:  527: if(((a17==8)&&(((a21==1)&&(!(a11==1)&&((a25==1)&&((a28==8)&&(input==6)))))&&(a19==1)))){
+branch  0 taken 227 (fallthrough)
+branch  1 taken 23
+      227:  527-block  0
+branch  2 taken 227 (fallthrough)
+branch  3 taken 0
+      227:  527-block  1
+branch  4 taken 188 (fallthrough)
+branch  5 taken 39
+      188:  527-block  2
+branch  6 taken 88 (fallthrough)
+branch  7 taken 100
+       88:  527-block  3
+branch  8 taken 17 (fallthrough)
+branch  9 taken 71
+       17:  527-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 12
+        5:  527-block  5
+branch 12 taken 5 (fallthrough)
+branch 13 taken 0
+        5:  528:printf("POINT: 118\n");
+        5:  528-block  0
+call    0 returned 5
+        5:  529:printf("%d", 26);//return 26;
+call    0 returned 5
+unconditional  1 taken 5
+        -:  530:} else{
+      245:  531:printf("POINT: 119\n");
+      245:  531-block  0
+call    0 returned 245
+        -:  532:
+      245:  533: if((((a19==1)&&((a17==8)&&(((!(a25==1)&&(input==5))&&(a21==1))&&!(a11==1))))&&(a28==11))){
+branch  0 taken 200 (fallthrough)
+branch  1 taken 45
+      200:  533-block  0
+branch  2 taken 184 (fallthrough)
+branch  3 taken 16
+      184:  533-block  1
+branch  4 taken 92 (fallthrough)
+branch  5 taken 92
+       92:  533-block  2
+branch  6 taken 4 (fallthrough)
+branch  7 taken 88
+        4:  533-block  3
+branch  8 taken 4 (fallthrough)
+branch  9 taken 0
+        4:  533-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 2
+        2:  533-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 2
+    #####:  534:printf("POINT: 120\n");
+    $$$$$:  534-block  0
+call    0 never executed
+    #####:  535:a28 = 7;
+    #####:  536:a25 = 1;
+    #####:  537:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  538:} else{
+      245:  539:printf("POINT: 121\n");
+      245:  539-block  0
+call    0 returned 245
+        -:  540:
+      245:  541: if(((a11==1)&&(((a17==9)&&((a28==9)&&((a19==1)&&(((a25==1)||!(a25==1))&&(input==5)))))&&(a21==1)))){
+branch  0 taken 62 (fallthrough)
+branch  1 taken 183
+       62:  541-block  0
+branch  2 taken 0 (fallthrough)
+branch  3 taken 62
+    $$$$$:  541-block  1
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  541-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  541-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  541-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  541-block  5
+branch 12 never executed
+branch 13 never executed
+    $$$$$:  541-block  6
+branch 14 never executed
+branch 15 never executed
+    #####:  542:printf("POINT: 122\n");
+    $$$$$:  542-block  0
+call    0 never executed
+    #####:  543:printf("POINT: 123\n");
+call    0 never executed
+        -:  544:
+    #####:  545:if((a11==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  546:printf("POINT: 124\n");
+    $$$$$:  546-block  0
+call    0 never executed
+    #####:  547:a25 = 0;
+    #####:  548:a17 = 8;
+unconditional  0 never executed
+        -:  549:}else{
+    #####:  550:a28 = 7;
+    #####:  551:a25 = 0;
+    #####:  552:a11 = 0;
+    #####:  553:a19 = 0;
+    #####:  554:a17 = 8;
+    $$$$$:  554-block  0
+unconditional  0 never executed
+        -:  555:}
+    #####:  556:printf("%d", 25);//return 25;
+    $$$$$:  556-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  557:} else{
+      245:  558:printf("POINT: 125\n");
+      245:  558-block  0
+call    0 returned 245
+        -:  559:
+      245:  560: if((((((((input==3)&&(a19==1))&&(a21==1))&&(a17==8))&&!(a25==1))&&(a28==11))&&!(a11==1))){
+branch  0 taken 48 (fallthrough)
+branch  1 taken 197
+       48:  560-block  0
+branch  2 taken 46 (fallthrough)
+branch  3 taken 2
+       46:  560-block  1
+branch  4 taken 46 (fallthrough)
+branch  5 taken 0
+       46:  560-block  2
+branch  6 taken 43 (fallthrough)
+branch  7 taken 3
+       43:  560-block  3
+branch  8 taken 33 (fallthrough)
+branch  9 taken 10
+       33:  560-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 33
+    $$$$$:  560-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  561:printf("POINT: 126\n");
+    $$$$$:  561-block  0
+call    0 never executed
+    #####:  562:a25 = 1;
+    #####:  563:a11 = 1;
+    #####:  564:a28 = 10;
+    #####:  565:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  566:} else{
+      245:  567:printf("POINT: 127\n");
+      245:  567-block  0
+call    0 returned 245
+        -:  568:
+      245:  569: if(((a19==1)&&((a21==1)&&((((input==5)&&(((a25==1)&&(a28==8))||(((a28==7)&&(a25==1))||(!(a25==1)&&(a28==7)))))&&(a11==1))&&(a17==9))))){
+branch  0 taken 200 (fallthrough)
+branch  1 taken 45
+      200:  569-block  0
+branch  2 taken 200 (fallthrough)
+branch  3 taken 0
+      200:  569-block  1
+branch  4 taken 25 (fallthrough)
+branch  5 taken 175
+       25:  569-block  2
+branch  6 taken 21 (fallthrough)
+branch  7 taken 4
+       21:  569-block  3
+branch  8 taken 16 (fallthrough)
+branch  9 taken 5
+       20:  569-block  4
+branch 10 taken 6 (fallthrough)
+branch 11 taken 14
+        6:  569-block  5
+branch 12 taken 0 (fallthrough)
+branch 13 taken 6
+       14:  569-block  6
+branch 14 taken 4 (fallthrough)
+branch 15 taken 10
+        4:  569-block  7
+branch 16 taken 0 (fallthrough)
+branch 17 taken 4
+       11:  569-block  8
+branch 18 taken 1 (fallthrough)
+branch 19 taken 10
+        1:  569-block  9
+branch 20 taken 0 (fallthrough)
+branch 21 taken 1
+    #####:  570:printf("POINT: 128\n");
+    $$$$$:  570-block  0
+call    0 never executed
+    #####:  571:printf("POINT: 129\n");
+call    0 never executed
+        -:  572:
+    #####:  573:if((a25==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  574:printf("POINT: 130\n");
+    $$$$$:  574-block  0
+call    0 never executed
+    #####:  575:a11 = 0;
+    #####:  576:a19 = 0;
+    #####:  577:a25 = 1;
+    #####:  578:a28 = 10;
+    #####:  579:a17 = 8;
+unconditional  0 never executed
+        -:  580:}else{
+    #####:  581:a17 = 8;
+    #####:  582:a25 = 1;
+    #####:  583:a11 = 0;
+    #####:  584:a28 = 8;
+    $$$$$:  584-block  0
+unconditional  0 never executed
+        -:  585:}
+    #####:  586:printf("%d", 22);//return 22;
+    $$$$$:  586-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  587:} else{
+      245:  588:printf("POINT: 131\n");
+      245:  588-block  0
+call    0 returned 245
+        -:  589:
+      245:  590: if((((a19==1)&&(((!(a11==1)&&(((a25==1)||!(a25==1))&&(input==3)))&&(a28==10))&&(a21==1)))&&(a17==8))){
+branch  0 taken 200 (fallthrough)
+branch  1 taken 45
+      200:  590-block  0
+branch  2 taken 145 (fallthrough)
+branch  3 taken 55
+      145:  590-block  1
+branch  4 taken 77 (fallthrough)
+branch  5 taken 68
+       77:  590-block  2
+branch  6 taken 77 (fallthrough)
+branch  7 taken 0
+      145:  590-block  3
+branch  8 taken 36 (fallthrough)
+branch  9 taken 109
+       36:  590-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 31
+        5:  590-block  5
+branch 12 taken 5 (fallthrough)
+branch 13 taken 0
+        5:  590-block  6
+branch 14 taken 5 (fallthrough)
+branch 15 taken 0
+        5:  591:printf("POINT: 132\n");
+        5:  591-block  0
+call    0 returned 5
+        5:  592:a25 = 0;
+        5:  593:printf("%d",-1);//return -1;
+call    0 returned 5
+unconditional  1 taken 5
+        -:  594:} else{
+      240:  595:printf("POINT: 133\n");
+      240:  595-block  0
+call    0 returned 240
+        -:  596:
+      240:  597: if(((!(a11==1)&&(((((input==4)&&(a17==8))&&!(a25==1))&&(a21==1))&&(a28==11)))&&(a19==1))){
+branch  0 taken 178 (fallthrough)
+branch  1 taken 62
+      178:  597-block  0
+branch  2 taken 24 (fallthrough)
+branch  3 taken 154
+       24:  597-block  1
+branch  4 taken 24 (fallthrough)
+branch  5 taken 0
+       24:  597-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 22
+        2:  597-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 0
+        2:  597-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 2
+    $$$$$:  597-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  598:printf("POINT: 134\n");
+    $$$$$:  598-block  0
+call    0 never executed
+    #####:  599:printf("POINT: 135\n");
+call    0 never executed
+        -:  600:
+    #####:  601:if((a11==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  602:printf("POINT: 136\n");
+    $$$$$:  602-block  0
+call    0 never executed
+    #####:  603:a28 = 8;
+    #####:  604:a19 = 0;
+unconditional  0 never executed
+        -:  605:}
+    #####:  606:printf("%d", 22);//return 22;
+    $$$$$:  606-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  607:} else{
+      240:  608:printf("POINT: 137\n");
+      240:  608-block  0
+call    0 returned 240
+        -:  609:
+      240:  610: if((((!(a19==1)&&(((input==4)&&(((!(a25==1)&&(a28==10))||((a28==11)&&(a25==1)))||(!(a25==1)&&(a28==11))))&&(a21==1)))&&(a17==8))&&!(a11==1))){
+branch  0 taken 45 (fallthrough)
+branch  1 taken 195
+       45:  610-block  0
+branch  2 taken 13 (fallthrough)
+branch  3 taken 32
+       13:  610-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 11
+        2:  610-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 0
+       13:  610-block  3
+branch  8 taken 0 (fallthrough)
+branch  9 taken 13
+    $$$$$:  610-block  4
+branch 10 never executed
+branch 11 never executed
+       13:  610-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 11
+        2:  610-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 2
+    $$$$$:  610-block  7
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  610-block  8
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  610-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  611:printf("POINT: 138\n");
+    $$$$$:  611-block  0
+call    0 never executed
+    #####:  612:printf("POINT: 139\n");
+call    0 never executed
+        -:  613:
+    #####:  614:if((a17==7)){
+branch  0 never executed
+branch  1 never executed
+    #####:  615:printf("POINT: 140\n");
+    $$$$$:  615-block  0
+call    0 never executed
+    #####:  616:a25 = 0;
+    #####:  617:a28 = 9;
+unconditional  0 never executed
+        -:  618:}else{
+    #####:  619:a11 = 1;
+    #####:  620:a17 = 7;
+    #####:  621:a28 = 10;
+    #####:  622:a25 = 0;
+    #####:  623:a19 = 1;
+    $$$$$:  623-block  0
+unconditional  0 never executed
+        -:  624:}
+    #####:  625:printf("%d",-1);//return -1;
+    $$$$$:  625-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  626:} else{
+      240:  627:printf("POINT: 141\n");
+      240:  627-block  0
+call    0 returned 240
+        -:  628:
+      240:  629: if((!(a11==1)&&(((a17==8)&&((((a25==1)&&(input==4))&&(a19==1))&&(a28==11)))&&(a21==1)))){
+branch  0 taken 178 (fallthrough)
+branch  1 taken 62
+      178:  629-block  0
+branch  2 taken 178 (fallthrough)
+branch  3 taken 0
+      178:  629-block  1
+branch  4 taken 81 (fallthrough)
+branch  5 taken 97
+       81:  629-block  2
+branch  6 taken 22 (fallthrough)
+branch  7 taken 59
+       22:  629-block  3
+branch  8 taken 12 (fallthrough)
+branch  9 taken 10
+       12:  629-block  4
+branch 10 taken 7 (fallthrough)
+branch 11 taken 5
+        7:  629-block  5
+branch 12 taken 7 (fallthrough)
+branch 13 taken 0
+        7:  630:printf("POINT: 142\n");
+        7:  630-block  0
+call    0 returned 7
+        7:  631:a28 = 9;
+        7:  632:a11 = 1;
+        7:  633:a25 = 0;
+        7:  634:printf("%d",-1);//return -1;
+call    0 returned 7
+unconditional  1 taken 7
+        -:  635:} else{
+      233:  636:printf("POINT: 143\n");
+      233:  636-block  0
+call    0 returned 233
+        -:  637:
+      233:  638: if((((((a21==1)&&((((a28==8)&&!(a25==1))||((a28==9)&&(a25==1)))&&(input==6)))&&!(a11==1))&&!(a19==1))&&(a17==8))){
+branch  0 taken 233 (fallthrough)
+branch  1 taken 0
+      233:  638-block  0
+branch  2 taken 17 (fallthrough)
+branch  3 taken 216
+       17:  638-block  1
+branch  4 taken 12 (fallthrough)
+branch  5 taken 5
+      228:  638-block  2
+branch  6 taken 72 (fallthrough)
+branch  7 taken 156
+       72:  638-block  3
+branch  8 taken 22 (fallthrough)
+branch  9 taken 50
+       27:  638-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 22
+        5:  638-block  5
+branch 12 taken 1 (fallthrough)
+branch 13 taken 4
+        1:  638-block  6
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0
+        1:  638-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0
+        1:  639:printf("POINT: 144\n");
+        1:  639-block  0
+call    0 returned 1
+        1:  640:a19 = 1;
+        1:  641:a11 = 1;
+        1:  642:a17 = 7;
+        1:  643:a28 = 7;
+        1:  644:a25 = 1;
+        1:  645:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  646:} else{
+      232:  647:printf("POINT: 145\n");
+      232:  647-block  0
+call    0 returned 232
+        -:  648:
+      232:  649: if(((a19==1)&&((((a21==1)&&((!(a25==1)&&(input==3))&&(a17==9)))&&(a28==8))&&(a11==1)))){
+branch  0 taken 188 (fallthrough)
+branch  1 taken 44
+      188:  649-block  0
+branch  2 taken 188 (fallthrough)
+branch  3 taken 0
+      188:  649-block  1
+branch  4 taken 89 (fallthrough)
+branch  5 taken 99
+       89:  649-block  2
+branch  6 taken 30 (fallthrough)
+branch  7 taken 59
+       30:  649-block  3
+branch  8 taken 0 (fallthrough)
+branch  9 taken 30
+    $$$$$:  649-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  649-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  650:printf("POINT: 146\n");
+    $$$$$:  650-block  0
+call    0 never executed
+    #####:  651:a25 = 1;
+    #####:  652:a11 = 0;
+    #####:  653:a17 = 8;
+    #####:  654:a28 = 7;
+    #####:  655:a19 = 0;
+    #####:  656:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  657:} else{
+      232:  658:printf("POINT: 147\n");
+      232:  658-block  0
+call    0 returned 232
+        -:  659:
+      232:  660: if(((a17==8)&&(((a21==1)&&(((input==5)&&((!(a25==1)&&(a28==8))||((a28==9)&&(a25==1))))&&(a19==1)))&&!(a11==1)))){
+branch  0 taken 209 (fallthrough)
+branch  1 taken 23
+      209:  660-block  0
+branch  2 taken 209 (fallthrough)
+branch  3 taken 0
+      209:  660-block  1
+branch  4 taken 24 (fallthrough)
+branch  5 taken 185
+       24:  660-block  2
+branch  6 taken 4 (fallthrough)
+branch  7 taken 20
+        4:  660-block  3
+branch  8 taken 4 (fallthrough)
+branch  9 taken 0
+       24:  660-block  4
+branch 10 taken 6 (fallthrough)
+branch 11 taken 18
+        6:  660-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 4
+        2:  660-block  6
+branch 14 taken 2 (fallthrough)
+branch 15 taken 0
+        2:  660-block  7
+branch 16 taken 1 (fallthrough)
+branch 17 taken 1
+        1:  661:printf("POINT: 148\n");
+        1:  661-block  0
+call    0 returned 1
+        1:  662:a11 = 1;
+        1:  663:a19 = 0;
+        1:  664:a25 = 1;
+        1:  665:a17 = 7;
+        1:  666:a28 = 9;
+        1:  667:printf("%d",-1);//return -1;
+call    0 returned 1
+unconditional  1 taken 1
+        -:  668:} else{
+      231:  669:printf("POINT: 149\n");
+      231:  669-block  0
+call    0 returned 231
+        -:  670:
+      231:  671: if(((a19==1)&&(((((a17==8)&&((input==5)&&!(a11==1)))&&(a21==1))&&(a25==1))&&(a28==8)))){
+branch  0 taken 187 (fallthrough)
+branch  1 taken 44
+      187:  671-block  0
+branch  2 taken 171 (fallthrough)
+branch  3 taken 16
+      171:  671-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 148
+       23:  671-block  2
+branch  6 taken 19 (fallthrough)
+branch  7 taken 4
+       19:  671-block  3
+branch  8 taken 19 (fallthrough)
+branch  9 taken 0
+       19:  671-block  4
+branch 10 taken 17 (fallthrough)
+branch 11 taken 2
+       17:  671-block  5
+branch 12 taken 5 (fallthrough)
+branch 13 taken 12
+        5:  672:printf("POINT: 150\n");
+        5:  672-block  0
+call    0 returned 5
+        5:  673:a28 = 11;
+        5:  674:printf("%d", 23);//return 23;
+call    0 returned 5
+unconditional  1 taken 5
+        -:  675:} else{
+      226:  676:printf("POINT: 151\n");
+      226:  676-block  0
+call    0 returned 226
+        -:  677:
+      226:  678: if((((!(a11==1)&&((((a21==1)&&(input==4))&&(a28==10))&&(a17==8)))&&!(a19==1))&&(a25==1))){
+branch  0 taken 164 (fallthrough)
+branch  1 taken 62
+      164:  678-block  0
+branch  2 taken 164 (fallthrough)
+branch  3 taken 0
+      164:  678-block  1
+branch  4 taken 17 (fallthrough)
+branch  5 taken 147
+       17:  678-block  2
+branch  6 taken 10 (fallthrough)
+branch  7 taken 7
+       10:  678-block  3
+branch  8 taken 10 (fallthrough)
+branch  9 taken 0
+       10:  678-block  4
+branch 10 taken 10 (fallthrough)
+branch 11 taken 0
+       10:  678-block  5
+branch 12 taken 10 (fallthrough)
+branch 13 taken 0
+       10:  679:printf("POINT: 152\n");
+       10:  679-block  0
+call    0 returned 10
+       10:  680:printf("%d", 22);//return 22;
+call    0 returned 10
+unconditional  1 taken 10
+        -:  681:} else{
+      216:  682:printf("POINT: 153\n");
+      216:  682-block  0
+call    0 returned 216
+        -:  683:
+      216:  684: if(((a28==8)&&(((a19==1)&&((a11==1)&&(!(a25==1)&&((a17==9)&&(input==6)))))&&(a21==1)))){
+branch  0 taken 11 (fallthrough)
+branch  1 taken 205
+       11:  684-block  0
+branch  2 taken 7 (fallthrough)
+branch  3 taken 4
+        7:  684-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 7
+    $$$$$:  684-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  684-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  684-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  684-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  685:printf("POINT: 154\n");
+    $$$$$:  685-block  0
+call    0 never executed
+    #####:  686:printf("POINT: 155\n");
+call    0 never executed
+        -:  687:
+    #####:  688:if((a25==1)){
+branch  0 never executed
+branch  1 never executed
+    #####:  689:printf("POINT: 156\n");
+    $$$$$:  689-block  0
+call    0 never executed
+    #####:  690:a17 = 8;
+    #####:  691:a11 = 0;
+unconditional  0 never executed
+        -:  692:}else{
+    #####:  693:a28 = 11;
+    #####:  694:a17 = 7;
+    $$$$$:  694-block  0
+unconditional  0 never executed
+        -:  695:}
+    #####:  696:printf("%d", 21);//return 21;
+    $$$$$:  696-block  0
+call    0 never executed
+unconditional  1 never executed
+        -:  697:} else{
+      216:  698:printf("POINT: 157\n");
+      216:  698-block  0
+call    0 returned 216
+        -:  699:
+      216:  700: if((!(a11==1)&&((((a21==1)&&((input==6)&&((((a28==10)&&!(a25==1))||((a25==1)&&(a28==11)))||(!(a25==1)&&(a28==11)))))&&(a17==8))&&!(a19==1)))){
+branch  0 taken 154 (fallthrough)
+branch  1 taken 62
+      154:  700-block  0
+branch  2 taken 154 (fallthrough)
+branch  3 taken 0
+      154:  700-block  1
+branch  4 taken 3 (fallthrough)
+branch  5 taken 151
+        3:  700-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 3
+    $$$$$:  700-block  3
+branch  8 never executed
+branch  9 never executed
+        3:  700-block  4
+branch 10 taken 3 (fallthrough)
+branch 11 taken 0
+        3:  700-block  5
+branch 12 taken 3 (fallthrough)
+branch 13 taken 0
+        3:  700-block  6
+branch 14 taken 0 (fallthrough)
+branch 15 taken 3
+    $$$$$:  700-block  7
+branch 16 never executed
+branch 17 never executed
+    $$$$$:  700-block  8
+branch 18 never executed
+branch 19 never executed
+    $$$$$:  700-block  9
+branch 20 never executed
+branch 21 never executed
+    #####:  701:printf("POINT: 158\n");
+    $$$$$:  701-block  0
+call    0 never executed
+    #####:  702:a28 = 11;
+    #####:  703:a19 = 1;
+    #####:  704:a25 = 1;
+    #####:  705:printf("%d", 22);//return 22;
+call    0 never executed
+unconditional  1 never executed
+        -:  706:} else{
+      216:  707:printf("POINT: 159\n");
+      216:  707-block  0
+call    0 returned 216
+        -:  708:
+      216:  709: if((((((!(a25==1)&&((a19==1)&&(input==3)))&&(a28==9))&&(a21==1))&&(a17==8))&&!(a11==1))){
+branch  0 taken 114 (fallthrough)
+branch  1 taken 102
+      114:  709-block  0
+branch  2 taken 89 (fallthrough)
+branch  3 taken 25
+       89:  709-block  1
+branch  4 taken 30 (fallthrough)
+branch  5 taken 59
+       30:  709-block  2
+branch  6 taken 30 (fallthrough)
+branch  7 taken 0
+       30:  709-block  3
+branch  8 taken 30 (fallthrough)
+branch  9 taken 0
+       30:  709-block  4
+branch 10 taken 30 (fallthrough)
+branch 11 taken 0
+       30:  709-block  5
+branch 12 taken 28 (fallthrough)
+branch 13 taken 2
+       28:  710:printf("POINT: 160\n");
+       28:  710-block  0
+call    0 returned 28
+       28:  711:a19 = 0;
+       28:  712:a28 = 7;
+       28:  713:printf("%d", 25);//return 25;
+call    0 returned 28
+unconditional  1 taken 28
+        -:  714:} else{
+      188:  715:printf("POINT: 161\n");
+      188:  715-block  0
+call    0 returned 188
+        -:  716:
+      188:  717: if((((a17==8)&&((((input==4)&&(((a28==8)&&!(a25==1))||((a25==1)&&(a28==9))))&&(a21==1))&&!(a19==1)))&&!(a11==1))){
+branch  0 taken 165 (fallthrough)
+branch  1 taken 23
+      165:  717-block  0
+branch  2 taken 15 (fallthrough)
+branch  3 taken 150
+       15:  717-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 13
+        2:  717-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 2
+       13:  717-block  3
+branch  8 taken 12 (fallthrough)
+branch  9 taken 1
+       12:  717-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 10
+        4:  717-block  5
+branch 12 taken 4 (fallthrough)
+branch 13 taken 0
+        4:  717-block  6
+branch 14 taken 2 (fallthrough)
+branch 15 taken 2
+        2:  717-block  7
+branch 16 taken 2 (fallthrough)
+branch 17 taken 0
+        2:  718:printf("POINT: 162\n");
+        2:  718-block  0
+call    0 returned 2
+        2:  719:a28 = 8;
+        2:  720:a25 = 0;
+        2:  721:printf("%d", 22);//return 22;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  722:} else{
+      186:  723:printf("POINT: 163\n");
+      186:  723-block  0
+call    0 returned 186
+        -:  724:
+      186:  725: if((((!(a11==1)&&((((a19==1)&&(input==5))&&(a17==8))&&(a21==1)))&&(a28==9))&&!(a25==1))){
+branch  0 taken 124 (fallthrough)
+branch  1 taken 62
+      124:  725-block  0
+branch  2 taken 99 (fallthrough)
+branch  3 taken 25
+       99:  725-block  1
+branch  4 taken 14 (fallthrough)
+branch  5 taken 85
+       14:  725-block  2
+branch  6 taken 14 (fallthrough)
+branch  7 taken 0
+       14:  725-block  3
+branch  8 taken 14 (fallthrough)
+branch  9 taken 0
+       14:  725-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 12
+        2:  725-block  5
+branch 12 taken 2 (fallthrough)
+branch 13 taken 0
+        2:  726:printf("POINT: 164\n");
+        2:  726-block  0
+call    0 returned 2
+        2:  727:printf("%d", 21);//return 21;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  728:} else{
+      184:  729:printf("POINT: 165\n");
+      184:  729-block  0
+call    0 returned 184
+        -:  730:
+      184:  731: if((((a11==1)&&((a19==1)&&((a21==1)&&(((a17==9)&&(input==5))&&!(a25==1)))))&&(a28==8))){
+branch  0 taken 62 (fallthrough)
+branch  1 taken 122
+       62:  731-block  0
+branch  2 taken 55 (fallthrough)
+branch  3 taken 7
+       55:  731-block  1
+branch  4 taken 55 (fallthrough)
+branch  5 taken 0
+       55:  731-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 55
+    $$$$$:  731-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  731-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:  731-block  5
+branch 12 never executed
+branch 13 never executed
+    #####:  732:printf("POINT: 166\n");
+    $$$$$:  732-block  0
+call    0 never executed
+    #####:  733:a17 = 7;
+    #####:  734:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  735:} else{
+      184:  736:printf("POINT: 167\n");
+      184:  736-block  0
+call    0 returned 184
+        -:  737:
+      184:  738: if((!(a11==1)&&((a21==1)&&(((a19==1)&&((a17==8)&&((a25==1)&&(input==5))))&&(a28==11))))){
+branch  0 taken 122 (fallthrough)
+branch  1 taken 62
+      122:  738-block  0
+branch  2 taken 122 (fallthrough)
+branch  3 taken 0
+      122:  738-block  1
+branch  4 taken 97 (fallthrough)
+branch  5 taken 25
+       97:  738-block  2
+branch  6 taken 97 (fallthrough)
+branch  7 taken 0
+       97:  738-block  3
+branch  8 taken 53 (fallthrough)
+branch  9 taken 44
+       53:  738-block  4
+branch 10 taken 12 (fallthrough)
+branch 11 taken 41
+       12:  738-block  5
+branch 12 taken 7 (fallthrough)
+branch 13 taken 5
+        7:  739:printf("POINT: 168\n");
+        7:  739-block  0
+call    0 returned 7
+        7:  740:printf("%d",-1);//return -1;
+call    0 returned 7
+unconditional  1 taken 7
+        -:  741:} else{
+      177:  742:printf("POINT: 169\n");
+      177:  742-block  0
+call    0 returned 177
+        -:  743:
+      177:  744: if(((a19==1)&&((a17==8)&&(((((!(a25==1)&&(a28==8))||((a25==1)&&(a28==9)))&&(input==3))&&!(a11==1))&&(a21==1))))){
+branch  0 taken 145 (fallthrough)
+branch  1 taken 32
+      145:  744-block  0
+branch  2 taken 129 (fallthrough)
+branch  3 taken 16
+      129:  744-block  1
+branch  4 taken 59 (fallthrough)
+branch  5 taken 70
+       59:  744-block  2
+branch  6 taken 59 (fallthrough)
+branch  7 taken 0
+      129:  744-block  3
+branch  8 taken 70 (fallthrough)
+branch  9 taken 59
+       70:  744-block  4
+branch 10 taken 17 (fallthrough)
+branch 11 taken 53
+       17:  744-block  5
+branch 12 taken 5 (fallthrough)
+branch 13 taken 12
+        5:  744-block  6
+branch 14 taken 2 (fallthrough)
+branch 15 taken 3
+        2:  744-block  7
+branch 16 taken 2 (fallthrough)
+branch 17 taken 0
+        2:  745:printf("POINT: 170\n");
+        2:  745-block  0
+call    0 returned 2
+        2:  746:a25 = 0;
+        2:  747:a28 = 10;
+        2:  748:printf("%d", 22);//return 22;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  749:}
+        -:  750:}
+        -:  751:}
+        -:  752:}
+        -:  753:}
+        -:  754:}
+        -:  755:}
+        -:  756:}
+        -:  757:}
+        -:  758:}
+        -:  759:}
+        -:  760:}
+        -:  761:}
+        -:  762:}
+        -:  763:}
+        -:  764:}
+        -:  765:}
+        -:  766:}
+        -:  767:}
+        -:  768:}
+        -:  769:}
+        -:  770:}
+        -:  771:}
+        -:  772:}
+        -:  773:}
+        -:  774:}
+        -:  775:}
+        -:  776:}
+        -:  777:}
+        -:  778:}
+        -:  779:}
+        -:  780:}
+        -:  781:}
+        -:  782:}
+        -:  783:}
+        -:  784:}
+        -:  785:}
+        -:  786:}
+        -:  787:}
+        -:  788:}
+        -:  789:}
+        -:  790:}
+        -:  791:}
+        -:  792:}
+        -:  793:}
+        -:  794:}
+        -:  795:}
+        -:  796:}
+        -:  797:}
+        -:  798:}
+        -:  799:}
+        -:  800:}
+        -:  801:}
+        -:  802:}
+        -:  803:}
+        -:  804:}
+        -:  805:}
+        -:  806:}
+        -:  807:}
+        -:  808:}
+        -:  809:}
+        -:  810:}
+        -:  811:}
+        -:  812:}
+        -:  813:}
+        -:  814:}
+        -:  815:}
+        -:  816:}
+        -:  817:}
+        -:  818:}
+        -:  819:}
+        -:  820:}
+        -:  821:}
+        -:  822:}
+        -:  823:}
+      402:  824:printf("POINT: 171\n");
+      402:  824-block  0
+call    0 returned 402
+        -:  825:
+      402:  826:if((((((!(a25==1)&&(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  826-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  826-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 26
+        2:  826-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 0
+        2:  826-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 0
+        2:  826-block  4
+branch 10 taken 2 (fallthrough)
+branch 11 taken 0
+        2:  827:printf("POINT: 172\n");
+        2:  827-block  0
+call    0 returned 2
+        2:  828:printf("%d",-1);//return -1;
+call    0 returned 2
+unconditional  1 taken 2
+        -:  829:}
+      402:  830:printf("POINT: 173\n");
+      402:  830-block  0
+call    0 returned 402
+        -:  831:
+      402:  832:if(((((((a25==1)&&(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  832-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  832-block  1
+branch  4 taken 19 (fallthrough)
+branch  5 taken 44
+       19:  832-block  2
+branch  6 taken 19 (fallthrough)
+branch  7 taken 0
+       19:  832-block  3
+branch  8 taken 19 (fallthrough)
+branch  9 taken 0
+       19:  832-block  4
+branch 10 taken 19 (fallthrough)
+branch 11 taken 0
+       19:  833:printf("POINT: 174\n");
+       19:  833-block  0
+call    0 returned 19
+       19:  834:printf("%d",-1);//return -1;
+call    0 returned 19
+unconditional  1 taken 19
+        -:  835:}
+      402:  836:printf("POINT: 175\n");
+      402:  836-block  0
+call    0 returned 402
+        -:  837:
+      402:  838:if(((((((a25==1)&&!(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  838-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  838-block  1
+branch  4 taken 28 (fallthrough)
+branch  5 taken 115
+       28:  838-block  2
+branch  6 taken 28 (fallthrough)
+branch  7 taken 0
+       28:  838-block  3
+branch  8 taken 28 (fallthrough)
+branch  9 taken 0
+       28:  838-block  4
+branch 10 taken 28 (fallthrough)
+branch 11 taken 0
+       28:  839:printf("POINT: 176\n");
+       28:  839-block  0
+call    0 returned 28
+       28:  840:printf("%d",-1);//return -1;
+call    0 returned 28
+unconditional  1 taken 28
+        -:  841:}
+      402:  842:printf("POINT: 177\n");
+      402:  842-block  0
+call    0 returned 402
+        -:  843:
+      402:  844:if(((((((a25==1)&&(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  844-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  844-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 40
+       23:  844-block  2
+branch  6 taken 23 (fallthrough)
+branch  7 taken 0
+       23:  844-block  3
+branch  8 taken 23 (fallthrough)
+branch  9 taken 0
+       23:  844-block  4
+branch 10 taken 23 (fallthrough)
+branch 11 taken 0
+       23:  845:printf("POINT: 178\n");
+       23:  845-block  0
+call    0 returned 23
+       23:  846:printf("%d",-1);//return -1;
+call    0 returned 23
+unconditional  1 taken 23
+        -:  847:}
+      402:  848:printf("POINT: 179\n");
+      402:  848-block  0
+call    0 returned 402
+        -:  849:
+      402:  850:if(((((((a25==1)&&(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  850-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  850-block  1
+branch  4 taken 21 (fallthrough)
+branch  5 taken 42
+       21:  850-block  2
+branch  6 taken 16 (fallthrough)
+branch  7 taken 5
+       16:  850-block  3
+branch  8 taken 16 (fallthrough)
+branch  9 taken 0
+       16:  850-block  4
+branch 10 taken 16 (fallthrough)
+branch 11 taken 0
+       16:  851:printf("POINT: 180\n");
+       16:  851-block  0
+call    0 returned 16
+       16:  852:printf("%d",-1);//return -1;
+call    0 returned 16
+unconditional  1 taken 16
+        -:  853:}
+      402:  854:printf("POINT: 181\n");
+      402:  854-block  0
+call    0 returned 402
+        -:  855:
+      402:  856:if(((((((a25==1)&&(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  856-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  856-block  1
+branch  4 taken 21 (fallthrough)
+branch  5 taken 42
+       21:  856-block  2
+branch  6 taken 5 (fallthrough)
+branch  7 taken 16
+        5:  856-block  3
+branch  8 taken 5 (fallthrough)
+branch  9 taken 0
+        5:  856-block  4
+branch 10 taken 5 (fallthrough)
+branch 11 taken 0
+        5:  857:printf("POINT: 182\n");
+        5:  857-block  0
+call    0 returned 5
+        5:  858:printf("%d",-1);//return -1;
+call    0 returned 5
+unconditional  1 taken 5
+        -:  859:}
+      402:  860:printf("POINT: 183\n");
+      402:  860-block  0
+call    0 returned 402
+        -:  861:
+      402:  862:if((((((!(a25==1)&&(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  862-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  862-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 24
+        4:  862-block  2
+branch  6 taken 4 (fallthrough)
+branch  7 taken 0
+        4:  862-block  3
+branch  8 taken 4 (fallthrough)
+branch  9 taken 0
+        4:  862-block  4
+branch 10 taken 4 (fallthrough)
+branch 11 taken 0
+        4:  863:printf("POINT: 184\n");
+        4:  863-block  0
+call    0 returned 4
+        4:  864:printf("%d",-1);//return -1;
+call    0 returned 4
+unconditional  1 taken 4
+        -:  865:}
+      402:  866:printf("POINT: 185\n");
+      402:  866-block  0
+call    0 returned 402
+        -:  867:
+      402:  868:if((((((!(a25==1)&&(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  868-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  868-block  1
+branch  4 taken 22 (fallthrough)
+branch  5 taken 6
+       22:  868-block  2
+branch  6 taken 22 (fallthrough)
+branch  7 taken 0
+       22:  868-block  3
+branch  8 taken 22 (fallthrough)
+branch  9 taken 0
+       22:  868-block  4
+branch 10 taken 22 (fallthrough)
+branch 11 taken 0
+       22:  869:printf("POINT: 186\n");
+       22:  869-block  0
+call    0 returned 22
+       22:  870:printf("%d",-1);//return -1;
+call    0 returned 22
+unconditional  1 taken 22
+        -:  871:}
+      402:  872:printf("POINT: 187\n");
+      402:  872-block  0
+call    0 returned 402
+        -:  873:
+      402:  874:if((((((!(a25==1)&&(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  874-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  874-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 26
+        2:  874-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 2
+    $$$$$:  874-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  874-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  875:printf("POINT: 188\n");
+    $$$$$:  875-block  0
+call    0 never executed
+    #####:  876:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  877:}
+      402:  878:printf("POINT: 189\n");
+      402:  878-block  0
+call    0 returned 402
+        -:  879:
+      402:  880:if(((((((a25==1)&&(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  880-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  880-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$:  880-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  880-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  880-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  881:printf("POINT: 190\n");
+    $$$$$:  881-block  0
+call    0 never executed
+    #####:  882:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  883:}
+      402:  884:printf("POINT: 191\n");
+      402:  884-block  0
+call    0 returned 402
+        -:  885:
+      402:  886:if(((((((a25==1)&&(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  886-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  886-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$:  886-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  886-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  886-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  887:printf("POINT: 192\n");
+    $$$$$:  887-block  0
+call    0 never executed
+    #####:  888:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  889:}
+      402:  890:printf("POINT: 193\n");
+      402:  890-block  0
+call    0 returned 402
+        -:  891:
+      402:  892:if(((((((a25==1)&&!(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  892-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  892-block  1
+branch  4 taken 28 (fallthrough)
+branch  5 taken 115
+       28:  892-block  2
+branch  6 taken 28 (fallthrough)
+branch  7 taken 0
+       28:  892-block  3
+branch  8 taken 28 (fallthrough)
+branch  9 taken 0
+       28:  892-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 28
+    #####:  893:printf("POINT: 194\n");
+    $$$$$:  893-block  0
+call    0 never executed
+    #####:  894:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  895:}
+      402:  896:printf("POINT: 195\n");
+      402:  896-block  0
+call    0 returned 402
+        -:  897:
+      402:  898:if((((((!(a25==1)&&(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  898-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  898-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$:  898-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  898-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  898-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  899:printf("POINT: 196\n");
+    $$$$$:  899-block  0
+call    0 never executed
+    #####:  900:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  901:}
+      402:  902:printf("POINT: 197\n");
+      402:  902-block  0
+call    0 returned 402
+        -:  903:
+      402:  904:if(((((((a25==1)&&!(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  904-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  904-block  1
+branch  4 taken 39 (fallthrough)
+branch  5 taken 104
+       39:  904-block  2
+branch  6 taken 23 (fallthrough)
+branch  7 taken 16
+       23:  904-block  3
+branch  8 taken 23 (fallthrough)
+branch  9 taken 0
+       23:  904-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 23
+    #####:  905:printf("POINT: 198\n");
+    $$$$$:  905-block  0
+call    0 never executed
+    #####:  906:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  907:}
+      402:  908:printf("POINT: 199\n");
+      402:  908-block  0
+call    0 returned 402
+        -:  909:
+      402:  910:if(((((((a25==1)&&!(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  910-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  910-block  1
+branch  4 taken 35 (fallthrough)
+branch  5 taken 108
+       35:  910-block  2
+branch  6 taken 35 (fallthrough)
+branch  7 taken 0
+       35:  910-block  3
+branch  8 taken 35 (fallthrough)
+branch  9 taken 0
+       35:  910-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 35
+    #####:  911:printf("POINT: 200\n");
+    $$$$$:  911-block  0
+call    0 never executed
+    #####:  912:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  913:}
+      402:  914:printf("POINT: 201\n");
+      402:  914-block  0
+call    0 returned 402
+        -:  915:
+      402:  916:if(((((((a25==1)&&!(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  916-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  916-block  1
+branch  4 taken 28 (fallthrough)
+branch  5 taken 115
+       28:  916-block  2
+branch  6 taken 28 (fallthrough)
+branch  7 taken 0
+       28:  916-block  3
+branch  8 taken 28 (fallthrough)
+branch  9 taken 0
+       28:  916-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 28
+    #####:  917:printf("POINT: 202\n");
+    $$$$$:  917-block  0
+call    0 never executed
+    #####:  918:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  919:}
+      402:  920:printf("POINT: 203\n");
+      402:  920-block  0
+call    0 returned 402
+        -:  921:
+      402:  922:if((((((!(a25==1)&&!(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  922-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168:  922-block  1
+branch  4 taken 10 (fallthrough)
+branch  5 taken 158
+       10:  922-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 10
+    $$$$$:  922-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  922-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  923:printf("POINT: 204\n");
+    $$$$$:  923-block  0
+call    0 never executed
+    #####:  924:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  925:}
+      402:  926:printf("POINT: 205\n");
+      402:  926-block  0
+call    0 returned 402
+        -:  927:
+      402:  928:if((((((!(a25==1)&&!(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  928-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168:  928-block  1
+branch  4 taken 42 (fallthrough)
+branch  5 taken 126
+       42:  928-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 42
+    $$$$$:  928-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  928-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  929:printf("POINT: 206\n");
+    $$$$$:  929-block  0
+call    0 never executed
+    #####:  930:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  931:}
+      402:  932:printf("POINT: 207\n");
+      402:  932-block  0
+call    0 returned 402
+        -:  933:
+      402:  934:if((((((!(a25==1)&&!(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  934-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168:  934-block  1
+branch  4 taken 73 (fallthrough)
+branch  5 taken 95
+       73:  934-block  2
+branch  6 taken 27 (fallthrough)
+branch  7 taken 46
+       27:  934-block  3
+branch  8 taken 27 (fallthrough)
+branch  9 taken 0
+       27:  934-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 27
+    #####:  935:printf("POINT: 208\n");
+    $$$$$:  935-block  0
+call    0 never executed
+    #####:  936:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  937:}
+      402:  938:printf("POINT: 209\n");
+      402:  938-block  0
+call    0 returned 402
+        -:  939:
+      402:  940:if((((((!(a25==1)&&(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  940-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  940-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$:  940-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  940-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  940-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  941:printf("POINT: 210\n");
+    $$$$$:  941-block  0
+call    0 never executed
+    #####:  942:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  943:}
+      402:  944:printf("POINT: 211\n");
+      402:  944-block  0
+call    0 returned 402
+        -:  945:
+      402:  946:if((((((!(a25==1)&&(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  946-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  946-block  1
+branch  4 taken 22 (fallthrough)
+branch  5 taken 6
+       22:  946-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 22
+    $$$$$:  946-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  946-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  947:printf("POINT: 212\n");
+    $$$$$:  947-block  0
+call    0 never executed
+    #####:  948:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  949:}
+      402:  950:printf("POINT: 213\n");
+      402:  950-block  0
+call    0 returned 402
+        -:  951:
+      402:  952:if(((((((a25==1)&&!(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  952-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143:  952-block  1
+branch  4 taken 28 (fallthrough)
+branch  5 taken 115
+       28:  952-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 28
+    $$$$$:  952-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  952-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  953:printf("POINT: 214\n");
+    $$$$$:  953-block  0
+call    0 never executed
+    #####:  954:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  955:}
+      402:  956:printf("POINT: 215\n");
+      402:  956-block  0
+call    0 returned 402
+        -:  957:
+      402:  958:if((((((!(a25==1)&&(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  958-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  958-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$:  958-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  958-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  958-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  959:printf("POINT: 216\n");
+    $$$$$:  959-block  0
+call    0 never executed
+    #####:  960:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  961:}
+      402:  962:printf("POINT: 217\n");
+      402:  962-block  0
+call    0 returned 402
+        -:  963:
+      402:  964:if((((((!(a25==1)&&(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  964-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  964-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$:  964-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  964-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  964-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  965:printf("POINT: 218\n");
+    $$$$$:  965-block  0
+call    0 never executed
+    #####:  966:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  967:}
+      402:  968:printf("POINT: 219\n");
+      402:  968-block  0
+call    0 returned 402
+        -:  969:
+      402:  970:if(((((((a25==1)&&(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  970-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  970-block  1
+branch  4 taken 19 (fallthrough)
+branch  5 taken 44
+       19:  970-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 19
+    $$$$$:  970-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  970-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  971:printf("POINT: 220\n");
+    $$$$$:  971-block  0
+call    0 never executed
+    #####:  972:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  973:}
+      402:  974:printf("POINT: 221\n");
+      402:  974-block  0
+call    0 returned 402
+        -:  975:
+      402:  976:if((((((!(a25==1)&&(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  976-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28:  976-block  1
+branch  4 taken 22 (fallthrough)
+branch  5 taken 6
+       22:  976-block  2
+branch  6 taken 22 (fallthrough)
+branch  7 taken 0
+       22:  976-block  3
+branch  8 taken 22 (fallthrough)
+branch  9 taken 0
+       22:  976-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 22
+    #####:  977:printf("POINT: 222\n");
+    $$$$$:  977-block  0
+call    0 never executed
+    #####:  978:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  979:}
+      402:  980:printf("POINT: 223\n");
+      402:  980-block  0
+call    0 returned 402
+        -:  981:
+      402:  982:if(((((((a25==1)&&(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  982-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  982-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$:  982-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  982-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  982-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  983:printf("POINT: 224\n");
+    $$$$$:  983-block  0
+call    0 never executed
+    #####:  984:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  985:}
+      402:  986:printf("POINT: 225\n");
+      402:  986-block  0
+call    0 returned 402
+        -:  987:
+      402:  988:if(((((((a25==1)&&(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206:  988-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63:  988-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$:  988-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$:  988-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$:  988-block  4
+branch 10 never executed
+branch 11 never executed
+    #####:  989:printf("POINT: 226\n");
+    $$$$$:  989-block  0
+call    0 never executed
+    #####:  990:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  991:}
+      402:  992:printf("POINT: 227\n");
+      402:  992-block  0
+call    0 returned 402
+        -:  993:
+      402:  994:if((((((!(a25==1)&&!(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196:  994-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168:  994-block  1
+branch  4 taken 10 (fallthrough)
+branch  5 taken 158
+       10:  994-block  2
+branch  6 taken 10 (fallthrough)
+branch  7 taken 0
+       10:  994-block  3
+branch  8 taken 10 (fallthrough)
+branch  9 taken 0
+       10:  994-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 10
+    #####:  995:printf("POINT: 228\n");
+    $$$$$:  995-block  0
+call    0 never executed
+    #####:  996:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -:  997:}
+      402:  998:printf("POINT: 229\n");
+      402:  998-block  0
+call    0 returned 402
+        -:  999:
+      402: 1000:if(((((((a25==1)&&(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1000-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1000-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$: 1000-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1000-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1000-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1001:printf("POINT: 230\n");
+    $$$$$: 1001-block  0
+call    0 never executed
+    #####: 1002:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1003:}
+      402: 1004:printf("POINT: 231\n");
+      402: 1004-block  0
+call    0 returned 402
+        -: 1005:
+      402: 1006:if(((((((a25==1)&&(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1006-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1006-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 40
+       23: 1006-block  2
+branch  6 taken 23 (fallthrough)
+branch  7 taken 0
+       23: 1006-block  3
+branch  8 taken 23 (fallthrough)
+branch  9 taken 0
+       23: 1006-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 23
+    #####: 1007:printf("POINT: 232\n");
+    $$$$$: 1007-block  0
+call    0 never executed
+    #####: 1008:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1009:}
+      402: 1010:printf("POINT: 233\n");
+      402: 1010-block  0
+call    0 returned 402
+        -: 1011:
+      402: 1012:if((((((!(a25==1)&&(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1012-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1012-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 24
+        4: 1012-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 4
+    $$$$$: 1012-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1012-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1013:printf("POINT: 234\n");
+    $$$$$: 1013-block  0
+call    0 never executed
+    #####: 1014:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1015:}
+      402: 1016:printf("POINT: 235\n");
+      402: 1016-block  0
+call    0 returned 402
+        -: 1017:
+      402: 1018:if(((((((a25==1)&&(a11==1))&&(a28==8))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1018-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1018-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$: 1018-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1018-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1018-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1019:printf("POINT: 236\n");
+    $$$$$: 1019-block  0
+call    0 never executed
+    #####: 1020:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1021:}
+      402: 1022:printf("POINT: 237\n");
+      402: 1022-block  0
+call    0 returned 402
+        -: 1023:
+      402: 1024:if((((((!(a25==1)&&!(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1024-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1024-block  1
+branch  4 taken 42 (fallthrough)
+branch  5 taken 126
+       42: 1024-block  2
+branch  6 taken 42 (fallthrough)
+branch  7 taken 0
+       42: 1024-block  3
+branch  8 taken 42 (fallthrough)
+branch  9 taken 0
+       42: 1024-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 42
+    #####: 1025:printf("POINT: 238\n");
+    $$$$$: 1025-block  0
+call    0 never executed
+    #####: 1026:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1027:}
+      402: 1028:printf("POINT: 239\n");
+      402: 1028-block  0
+call    0 returned 402
+        -: 1029:
+      402: 1030:if((((((!(a25==1)&&(a11==1))&&(a28==7))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1030-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1030-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 26
+        2: 1030-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 2
+    $$$$$: 1030-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1030-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1031:printf("POINT: 240\n");
+    $$$$$: 1031-block  0
+call    0 never executed
+    #####: 1032:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1033:}
+      402: 1034:printf("POINT: 241\n");
+      402: 1034-block  0
+call    0 returned 402
+        -: 1035:
+      402: 1036:if(((((((a25==1)&&!(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1036-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143: 1036-block  1
+branch  4 taken 28 (fallthrough)
+branch  5 taken 115
+       28: 1036-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 28
+    $$$$$: 1036-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1036-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1037:printf("POINT: 242\n");
+    $$$$$: 1037-block  0
+call    0 never executed
+    #####: 1038:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1039:}
+      402: 1040:printf("POINT: 243\n");
+      402: 1040-block  0
+call    0 returned 402
+        -: 1041:
+      402: 1042:if((((((!(a25==1)&&(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1042-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1042-block  1
+branch  4 taken 22 (fallthrough)
+branch  5 taken 6
+       22: 1042-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 22
+    $$$$$: 1042-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1042-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1043:printf("POINT: 244\n");
+    $$$$$: 1043-block  0
+call    0 never executed
+    #####: 1044:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1045:}
+      402: 1046:printf("POINT: 245\n");
+      402: 1046-block  0
+call    0 returned 402
+        -: 1047:
+      402: 1048:if((((((!(a25==1)&&(a11==1))&&(a28==8))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1048-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1048-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$: 1048-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1048-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1048-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1049:printf("POINT: 246\n");
+    $$$$$: 1049-block  0
+call    0 never executed
+    #####: 1050:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1051:}
+      402: 1052:printf("POINT: 247\n");
+      402: 1052-block  0
+call    0 returned 402
+        -: 1053:
+      402: 1054:if(((((((a25==1)&&(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1054-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1054-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$: 1054-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1054-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1054-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1055:printf("POINT: 248\n");
+    $$$$$: 1055-block  0
+call    0 never executed
+    #####: 1056:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1057:}
+      402: 1058:printf("POINT: 249\n");
+      402: 1058-block  0
+call    0 returned 402
+        -: 1059:
+      402: 1060:if(((((((a25==1)&&!(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1060-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143: 1060-block  1
+branch  4 taken 35 (fallthrough)
+branch  5 taken 108
+       35: 1060-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 35
+    $$$$$: 1060-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1060-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1061:printf("POINT: 250\n");
+    $$$$$: 1061-block  0
+call    0 never executed
+    #####: 1062:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1063:}
+      402: 1064:printf("POINT: 251\n");
+      402: 1064-block  0
+call    0 returned 402
+        -: 1065:
+      402: 1066:if(((((((a25==1)&&(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1066-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1066-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 40
+       23: 1066-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 23
+    $$$$$: 1066-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1066-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1067:printf("POINT: 252\n");
+    $$$$$: 1067-block  0
+call    0 never executed
+    #####: 1068:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1069:}
+      402: 1070:printf("POINT: 253\n");
+      402: 1070-block  0
+call    0 returned 402
+        -: 1071:
+      402: 1072:if((((((!(a25==1)&&(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1072-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1072-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$: 1072-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1072-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1072-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1073:printf("POINT: 254\n");
+    $$$$$: 1073-block  0
+call    0 never executed
+    #####: 1074:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1075:}
+      402: 1076:printf("POINT: 255\n");
+      402: 1076-block  0
+call    0 returned 402
+        -: 1077:
+      402: 1078:if((((((!(a25==1)&&(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1078-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1078-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 24
+        4: 1078-block  2
+branch  6 taken 4 (fallthrough)
+branch  7 taken 0
+        4: 1078-block  3
+branch  8 taken 4 (fallthrough)
+branch  9 taken 0
+        4: 1078-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 4
+    #####: 1079:printf("POINT: 256\n");
+    $$$$$: 1079-block  0
+call    0 never executed
+    #####: 1080:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1081:}
+      402: 1082:printf("POINT: 257\n");
+      402: 1082-block  0
+call    0 returned 402
+        -: 1083:
+      402: 1084:if((((((!(a25==1)&&!(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1084-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1084-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 168
+    $$$$$: 1084-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1084-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1084-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1085:printf("POINT: 258\n");
+    $$$$$: 1085-block  0
+call    0 never executed
+    #####: 1086:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1087:}
+      402: 1088:printf("POINT: 259\n");
+      402: 1088-block  0
+call    0 returned 402
+        -: 1089:
+      402: 1090:if(((((((a25==1)&&(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1090-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1090-block  1
+branch  4 taken 23 (fallthrough)
+branch  5 taken 40
+       23: 1090-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 23
+    $$$$$: 1090-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1090-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1091:printf("POINT: 260\n");
+    $$$$$: 1091-block  0
+call    0 never executed
+    #####: 1092:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1093:}
+      402: 1094:printf("POINT: 261\n");
+      402: 1094-block  0
+call    0 returned 402
+        -: 1095:
+      402: 1096:if(((((((a25==1)&&(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1096-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1096-block  1
+branch  4 taken 19 (fallthrough)
+branch  5 taken 44
+       19: 1096-block  2
+branch  6 taken 19 (fallthrough)
+branch  7 taken 0
+       19: 1096-block  3
+branch  8 taken 19 (fallthrough)
+branch  9 taken 0
+       19: 1096-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 19
+    #####: 1097:printf("POINT: 262\n");
+    $$$$$: 1097-block  0
+call    0 never executed
+    #####: 1098:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1099:}
+      402: 1100:printf("POINT: 263\n");
+      402: 1100-block  0
+call    0 returned 402
+        -: 1101:
+      402: 1102:if((((((!(a25==1)&&(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1102-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1102-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$: 1102-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1102-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1102-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1103:printf("POINT: 264\n");
+    $$$$$: 1103-block  0
+call    0 never executed
+    #####: 1104:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1105:}
+      402: 1106:printf("POINT: 265\n");
+      402: 1106-block  0
+call    0 returned 402
+        -: 1107:
+      402: 1108:if((((((!(a25==1)&&!(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1108-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1108-block  1
+branch  4 taken 73 (fallthrough)
+branch  5 taken 95
+       73: 1108-block  2
+branch  6 taken 46 (fallthrough)
+branch  7 taken 27
+       46: 1108-block  3
+branch  8 taken 46 (fallthrough)
+branch  9 taken 0
+       46: 1108-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 46
+    #####: 1109:printf("POINT: 266\n");
+    $$$$$: 1109-block  0
+call    0 never executed
+    #####: 1110:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1111:}
+      402: 1112:printf("POINT: 267\n");
+      402: 1112-block  0
+call    0 returned 402
+        -: 1113:
+      402: 1114:if(((((((a25==1)&&(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1114-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1114-block  1
+branch  4 taken 21 (fallthrough)
+branch  5 taken 42
+       21: 1114-block  2
+branch  6 taken 16 (fallthrough)
+branch  7 taken 5
+       16: 1114-block  3
+branch  8 taken 16 (fallthrough)
+branch  9 taken 0
+       16: 1114-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 16
+    #####: 1115:printf("POINT: 268\n");
+    $$$$$: 1115-block  0
+call    0 never executed
+    #####: 1116:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1117:}
+      402: 1118:printf("POINT: 269\n");
+      402: 1118-block  0
+call    0 returned 402
+        -: 1119:
+      402: 1120:if(((((((a25==1)&&(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1120-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1120-block  1
+branch  4 taken 19 (fallthrough)
+branch  5 taken 44
+       19: 1120-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 19
+    $$$$$: 1120-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1120-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1121:printf("POINT: 270\n");
+    $$$$$: 1121-block  0
+call    0 never executed
+    #####: 1122:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1123:}
+      402: 1124:printf("POINT: 271\n");
+      402: 1124-block  0
+call    0 returned 402
+        -: 1125:
+      402: 1126:if((((((!(a25==1)&&!(a11==1))&&(a28==11))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1126-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1126-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 168
+    $$$$$: 1126-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1126-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1126-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1127:printf("POINT: 272\n");
+    $$$$$: 1127-block  0
+call    0 never executed
+    #####: 1128:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1129:}
+      402: 1130:printf("POINT: 273\n");
+      402: 1130-block  0
+call    0 returned 402
+        -: 1131:
+      402: 1132:if((((((!(a25==1)&&!(a11==1))&&(a28==10))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1132-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1132-block  1
+branch  4 taken 43 (fallthrough)
+branch  5 taken 125
+       43: 1132-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 43
+    $$$$$: 1132-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1132-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1133:printf("POINT: 274\n");
+    $$$$$: 1133-block  0
+call    0 never executed
+    #####: 1134:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1135:}
+      402: 1136:printf("POINT: 275\n");
+      402: 1136-block  0
+call    0 returned 402
+        -: 1137:
+      402: 1138:if(((((((a25==1)&&!(a11==1))&&(a28==9))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1138-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143: 1138-block  1
+branch  4 taken 13 (fallthrough)
+branch  5 taken 130
+       13: 1138-block  2
+branch  6 taken 13 (fallthrough)
+branch  7 taken 0
+       13: 1138-block  3
+branch  8 taken 13 (fallthrough)
+branch  9 taken 0
+       13: 1138-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 13
+    #####: 1139:printf("POINT: 276\n");
+    $$$$$: 1139-block  0
+call    0 never executed
+    #####: 1140:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1141:}
+      402: 1142:printf("POINT: 277\n");
+      402: 1142-block  0
+call    0 returned 402
+        -: 1143:
+      402: 1144:if(((((((a25==1)&&!(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1144-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143: 1144-block  1
+branch  4 taken 39 (fallthrough)
+branch  5 taken 104
+       39: 1144-block  2
+branch  6 taken 16 (fallthrough)
+branch  7 taken 23
+       16: 1144-block  3
+branch  8 taken 16 (fallthrough)
+branch  9 taken 0
+       16: 1144-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 16
+    #####: 1145:printf("POINT: 278\n");
+    $$$$$: 1145-block  0
+call    0 never executed
+    #####: 1146:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1147:}
+      402: 1148:printf("POINT: 279\n");
+      402: 1148-block  0
+call    0 returned 402
+        -: 1149:
+      402: 1150:if((((((!(a25==1)&&(a11==1))&&(a28==7))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1150-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1150-block  1
+branch  4 taken 2 (fallthrough)
+branch  5 taken 26
+        2: 1150-block  2
+branch  6 taken 2 (fallthrough)
+branch  7 taken 0
+        2: 1150-block  3
+branch  8 taken 2 (fallthrough)
+branch  9 taken 0
+        2: 1150-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 2
+    #####: 1151:printf("POINT: 280\n");
+    $$$$$: 1151-block  0
+call    0 never executed
+    #####: 1152:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1153:}
+      402: 1154:printf("POINT: 281\n");
+      402: 1154-block  0
+call    0 returned 402
+        -: 1155:
+      402: 1156:if((((((!(a25==1)&&!(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1156-block  0
+branch  2 taken 168 (fallthrough)
+branch  3 taken 28
+      168: 1156-block  1
+branch  4 taken 43 (fallthrough)
+branch  5 taken 125
+       43: 1156-block  2
+branch  6 taken 43 (fallthrough)
+branch  7 taken 0
+       43: 1156-block  3
+branch  8 taken 43 (fallthrough)
+branch  9 taken 0
+       43: 1156-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 43
+    #####: 1157:printf("POINT: 282\n");
+    $$$$$: 1157-block  0
+call    0 never executed
+    #####: 1158:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1159:}
+      402: 1160:printf("POINT: 283\n");
+      402: 1160-block  0
+call    0 returned 402
+        -: 1161:
+      402: 1162:if((((((!(a25==1)&&(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1162-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1162-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 28
+    $$$$$: 1162-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1162-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1162-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1163:printf("POINT: 284\n");
+    $$$$$: 1163-block  0
+call    0 never executed
+    #####: 1164:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1165:}
+      402: 1166:printf("POINT: 285\n");
+      402: 1166-block  0
+call    0 returned 402
+        -: 1167:
+      402: 1168:if(((((((a25==1)&&(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==8))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1168-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1168-block  1
+branch  4 taken 21 (fallthrough)
+branch  5 taken 42
+       21: 1168-block  2
+branch  6 taken 5 (fallthrough)
+branch  7 taken 16
+        5: 1168-block  3
+branch  8 taken 5 (fallthrough)
+branch  9 taken 0
+        5: 1168-block  4
+branch 10 taken 0 (fallthrough)
+branch 11 taken 5
+    #####: 1169:printf("POINT: 286\n");
+    $$$$$: 1169-block  0
+call    0 never executed
+    #####: 1170:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1171:}
+      402: 1172:printf("POINT: 287\n");
+      402: 1172-block  0
+call    0 returned 402
+        -: 1173:
+      402: 1174:if(((((((a25==1)&&(a11==1))&&(a28==11))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1174-block  0
+branch  2 taken 63 (fallthrough)
+branch  3 taken 143
+       63: 1174-block  1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 63
+    $$$$$: 1174-block  2
+branch  6 never executed
+branch  7 never executed
+    $$$$$: 1174-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1174-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1175:printf("POINT: 288\n");
+    $$$$$: 1175-block  0
+call    0 never executed
+    #####: 1176:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1177:}
+      402: 1178:printf("POINT: 289\n");
+      402: 1178-block  0
+call    0 returned 402
+        -: 1179:
+      402: 1180:if((((((!(a25==1)&&(a11==1))&&(a28==10))&&(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 196 (fallthrough)
+branch  1 taken 206
+      196: 1180-block  0
+branch  2 taken 28 (fallthrough)
+branch  3 taken 168
+       28: 1180-block  1
+branch  4 taken 4 (fallthrough)
+branch  5 taken 24
+        4: 1180-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 4
+    $$$$$: 1180-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1180-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1181:printf("POINT: 290\n");
+    $$$$$: 1181-block  0
+call    0 never executed
+    #####: 1182:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1183:}
+      402: 1184:printf("POINT: 291\n");
+      402: 1184-block  0
+call    0 returned 402
+        -: 1185:
+      402: 1186:if(((((((a25==1)&&!(a11==1))&&(a28==9))&&!(a19==1))&&(a21==1))&&(a17==7))){
+branch  0 taken 206 (fallthrough)
+branch  1 taken 196
+      206: 1186-block  0
+branch  2 taken 143 (fallthrough)
+branch  3 taken 63
+      143: 1186-block  1
+branch  4 taken 13 (fallthrough)
+branch  5 taken 130
+       13: 1186-block  2
+branch  6 taken 0 (fallthrough)
+branch  7 taken 13
+    $$$$$: 1186-block  3
+branch  8 never executed
+branch  9 never executed
+    $$$$$: 1186-block  4
+branch 10 never executed
+branch 11 never executed
+    #####: 1187:printf("POINT: 292\n");
+    $$$$$: 1187-block  0
+call    0 never executed
+    #####: 1188:printf("%d",-1);//return -1;
+call    0 never executed
+unconditional  1 never executed
+        -: 1189:}
+      402: 1190:printf("%d",-2);//return -2;
+      402: 1190-block  0
+call    0 returned 402
+      402: 1191:}
+        -: 1192:
+        -: 1193:int input, output;
+        -: 1194:
+function main called 67 returned 100% blocks executed 100%
+       67: 1195:int main()
+       67: 1195-block  0
+        -: 1196:{
+       67: 1197:kappa = 0;
+        -: 1198:// default output
+       67: 1199:int output = -1;
+        -: 1200:
+        -: 1201:// main i/o-loop
+        -: 1202:
+      469: 1203:for (int FLAG=0;FLAG<BOUND;FLAG++) {
+       67: 1203-block  0
+unconditional  0 taken 67
+unconditional  1 taken 402
+      469: 1203-block  1
+branch  2 taken 402
+branch  3 taken 67 (fallthrough)
+      402: 1204:printf("POINT: 294\n");
+      402: 1204-block  0
+call    0 returned 402
+      402: 1205:int symb; scanf("%d",&symb);
+call    0 returned 402
+        -: 1206:
+        -: 1207:// operate eca engine
+      402: 1208:output = calculate_output(symb);
+call    0 returned 402
+      402: 1209:        printf("%d",symb);
+call    0 returned 402
+        -: 1210:
+        -: 1211:}
+       67: 1212:return 0;
+       67: 1212-block  0
+unconditional  0 taken 67
+        -: 1213:
+        -: 1214:}
+        -: 1215:
